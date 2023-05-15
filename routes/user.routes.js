@@ -5,6 +5,7 @@ const router = express.Router()
 const User = require('../models/User.model')
 
 router.get("/", isOwnerOrAdmin, (req, res, next) => {
+    console.log('entroooo')
     const userRole = {
         isAdmin: req.session.currentUser?.role === 'ADMIN',
         isOwner: req.session.currentUser?._id === id
