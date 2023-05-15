@@ -1,6 +1,7 @@
 const express = require('express')
 const { isLoggedIn, checkRoles, isOwnerOrAdmin } = require('../middlewares/route-guard')
 const router = express.Router()
+const uploaderMiddleware = require('../middlewares/uploader.middleware')
 
 const User = require('../models/User.model')
 
@@ -57,10 +58,10 @@ router.get("/users/:id/edit", isLoggedIn, isOwnerOrAdmin, (req, res, next) => {
 
 
 // USER EDIT FORM (handler) - PROTECTED
-router.post("/users/:id/edit", isLoggedIn, isOwnerOrAdmin, (req, res, next) => {
+router.post("/users/:id/edit", isLoggedIn, isOwnerOrAdmin, uploaderMiddleware.single('avatar'), (req, res, next) => {
 
-
-    const { username, email, avatar, description } = req.body
+    const { path: avatar } = req.file
+    const { username, email, description } = req.body
     const { id } = req.params      // necesitamos el ID para el método .findByIdAndUpdate()
 
     User
@@ -71,12 +72,16 @@ router.post("/users/:id/edit", isLoggedIn, isOwnerOrAdmin, (req, res, next) => {
 
 // USER DELETE - PROTECTED
 router.post('/users/:id/delete', isLoggedIn, isOwnerOrAdmin, (req, res, next) => {
+
+    console.log('helou beauty')
+    const { id } = req.params
+
     const userRole = {
         isAdmin: req.session.currentUser?.role === 'ADMIN',
         isOwner: req.session.currentUser?._id === id
     }
 
-    const { id } = req.params
+
 
     User
         .findByIdAndDelete(id)
