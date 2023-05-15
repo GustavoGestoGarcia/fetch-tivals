@@ -1,0 +1,47 @@
+<div class="container">
+
+    <div class="row justify-content-center">
+        <div class="col-md-8">
+
+            <h1>New Festival</h1>
+            <hr>
+
+            <form action="/festivals/{{id}}/edit" method="POST">
+                <div class="mb-3 mt-5">
+                    <label for="festivalTitle" class="form-label">Title</label>
+                    <input type="text" class="form-control" id="festivalTitle" name="title" value="{{title}}">
+                </div>
+
+                <div class="mb-3">
+                    <label for="festivalCateg" class="form-label">Category</label>
+                    <input type="text" class="form-control" id="festivalCateg" name="category" value="{{category}}">
+                </div>
+
+                <div class="mb-3 ">
+                    <label for="festivalStart" class="form-label">Start Date</label>
+                    <input type="date" class="form-control" id="festivalStart" name="start" value="{{start}}">
+                </div>
+
+                <div class="mb-3 ">
+                    <label for="festivalEnd" class="form-label">End Date</label>
+                    <input type="date" class="form-control" id="festivalEnd" name="end" value="{{end}}">
+                </div>
+
+                <div class="mb-3 ">
+                    <label for="festivalLatitude" class="form-label">Latitude</label>
+                    <input type="text" class="form-control" id="festivalLatitude" name="latitude"
+                        value="{{location.coordinates.[0]}}">
+                </div>
+
+                <div class="mb-3 ">
+                    <label for="festivalLongitude" class="form-label">Longitude</label>
+                    <input type="text" class="form-control" id="festivalLongitude" name="longitude"
+                        value="{{location.coordinates.[1]}}">
+                </div>
+
+                <button type="submit" class="btn btn-dark">Edit Festival</button>
+            </form>
+
+        </div>
+    </div>
+</div>

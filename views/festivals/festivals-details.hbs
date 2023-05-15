@@ -1,0 +1,38 @@
+<div class="container">
+
+    <h1>
+        {{festival.title}}
+    </h1>
+
+    <hr>
+
+    <div class="row">
+        {{!-- <div class="col-4">
+            <img src={{user.avatar}} alt="">
+
+        </div> --}}
+        <div class="col-8">
+
+            <h5 class="card-title">Category: {{festival.category}}</h5>
+            <p><strong>Start Date: </strong>{{festival.start}}</p>
+            <p><strong>End Date: </strong>{{festival.end}}</p>
+
+        </div>
+
+        {{#if userRole.isAdmin}}
+        <p class="text-center">
+            <a href="/festivals/{{festival.id}}/edit" class="btn btn-info">Edit Festival</a>
+        </p>
+        <form action="/festivals/{{festival.id}}/delete" method="POST" style="display: inline">
+            <input type="submit" value="Delete Festival" class="btn btn-sm btn-danger">
+        </form>
+        {{/if}}
+        <p class="text-center"><a href="/festivals/list" class="btn btn-dark">Go back</a></p>
+
+    </div>
+
+    <hr>
+
+    <a href="/" class="btn btn-dark mt-3 mb-5">Home</a>
+
+</div>

@@ -1,0 +1,25 @@
+<div class="container">
+
+    <h2>@USER LIST</h2>
+
+    <hr>
+    <div class="row">
+
+        {{#each allUsers}}
+        <div class="col-4">
+            <div class="card" style="width: 25rem;">
+                <div class="card-body">
+                    <h5 class="card-title"><strong>NAME: </strong> {{username}}</h5>
+                    <a href="/users/{{id}}" class="btn btn-sm btn-info">Details</a>
+                </div>
+            </div>
+        </div>
+        {{/each}}
+
+    </div>
+
+    <hr>
+
+    <a href="/" class="btn btn-dark mt-3 mb-5">Home</a>
+
+</div>

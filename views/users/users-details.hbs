@@ -1,0 +1,48 @@
+<div class="container">
+
+    <h1>
+        {{user.username}}
+    </h1>
+
+    <hr>
+
+    <div class="row">
+        <div class="col-4">
+            <img src={{user.avatar}} alt="">
+
+        </div>
+        <div class="col-8">
+
+            <h5 class="card-title">Email: {{user.email}}</h5>
+            <p><strong>Desc: </strong>{{user.description}}</p>
+
+
+        </div>
+        {{#if userRole.isOwner}}
+        <p class="text-center">
+            <a href="/users/{{user.id}}/edit" class="btn btn-info">Edit Profile</a>
+        </p>
+        {{/if}}
+
+        {{#if userRole.isAdmin}}
+        <p class="text-center">
+            <a href="/users/{{user.id}}/edit" class="btn btn-info">Edit Profile</a>
+        </p>
+        <form action="/users/{{user.id}}/delete" method="POST" style="display: inline">
+            <input type="submit" value="Delete User" class="btn btn-sm btn-danger">
+        </form>
+        {{/if}}
+        {{#if userRole.isOwner}}
+        <form action="/users/{{user.id}}/delete" method="POST" style="display: inline">
+            <input type="submit" value="Delete User" class="btn btn-sm btn-danger">
+        </form>
+        {{/if}}
+        <p class="text-center"><a href="/users/list" class="btn btn-dark">Go back</a></p>
+
+    </div>
+
+    <hr>
+
+    {{!-- <a href="/" class="btn btn-dark mt-3 mb-5">Home</a> --}}
+
+</div>
