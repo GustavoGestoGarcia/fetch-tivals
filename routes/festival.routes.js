@@ -1,7 +1,8 @@
 const express = require('express')
 const { isLoggedIn, checkRoles } = require('../middlewares/route-guard')
 const router = express.Router()
-const { formatDate } = require('../utils/date-utils')//fuera si no funciona
+// const { formatDate } = require('../utils/date-utils')//fuera si no funciona
+const uploaderMiddleware = require('../middlewares/uploader.middleware')
 
 const Festival = require('../models/Festival.model')
 
@@ -9,13 +10,14 @@ router.get("/festivals/create", isLoggedIn, checkRoles('ADMIN'), (req, res, next
     res.render("festivals/festivals-create")
 })
 
-
 // NEW FESTIVAL form (handler) - PROTECTED
-router.post("/festivals/create", isLoggedIn, checkRoles('ADMIN'), (req, res, next) => {
+router.post("/festivals/create", isLoggedIn, checkRoles('ADMIN'), uploaderMiddleware.single('imagFest'), (req, res, next) => {
 
     const { title, category, start, end, latitude, longitude } = req.body
 
-    const newStart = formatDate(start)//eliminar si no nos vale
+    const { path: imagFest } = req.file
+
+    // const newStart = formatDate(start)//eliminar si no nos vale
 
     const location = {
         type: 'Point',
@@ -23,11 +25,10 @@ router.post("/festivals/create", isLoggedIn, checkRoles('ADMIN'), (req, res, nex
     }
 
     Festival
-        .create({ title, category, start: newStart, end, location })//poner solo start si no funciona
+        .create({ title, category, start/* : newStart, */, end, imagFest, location })//poner solo start si no funciona
         .then(() => res.redirect(`/festivals/list`))
         .catch(err => next(err))
 })
-
 
 // READ FESTIVALS
 router.get('/festivals/list', (req, res, next) => {
@@ -58,7 +59,6 @@ router.get('/festivals/:id', isLoggedIn, (req, res, next) => {
         .catch(err => next(err))
 })
 
-
 // EDIT FESTIVAL - PROTECTED
 router.get('/festivals/:id/edit', isLoggedIn, checkRoles('ADMIN'), (req, res, next) => {
 
@@ -70,7 +70,9 @@ router.get('/festivals/:id/edit', isLoggedIn, checkRoles('ADMIN'), (req, res, ne
         .catch(err => next(err))
 })
 
-router.post('/festivals/:id/edit', isLoggedIn, checkRoles('ADMIN'), (req, res, next) => {
+router.post('/festivals/:id/edit', isLoggedIn, checkRoles('ADMIN'), uploaderMiddleware.single('imagFest'), (req, res, next) => {
+
+    const { path: imagFest } = req.file
 
     const { title, category, start, end, latitude, longitude } = req.body
     const { id } = req.params
@@ -80,7 +82,7 @@ router.post('/festivals/:id/edit', isLoggedIn, checkRoles('ADMIN'), (req, res, n
     }
 
     Festival
-        .findByIdAndUpdate(id, { title, category, start, end, location })
+        .findByIdAndUpdate(id, { title, category, start, end, imagFest, location })
         .then(() => res.redirect(`/festivals/${id}`))
         .catch(err => next(err))
 

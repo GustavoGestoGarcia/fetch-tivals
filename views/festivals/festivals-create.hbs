@@ -6,7 +6,7 @@
             <h1>New Festival</h1>
             <hr>
 
-            <form action="/festivals/create" method="POST">
+            <form action="/festivals/create" method="POST" enctype="multipart/form-data">
                 <div class="mb-3 mt-5">
                     <label for="festivalTitle" class="form-label">Title</label>
                     <input type="text" class="form-control" id="festivalTitle" name="title">
@@ -25,6 +25,12 @@
                 <div class="mb-3 ">
                     <label for="festivalEnd" class="form-label">End Date</label>
                     <input type="date" class="form-control" id="festivalEnd" name="end">
+                </div>
+
+                <div class="mb-3">
+                    <label for="imagFest" class="form-label">Image Festival</label>
+                    <input type="file" class="form-control" id="imagFest" name="imagFest">
+                    <div class="form-text">INSERT PHOTO</div>
                 </div>
 
                 <div class="mb-3 ">

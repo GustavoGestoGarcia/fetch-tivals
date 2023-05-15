@@ -22,6 +22,10 @@ const festivalSchema = new Schema(
             type: Date,
             required: true
         },
+        imagFest: {
+            type: String,
+            default: 'https://i.stack.imgur.com/l60Hf.png'
+        },
         location: {
             type: {
                 type: String,
