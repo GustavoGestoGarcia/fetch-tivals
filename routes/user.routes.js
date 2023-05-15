@@ -4,14 +4,14 @@ const router = express.Router()
 
 const User = require('../models/User.model')
 
-router.get("/", isOwnerOrAdmin, (req, res, next) => {
-    console.log('entroooo')
-    const userRole = {
-        isAdmin: req.session.currentUser?.role === 'ADMIN',
-        isOwner: req.session.currentUser?._id === id
-    }
-    res.render("layout", userRole)
-})
+// router.get("/", isOwnerOrAdmin, (req, res, next) => {
+//     console.log('entroooo')
+//     const userRole = {
+//         isAdmin: req.session.currentUser?.role === 'ADMIN',
+//         isOwner: req.session.currentUser?._id === id
+//     }
+//     res.render("layout", userRole)
+// })
 
 
 router.get("/", (req, res, next) => {
@@ -30,7 +30,7 @@ router.get('/users/list', isLoggedIn, (req, res, next) => {
 });
 
 // USER DETAILS
-router.get('/users/:id', isLoggedIn, (req, res) => {
+router.get('/users/:id', isLoggedIn, (req, res, next) => {
     const { id } = req.params
     const userRole = {
         isAdmin: req.session.currentUser?.role === 'ADMIN',

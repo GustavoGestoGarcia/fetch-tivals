@@ -15,21 +15,17 @@
             </div>
         </div>
 
-
         {{/each}}
 
     </div>
 
     <hr>
-    {{#if isAdmin}}
-    <a href="/festivals/create" class="btn btn-sm btn-info">CREATE FESTIVAL</a>
+
+    <a href="/" class="btn btn-dark mt-3 mb-5">Home</a>
+    {{#if userRole.isAdmin}}
+    <a href="/festivals/create" class="btn btn-info mt-3 mb-5">CREATE FESTIVAL</a>
     {{!-- BOTÓN PARA ELIMINAR (ES UN FORMULARIO DISIMULADO PARA ASEGURAR QUE SEA UN ENDPOINT DE POST, INACCESIBLE A
     TRAVÉS DE LA URL) --}}
     {{/if}}
-
-
-
-
-    <a href="/" class="btn btn-dark mt-3 mb-5">Home</a>
 
 </div>

@@ -1,6 +1,7 @@
 const express = require('express')
 const { isLoggedIn, checkRoles } = require('../middlewares/route-guard')
 const router = express.Router()
+const { formatDate } = require('../utils/date-utils')//fuera si no funciona
 
 const Festival = require('../models/Festival.model')
 
@@ -14,13 +15,15 @@ router.post("/festivals/create", isLoggedIn, checkRoles('ADMIN'), (req, res, nex
 
     const { title, category, start, end, latitude, longitude } = req.body
 
+    const newStart = formatDate(start)//eliminar si no nos vale
+
     const location = {
         type: 'Point',
         coordinates: [latitude, longitude]
     }
 
     Festival
-        .create({ title, category, start, end, location })
+        .create({ title, category, start: newStart, end, location })//poner solo start si no funciona
         .then(() => res.redirect(`/festivals/list`))
         .catch(err => next(err))
 })
@@ -29,11 +32,15 @@ router.post("/festivals/create", isLoggedIn, checkRoles('ADMIN'), (req, res, nex
 // READ FESTIVALS
 router.get('/festivals/list', (req, res, next) => {
 
+    const userRole = {
+        isAdmin: req.session.currentUser?.role === 'ADMIN',
+    }
+
     Festival
         .find()
         .select({ title: 1 })
         .sort({ start: 1 })
-        .then(allFestivals => res.render('festivals/festivals-list', { allFestivals }))
+        .then(allFestivals => res.render('festivals/festivals-list', { allFestivals, userRole }))
         .catch(error => next(error));
 })
 
