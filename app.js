@@ -16,6 +16,13 @@ const projectName = "Fetch-tivals";
 
 app.locals.appTitle = `${capitalize(projectName)} created with IronLauncher`;
 
+app.use((req, res, next) => {
+
+    app.locals.loggedUser = req.session.currentUser
+    app.locals.adminUser = req.session.currentUser?.role === 'ADMIN'
+    next()
+})
+
 const indexRoutes = require("./routes/index.routes");
 app.use("/", indexRoutes);
 

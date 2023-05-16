@@ -62,7 +62,6 @@ router.post("/users/:id/edit", isLoggedIn, isOwnerOrAdmin, uploaderMiddleware.si
 // USER DELETE - PROTECTED
 router.post('/users/:id/delete', isLoggedIn, isOwnerOrAdmin, (req, res, next) => {
 
-    console.log('helou beauty')
     const { id } = req.params
 
     const userRole = {

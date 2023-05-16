@@ -12,7 +12,9 @@
 
 <body>
 
-   <nav class="navbar navbar-expand-lg navbar-dark bg-secondary">
+
+
+   <nav class="navbar navbar-expand-lg navbar-dark bg-secondary" enctype="multipart/form-data">
       <div class="container-fluid">
          <a class="navbar-brand" href="/"><strong>FETCH_Tivals</strong></a>
          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
@@ -21,29 +23,33 @@
          </button>
          <div class="collapse navbar-collapse" id="navbarSupportedContent">
             <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-
+               {{#unless loggedUser}}
                <li class="nav-item">
                   <a class="nav-link" href="/register">Register</a>
                </li>
                <li class="nav-item">
                   <a class="nav-link" href="/login">Log in</a>
                </li>
+               {{/unless}}
+               {{#if loggedUser}}
                <li class="nav-item">
                   <a class="nav-link" href="/users/list">User List</a>
                </li>
-               {{!-- {{#if userRole.isAdmin}} --}}
-               {{!-- <li class="nav-item">
-                  <a class="nav-link" href="/festivals/create">Create Festivals</a>
-               </li> --}}
-               {{!-- {{/if}} --}}
                <li class="nav-item">
                   <a class="nav-link" href="/festivals/list">Festivals List</a>
                </li>
+               {{/if}}
+               {{#if adminUser}}
+               <li class="nav-item">
+                  <a class="nav-link" href="/festivals/create">Create Festivals</a>
+               </li>
+               {{/if}}
             </ul>
-            <div class="dropdown">
+            {{#if loggedUser}}
+            <div class="dropdown dropdown-btn">
                <button class="btn btn-secondary dropdown-toggle" type="button" data-bs-toggle="dropdown"
-                  aria-expanded="false">
-                  @HELLO
+                  aria-expanded="false" id="adec">
+                  <img src="{{loggedUser.avatar}}" alt="" id="navbar-avatar">
                </button>
                <ul class="dropdown-menu" id="user-dropdown">
                   <li>
@@ -63,6 +69,7 @@
                   </li>
                </ul>
             </div>
+            {{/if}}
             {{!-- <li class="nav-item"> --}}
                {{!-- <form action="/logout" method="POST">
                   <button class="nav-link">Logout</button>
@@ -72,6 +79,9 @@
          </div>
       </div>
    </nav>
+
+
+
 
    {{{body}}}
 
