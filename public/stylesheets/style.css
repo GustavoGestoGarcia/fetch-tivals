@@ -22,3 +22,16 @@ h1 {
   border: none;
   justify-content: right;
 }
+
+#user-avatar img {
+  width: 80%;
+}
+
+#festival-img img {
+  width: 80%;
+}
+
+#user-dropdown {
+  background-color: #6c757d;
+  color: white;
+}
