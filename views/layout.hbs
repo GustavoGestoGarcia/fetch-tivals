@@ -51,13 +51,15 @@
                </button>
                <ul class="dropdown-menu" id="user-dropdown">
                   <li>
-                     <form action="/user/{{id}}" method="POST">
-                        <button class="nav-link">My profile</button>
-                     </form>
+                     <button class="nav-link" id="hola"><a href="/users/{{loggedUser._id}}" class="hola">My
+                           profile</a></button>
+                     {{!--
+                     </form> --}}
                   </li>
                   <li>
                      <form action="/festivals/list" method="POST">
-                        <button class="nav-link">My festivals</button>
+                        <button class="nav-link" id="hola"><a href="#" class="hola">My
+                              festivals</a></button>
                      </form>
                   </li>
                   <li>
@@ -73,7 +75,7 @@
    </nav>
 
    {{{body}}}
-
+   <footer>🚀Developed by PTL & GGG🚀</footer>
    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"></script>
    <script src="/js/script.js"></script>
 </body>
