@@ -5,16 +5,6 @@ const uploaderMiddleware = require('../middlewares/uploader.middleware')
 
 const User = require('../models/User.model')
 
-// router.get("/", isOwnerOrAdmin, (req, res, next) => {
-//     console.log('entroooo')
-//     const userRole = {
-//         isAdmin: req.session.currentUser?.role === 'ADMIN',
-//         isOwner: req.session.currentUser?._id === id
-//     }
-//     res.render("layout", userRole)
-// })
-
-
 router.get("/", (req, res, next) => {
     res.render("index")
 })
@@ -32,12 +22,12 @@ router.get('/users/list', isLoggedIn, (req, res, next) => {
 
 // USER DETAILS
 router.get('/users/:id', isLoggedIn, (req, res, next) => {
+
     const { id } = req.params
     const userRole = {
         isAdmin: req.session.currentUser?.role === 'ADMIN',
         isOwner: req.session.currentUser?._id === id
     }
-
 
     User
         .findById(id)
@@ -56,13 +46,12 @@ router.get("/users/:id/edit", isLoggedIn, isOwnerOrAdmin, (req, res, next) => {
         .catch(err => next(err))
 })
 
-
 // USER EDIT FORM (handler) - PROTECTED
 router.post("/users/:id/edit", isLoggedIn, isOwnerOrAdmin, uploaderMiddleware.single('avatar'), (req, res, next) => {
 
     const { path: avatar } = req.file
     const { username, email, description } = req.body
-    const { id } = req.params      // necesitamos el ID para el método .findByIdAndUpdate()
+    const { id } = req.params
 
     User
         .findByIdAndUpdate(id, { username, email, avatar, description })
@@ -80,8 +69,6 @@ router.post('/users/:id/delete', isLoggedIn, isOwnerOrAdmin, (req, res, next) =>
         isAdmin: req.session.currentUser?.role === 'ADMIN',
         isOwner: req.session.currentUser?._id === id
     }
-
-
 
     User
         .findByIdAndDelete(id)
