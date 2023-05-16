@@ -14,7 +14,6 @@ router.get("/festivals/create", isLoggedIn, checkRoles('ADMIN'), (req, res, next
 router.post("/festivals/create", isLoggedIn, checkRoles('ADMIN'), uploaderMiddleware.single('imagFest'), (req, res, next) => {
 
     const { title, category, start, end, latitude, longitude } = req.body
-
     const { path: imagFest } = req.file
 
     // const newStart = formatDate(start)//eliminar si no nos vale
@@ -73,7 +72,6 @@ router.get('/festivals/:id/edit', isLoggedIn, checkRoles('ADMIN'), (req, res, ne
 router.post('/festivals/:id/edit', isLoggedIn, checkRoles('ADMIN'), uploaderMiddleware.single('imagFest'), (req, res, next) => {
 
     const { path: imagFest } = req.file
-
     const { title, category, start, end, latitude, longitude } = req.body
     const { id } = req.params
     const location = {

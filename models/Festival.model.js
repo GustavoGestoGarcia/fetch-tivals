@@ -44,8 +44,6 @@ const festivalSchema = new Schema(
     }
 );
 
-
-
 const Festival = model("Festival", festivalSchema);
 
 module.exports = Festival

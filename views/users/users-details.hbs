@@ -7,15 +7,13 @@
     <hr>
 
     <div class="row">
-        <div class="col-4">
+        <div class="col-4" id="user-avatar">
             <img src={{user.avatar}} alt="">
-
         </div>
         <div class="col-8">
 
             <h5 class="card-title">Email: {{user.email}}</h5>
             <p><strong>Desc: </strong>{{user.description}}</p>
-
 
         </div>
         {{#if userRole.isOwner}}
@@ -42,7 +40,5 @@
     </div>
 
     <hr>
-
-    {{!-- <a href="/" class="btn btn-dark mt-3 mb-5">Home</a> --}}
 
 </div>
