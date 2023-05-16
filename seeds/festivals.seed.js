@@ -32083,7 +32083,7 @@ const mappedFests = festsFromAPI.results.map((eachFest) => {
         category: category,
         start: start,
         end: end,
-        geometry: geometry
+        location: geometry
     }
     return obj
 })
