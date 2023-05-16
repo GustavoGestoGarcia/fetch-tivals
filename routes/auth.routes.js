@@ -11,15 +11,23 @@ router.get('/register', (req, res, next) => {
 
 router.post('/register', uploaderMiddleware.single('avatar'), (req, res, next) => {
 
-    const { path: avatar } = req.file
+    // const { path: avatar } = req.file
     const { username, email, userPwd, description } = req.body
 
     bcrypt
         .genSalt(saltRounds)
         .then(salt => bcrypt.hash(userPwd, salt))
-        .then(hashedPassword => User.create({ username, email, avatar, description, password: hashedPassword }))
-        .then(() => res.redirect('/'))
-        .catch(error => next(error))
+        .then(hashedPassword => {
+            if (req.file) {
+                const { path: avatar } = req.file
+                User.create({ username, email, avatar, description, password: hashedPassword })
+                    .then(() => res.redirect('/'))
+                    .catch(error => next(error))
+            } else {
+                res.render('auth/signup', { errorMessage: 'You need to add a portrait!!' })
+            }
+        })
+
 })
 
 // LOGIN/SIGN IN

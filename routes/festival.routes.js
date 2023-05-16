@@ -45,14 +45,14 @@ router.get('/festivals/list', (req, res, next) => {
 })
 
 // FILTER FESTIVALS
-router.post('/festivals/:id/filter', isLoggedIn, (req, res, next) => {
+router.post('/festivals/list', isLoggedIn, (req, res, next) => {
 
     const { id } = req.params
     const { title } = req.body
 
 
     Festival
-        .findById(id, title)
+        .find(title)
         .then(() => res.redirect(`/festivals/${id}`))
         .catch(error => next(error));
 })

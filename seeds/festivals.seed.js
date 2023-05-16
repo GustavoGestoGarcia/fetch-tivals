@@ -32105,3 +32105,5 @@ mongoose
         console.log(`An error occurred while creating festivals from the DB: ${err}`)
     })
 
+
+module.exports = festivalsData
