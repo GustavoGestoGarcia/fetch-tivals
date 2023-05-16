@@ -45,16 +45,16 @@ router.get('/festivals/list', (req, res, next) => {
 })
 
 // FILTER FESTIVALS
-router.post('/festivals/:id/filter', isLoggedIn, (req, res, next) => {
+router.get("/festiSearch/:nameFestival", (req, res, next) => {
 
-    const { id } = req.params
-    const { title } = req.body
-
-
+    const { nameFestival } = req.params
     Festival
-        .findById(id, title)
-        .then(() => res.redirect(`/festivals/${id}`))
-        .catch(error => next(error));
+        .find({ "title": { $eq: nameFestival } })
+        .then(festival => {
+            user = festival[0].id
+            res.redirect(`/festivals/${user}`)
+        })
+        .catch(err => next(err))
 })
 
 // FESTIVAL DETAILS

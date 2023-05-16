@@ -6,11 +6,11 @@
 
     <div class="row">
 
-        <form action="/festivals/{{id}}/filter" method="POST" class="d-flex" role="search"
-            enctype="multipart/form-data">
-            <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
-            <button class="btn btn-outline-success" type="submit">Search</button>
-        </form>
+
+
+        <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search" id="festival">
+        <button onclick="miFunc()">Buscar</button>
+
         <hr>
         {{#each allFestivals}}
         <div class="col-4">
@@ -34,3 +34,5 @@
     {{/if}}
 
 </div>
+
+<script src="../../js/festivalFilter.js"></script>

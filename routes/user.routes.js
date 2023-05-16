@@ -49,7 +49,6 @@ router.get("/users/:id/edit", isLoggedIn, isOwnerOrAdmin, (req, res, next) => {
 // USER EDIT FORM (handler) - PROTECTED
 router.post("/users/:id/edit", isLoggedIn, isOwnerOrAdmin, uploaderMiddleware.single('avatar'), (req, res, next) => {
 
-
     const { username, email, description } = req.body
     const { id } = req.params
 
@@ -66,8 +65,6 @@ router.post("/users/:id/edit", isLoggedIn, isOwnerOrAdmin, uploaderMiddleware.si
             .then(() => res.redirect(`/users/${id}`))
             .catch(err => next(err))
     }
-
-
 })
 
 // USER DELETE - PROTECTED
