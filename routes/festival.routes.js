@@ -71,7 +71,6 @@ router.get('/festivals/:id/edit', isLoggedIn, checkRoles('ADMIN'), (req, res, ne
 
 router.post('/festivals/:id/edit', isLoggedIn, checkRoles('ADMIN'), uploaderMiddleware.single('imagFest'), (req, res, next) => {
 
-    const { path: imagFest } = req.file
     const { title, category, start, end, latitude, longitude } = req.body
     const { id } = req.params
     const location = {
@@ -79,11 +78,19 @@ router.post('/festivals/:id/edit', isLoggedIn, checkRoles('ADMIN'), uploaderMidd
         coordinates: [latitude, longitude]
     }
 
-    Festival
-        .findByIdAndUpdate(id, { title, category, start, end, imagFest, location })
-        .then(() => res.redirect(`/festivals/${id}`))
-        .catch(err => next(err))
+    if (req.file) {
+        const { path: imagFest } = req.file
 
+        Festival
+            .findByIdAndUpdate(id, { title, category, start, end, imagFest, location })
+            .then(() => res.redirect(`/festivals/${id}`))
+            .catch(err => next(err))
+    } else {
+        Festival
+            .findByIdAndUpdate(id, { title, category, start, end, location })
+            .then(() => res.redirect(`/festivals/${id}`))
+            .catch(err => next(err))
+    }
 })
 
 // FESTIVAL DELETE - PROTECTED

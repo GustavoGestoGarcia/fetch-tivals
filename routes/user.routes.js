@@ -49,20 +49,30 @@ router.get("/users/:id/edit", isLoggedIn, isOwnerOrAdmin, (req, res, next) => {
 // USER EDIT FORM (handler) - PROTECTED
 router.post("/users/:id/edit", isLoggedIn, isOwnerOrAdmin, uploaderMiddleware.single('avatar'), (req, res, next) => {
 
-    const { path: avatar } = req.file
+
     const { username, email, description } = req.body
     const { id } = req.params
 
-    User
-        .findByIdAndUpdate(id, { username, email, avatar, description })
-        .then(() => res.redirect(`/users/${id}`))
-        .catch(err => next(err))
+    if (req.file) {
+        const { path: avatar } = req.file
+
+        User
+            .findByIdAndUpdate(id, { username, email, avatar, description })
+            .then(() => res.redirect(`/users/${id}`))
+            .catch(err => next(err))
+    } else {
+        User
+            .findByIdAndUpdate(id, { username, email, description })
+            .then(() => res.redirect(`/users/${id}`))
+            .catch(err => next(err))
+    }
+
+
 })
 
 // USER DELETE - PROTECTED
 router.post('/users/:id/delete', isLoggedIn, isOwnerOrAdmin, (req, res, next) => {
 
-    console.log('helou beauty')
     const { id } = req.params
 
     const userRole = {
