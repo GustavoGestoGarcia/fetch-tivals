@@ -10,6 +10,7 @@ GET           | `/users/:id`             | USERS PROF            |
 GET           | `/users/:id/edit`        | USERS EDIT PROF       |
 POST          | `/users/:id/edit`        | USERS EDIT PROF       |
 POST          | `/users/:id/delete`      | USERS DELETE PROF     |
+POST          | `/users/:id/festivals`         | USER FESTIVALS ASSISTANCE        |
 GET           | `/festivals/list`        | FESTIVALS LISTPAGE    |
 GET           | `/festivals/create`      | FESTIVALS CREATEPG    |
 POST          | `/festivals/create`      | FESTIVALS CREATEPG    |
@@ -17,3 +18,4 @@ GET           | `/festivals/:id`         | FESTIVALS PROF        |
 GET           | `/festivals/:id/edit`    | FESTIVALS EDIT PROF   |
 POST          | `/festivals/:id/edit`    | FESTIVALS EDIT PROF   |
 POST          | `/festivals/:id/delete`  | FESTIVALS DELETE PROF |
+POST          | `/festivals/:id/assistance`         | FESTIVALS ASSISTANCE        |

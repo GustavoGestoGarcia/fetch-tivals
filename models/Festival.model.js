@@ -22,6 +22,9 @@ const festivalSchema = new Schema(
             type: Date,
             required: true
         },
+        venue: {
+            type: String,
+        },
         imagFest: {
             type: String,
             default: 'https://i.stack.imgur.com/l60Hf.png'
@@ -37,7 +40,14 @@ const festivalSchema = new Schema(
                 type: Schema.Types.ObjectId,
                 ref: 'User'
             }
-        ]
+        ],
+        followers: [
+            {
+                type: Schema.Types.ObjectId,
+                ref: 'User'
+            }
+        ],
+
     },
     {
         timestamps: true

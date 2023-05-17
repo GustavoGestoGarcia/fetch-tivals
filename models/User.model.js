@@ -31,7 +31,13 @@ const userSchema = new Schema(
       type: String,
       enum: ['USER', 'ADMIN'],
       default: 'USER'
-    }
+    },
+    festivals: [
+      {
+        type: Schema.Types.ObjectId,
+        ref: 'Festival'
+      }
+    ],
   },
   {
     timestamps: true
