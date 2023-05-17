@@ -23,17 +23,7 @@ app.use((req, res, next) => {
     next()
 })
 
-const indexRoutes = require("./routes/index.routes");
-app.use("/", indexRoutes);
-
-const authRoutes = require("./routes/auth.routes");
-app.use("/", authRoutes);
-
-const userRoutes = require("./routes/user.routes");
-app.use("/", userRoutes);
-
-const festivalsRoutes = require("./routes/festival.routes");
-app.use("/", festivalsRoutes);
+require("./routes")(app)
 
 require("./error-handling")(app);
 

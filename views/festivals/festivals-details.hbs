@@ -17,6 +17,11 @@
             <p><strong>Start Date: </strong>{{festival.start }}</p>
             <p><strong>End Date: </strong>{{festival.end }}</p>
 
+            <p><strong>Latitude </strong>{{festival.location.coordinates.[1]}}</p>
+            <p><strong>Longitude </strong>{{festival.location.coordinates.[0]}}</p>
+
+
+
         </div>
 
         {{#if userRole.isAdmin}}

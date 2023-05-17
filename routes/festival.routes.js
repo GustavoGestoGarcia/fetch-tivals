@@ -20,7 +20,7 @@ router.post("/festivals/create", isLoggedIn, checkRoles('ADMIN'), uploaderMiddle
 
     const location = {
         type: 'Point',
-        coordinates: [latitude, longitude]
+        coordinates: [longitude, latitude]
     }
 
     Festival
@@ -88,7 +88,7 @@ router.post('/festivals/:id/edit', isLoggedIn, checkRoles('ADMIN'), uploaderMidd
     const { id } = req.params
     const location = {
         type: 'Point',
-        coordinates: [latitude, longitude]
+        coordinates: [longitude, latitude]
     }
 
     if (req.file) {
