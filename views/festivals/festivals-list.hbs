@@ -2,16 +2,16 @@
 
     <div class="row">
 
-        <div class="col-md-4">
-            <h2>FESTIVALS LIST</h2>
+        <div class="col-md-6">
+            <h2 class="text-white">FESTIVALS LIST</h2>
         </div>
-        <div class="col-md-4">
+        {{!-- <div class="col-md-4">
             {{#if userRole.isAdmin}}
             <a href="/festivals/create" class="btn btn-info mt-3 mb-5">CREATE FESTIVAL</a>
             {{/if}}
-        </div>
+        </div> --}}
 
-        <div class="col-md-4">
+        <div class="col-md-6">
             <div class="input-group mb-3">
                 <input type="search" class="form-control" placeholder="Enter the Festival"
                     aria-label="Enter the Festival" aria-describedby="button-addon2" id="festival">
@@ -25,11 +25,15 @@
         <div class="row">
             <hr>
             {{#each allFestivals}}
-            <div class="col-4">
-                <div class="card" style="width: 25rem;">
-                    <div class="card-body">
-                        <h5 class="card-title"><strong>NAME: </strong> {{title}}</h5>
-                        <a href="/festivals/{{_id}}" class="btn btn-sm btn-info">Details</a>
+            <div class="col-12 col-md-3 mb-3 ">
+                <div class="card h-100">
+                    <div class="card-body d-flex flex-column justify-content-between">
+                        <div class="body-text mb-5">
+                            <h5 class="card-title"><strong>NAME: </strong></h5>
+                            <p>{{title}}</p>
+                        </div>
+
+                        <a href="/festivals/{{_id}}" class="btn btn-custom">Details</a>
                     </div>
                 </div>
             </div>

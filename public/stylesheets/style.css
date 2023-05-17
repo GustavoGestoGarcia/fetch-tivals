@@ -1,10 +1,40 @@
-body {
-  font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
-  background-image: url('https: //image.ondacero.es/clipping/cmsimages02/2021/11/29/BE25B78B-3450-4EC9-9204-FDA7BC522DB3/97.jpg?crop=1920,1080,x0,y0&width=1600&height=900&optimize=high&format=webply');
+:root {
+  --gray: #6c757d;
+  --gray-second: #c1c1c1;
 }
 
-h1 {
-  color: 15px;
+body {
+  height: 100vh;
+  background-color: #c6d3f2;
+  background-image:
+    radial-gradient(at 93% 54%, hsla(235, 92%, 76%, 1) 0px, transparent 50%),
+    radial-gradient(at 36% 5%, hsla(251, 72%, 67%, 1) 0px, transparent 50%),
+    radial-gradient(at 16% 81%, rgb(106, 124, 142) 0px, transparent 50%),
+    radial-gradient(at 14% 61%, hsla(208, 92%, 65%, 1) 0px, transparent 50%),
+    radial-gradient(at 18% 50%, hsla(186, 94%, 71%, 1) 0px, transparent 50%),
+    radial-gradient(at 22% 97%, hsla(68, 92%, 73%, 1) 0px, transparent 50%),
+    radial-gradient(at 16% 25%, rgb(72, 85, 114) 0px, transparent 50%);
+  font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
+  background-size: cover;
+}
+
+h1,
+h2 {
+  font-family: 'Montserrat', sans-serif;
+}
+
+.bg-custom {
+  background-color: #ffffffa2;
+  backdrop-filter: blur(30px);
+}
+
+.btn-custom {
+  background-color: var(--gray);
+  color: #fff;
+}
+
+.btn-custom:hover {
+  background-color: var(--gray-second);
 }
 
 .navbar {
