@@ -25,7 +25,6 @@ router.post("/festivals/create", isLoggedIn, checkRoles('ADMIN'), uploaderMiddle
 
     const newStart = formatDate(start)
     const newEnd = formatDate(end)
-    console.log('-------------', newStart, newEnd)
 
     Festival
         .create({ title, category, newStart, newEnd, imagFest, location })
@@ -126,11 +125,14 @@ router.post('/festivals/:id/edit', isLoggedIn, checkRoles('ADMIN'), uploaderMidd
         coordinates: [longitude, latitude]
     }
 
+    const newStart = formatDate(start)
+    const newEnd = formatDate(end)
+
     if (req.file) {
         const { path: imagFest } = req.file
 
         Festival
-            .findByIdAndUpdate(id, { title, category, start, end, imagFest, location })
+            .findByIdAndUpdate(id, { title, category, newStart, newEnd, imagFest, location })
             .then(() => res.redirect(`/festivals/${id}`))
             .catch(err => next(err))
     } else {
