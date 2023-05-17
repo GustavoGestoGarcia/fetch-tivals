@@ -1,7 +1,7 @@
 const express = require('express')
 const { isLoggedIn, checkRoles } = require('../middlewares/route-guard')
 const router = express.Router()
-// const { formatDate } = require('../utils/date-utils')//fuera si no funciona
+const { formatDate } = require('../utils/date-utils')//fuera si no funciona
 const uploaderMiddleware = require('../middlewares/uploader.middleware')
 
 const Festival = require('../models/Festival.model')
@@ -18,15 +18,17 @@ router.post("/festivals/create", isLoggedIn, checkRoles('ADMIN'), uploaderMiddle
     const { title, category, start, end, latitude, longitude } = req.body
     const { path: imagFest } = req.file
 
-    // const newStart = formatDate(start)//eliminar si no nos vale
-
     const location = {
         type: 'Point',
         coordinates: [longitude, latitude]
     }
 
+    const newStart = formatDate(start)
+    const newEnd = formatDate(end)
+    console.log('-------------', newStart, newEnd)
+
     Festival
-        .create({ title, category, start/* : newStart, */, end, imagFest, location })//poner solo start si no funciona
+        .create({ title, category, newStart, newEnd, imagFest, location })
         .then(() => res.redirect(`/festivals/list`))
         .catch(err => next(err))
 })

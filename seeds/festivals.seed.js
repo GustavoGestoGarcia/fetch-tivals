@@ -1,6 +1,7 @@
 const mongoose = require('mongoose')
 
 const Festival = require('./../models/Festival.model')
+const { formatDate } = require('../utils/date-utils')
 
 const MONGO_URI = 'mongodb+srv://gestogarciagustavo:gestogarciagustavo@zipizape.c8g1pox.mongodb.net/Fetch-tivals'
 
@@ -31680,8 +31681,8 @@ const mappedFests = festsFromAPI.results.map((eachFest) => {
     const obj = {
         title: title,
         category: category,
-        start: start,
-        end: end,
+        start: formatDate(start),
+        end: formatDate(end),
         venue: formatted_address,
         location: geometry
     }
