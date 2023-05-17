@@ -3,7 +3,14 @@
     <h1>
         {{festival.title}}
     </h1>
-
+    {{#if loggedUser}}
+    <form action="/festivals/{{festival.id}}/assistance" method="POST" style="display: inline">
+        <input type="submit" value="Assist Festival" class="btn btn-sm btn-dark">
+    </form>
+    <form action="/festivals/{{festival.id}}/like" method="POST" style="display: inline">
+        <input type="submit" value="Like Festival" class="btn btn-sm btn-dark">
+    </form>
+    {{/if}}
     <hr>
 
     <div class="row">
@@ -16,7 +23,7 @@
             <h5 class="card-title">Category: {{festival.category}}</h5>
             <p><strong>Start Date: </strong>{{festival.start }}</p>
             <p><strong>End Date: </strong>{{festival.end }}</p>
-            <p><strong>End Date: </strong>{{festival.venue }}</p>
+            <p><strong>Venue: </strong>{{festival.venue }}</p>
 
             <p><strong>Latitude </strong>{{festival.location.coordinates.[1]}}</p>
             <p><strong>Longitude </strong>{{festival.location.coordinates.[0]}}</p>

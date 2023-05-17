@@ -7,7 +7,7 @@ module.exports = app => {
     app.use("/", authRoutes);
 
     const userRoutes = require("./user.routes");
-    app.use("/", userRoutes);
+    app.use("/users", userRoutes);
 
     const festivalsRoutes = require("./festival.routes");
     app.use("/", festivalsRoutes);
