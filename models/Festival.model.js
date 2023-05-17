@@ -15,11 +15,11 @@ const festivalSchema = new Schema(
             comment: String
         }],
         start: {
-            type: Date,
+            type: String,
             required: true
         },
         end: {
-            type: Date,
+            type: String,
             required: true
         },
         venue: {
