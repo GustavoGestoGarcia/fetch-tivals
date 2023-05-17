@@ -27,7 +27,7 @@ const festsFromAPI = {
                     "entity_id": "SevABcfYuwGiNnWEKTDABU",
                     "name": "Playa de Villaricos - Cuevas de Almanzora",
                     "type": "venue",
-                    "formatted_address": "AL-7107, 33, 04616 Cuevas del Almanzora, Almería, España\nPalomares\nSpain"
+                    "formatted_address": "AL-7107, 33, 04616 Cuevas del Almanzora, Almería, España Palomares Spain"
                 }
             ],
             "duration": 86399,
@@ -97,7 +97,7 @@ const festsFromAPI = {
                     ],
                     "description": "La Feria de Malaga is a nonstop party, known as one of the biggest and best-attended annual celebrations in Andalucía.",
                     "recurring": {
-                        "ical": "DTSTART;VALUE=DATE:20150815\nDURATION:P9D\nRRULE:FREQ=YEARLY;INTERVAL=1"
+                        "ical": "DTSTART;VALUE=DATE:20150815 DURATION:P9D RRULE:FREQ=YEARLY;INTERVAL=1"
                     }
                 }
             ],
@@ -114,48 +114,8 @@ const festsFromAPI = {
             "geo": {
                 "geometry": {
                     "coordinates": [
-                        [
-                            [
-                                -4.4260414,
-                                36.7178112
-                            ],
-                            [
-                                -4.4271787,
-                                36.7170931
-                            ],
-                            [
-                                -4.4225572,
-                                36.7176854
-                            ],
-                            [
-                                -4.4216104,
-                                36.7156687
-                            ],
-                            [
-                                -4.4195719,
-                                36.718898
-                            ],
-                            [
-                                -4.4127699,
-                                36.721106
-                            ],
-                            [
-                                -4.4217016,
-                                36.7240772
-                            ],
-                            [
-                                -4.4245555,
-                                36.7271213
-                            ],
-                            [
-                                -4.4256498,
-                                36.7267086
-                            ],
-                            [
-                                -4.4260414,
-                                36.7178112
-                            ]
-                        ]
+                        -4.4260414,
+                        36.7178112
                     ],
                     "type": "Polygon"
                 }
@@ -195,7 +155,7 @@ const festsFromAPI = {
                     "entity_id": "R4QML2iWPkBQb4JwmnZTUx",
                     "name": "San Pedro del Pinatar - Recinto de Fiestas",
                     "type": "venue",
-                    "formatted_address": "C/ ALCALDE JOSÉ MARÍA TÁRRAGA\nMurcia\nSpain"
+                    "formatted_address": "C/ ALCALDE JOSÉ MARÍA TÁRRAGA Murcia Spain"
                 }
             ],
             "duration": 86399,
@@ -262,7 +222,7 @@ const festsFromAPI = {
                     "entity_id": "dBpfVRWKP5NJdDDZFJGa9M",
                     "name": "Wave El Palmar",
                     "type": "venue",
-                    "formatted_address": "Cadiz\nSpain"
+                    "formatted_address": "Cadiz Spain"
                 }
             ],
             "duration": 86399,
@@ -328,7 +288,7 @@ const festsFromAPI = {
                     "entity_id": "SevABcfYuwGiNnWEKTDABU",
                     "name": "Playa de Villaricos - Cuevas de Almanzora",
                     "type": "venue",
-                    "formatted_address": "AL-7107, 33, 04616 Cuevas del Almanzora, Almería, España\nPalomares\nSpain"
+                    "formatted_address": "AL-7107, 33, 04616 Cuevas del Almanzora, Almería, España Palomares Spain"
                 }
             ],
             "duration": 86399,
@@ -386,7 +346,7 @@ const festsFromAPI = {
                     "entity_id": "v4u766UVTLSivgeD4NtLki",
                     "name": "Auditorio La Cantera de Nagüeles",
                     "type": "venue",
-                    "formatted_address": "Calle Albioni, s/n, 29602\n29602 Marbella\nSpain"
+                    "formatted_address": "Calle Albioni, s/n, 29602 29602 Marbella Spain"
                 }
             ],
             "duration": 0,
@@ -454,7 +414,7 @@ const festsFromAPI = {
                     "entity_id": "etBSJEgHSXLp5pJHhcBnCk",
                     "name": "Parc del Fòrum",
                     "type": "venue",
-                    "formatted_address": "Parc Del Forum, 1 Rambla de Prim\n08019 Barcelona\nSpain"
+                    "formatted_address": "Parc Del Forum, 1 Rambla de Prim 08019 Barcelona Spain"
                 }
             ],
             "duration": 198000,
@@ -581,7 +541,7 @@ const festsFromAPI = {
                     "entity_id": "357NFeJAYRkzRpA9EP6VJFd",
                     "name": "Dreambeach",
                     "type": "venue",
-                    "formatted_address": "04616 Villaricos\nSpain"
+                    "formatted_address": "04616 Villaricos Spain"
                 }
             ],
             "duration": 86399,
@@ -639,7 +599,7 @@ const festsFromAPI = {
                     "entity_id": "R4QML2iWPkBQb4JwmnZTUx",
                     "name": "San Pedro del Pinatar - Recinto de Fiestas",
                     "type": "venue",
-                    "formatted_address": "C/ ALCALDE JOSÉ MARÍA TÁRRAGA\nMurcia\nSpain"
+                    "formatted_address": "C/ ALCALDE JOSÉ MARÍA TÁRRAGA Murcia Spain"
                 }
             ],
             "duration": 86399,
@@ -706,7 +666,7 @@ const festsFromAPI = {
                     "entity_id": "v4u766UVTLSivgeD4NtLki",
                     "name": "Auditorio La Cantera de Nagüeles",
                     "type": "venue",
-                    "formatted_address": "Calle Albioni, s/n, 29602\n29602 Marbella\nSpain"
+                    "formatted_address": "Calle Albioni, s/n, 29602 29602 Marbella Spain"
                 }
             ],
             "duration": 0,
@@ -773,7 +733,7 @@ const festsFromAPI = {
                     "entity_id": "cBTzjVkx3QsmpGXjHeZzJF",
                     "name": "Begur",
                     "type": "venue",
-                    "formatted_address": "Pati de les Escoles Velles\nGirona\nSpain"
+                    "formatted_address": "Pati de les Escoles Velles Girona Spain"
                 }
             ],
             "duration": 86399,
@@ -839,7 +799,7 @@ const festsFromAPI = {
                     "entity_id": "SevABcfYuwGiNnWEKTDABU",
                     "name": "Playa de Villaricos - Cuevas de Almanzora",
                     "type": "venue",
-                    "formatted_address": "AL-7107, 33, 04616 Cuevas del Almanzora, Almería, España\nPalomares\nSpain"
+                    "formatted_address": "AL-7107, 33, 04616 Cuevas del Almanzora, Almería, España Palomares Spain"
                 }
             ],
             "duration": 86399,
@@ -898,7 +858,7 @@ const festsFromAPI = {
                     "entity_id": "HWhRqLRR98AhUfY95gNtLi",
                     "name": "Valencia",
                     "type": "venue",
-                    "formatted_address": "Valencia, Spain\n46023 Valencia\nSpain"
+                    "formatted_address": "Valencia, Spain 46023 Valencia Spain"
                 },
                 {
                     "entity_id": "3UC7U3fBZdxa4vWsFD94ih",
@@ -911,7 +871,7 @@ const festsFromAPI = {
                         "recurring"
                     ],
                     "recurring": {
-                        "ical": "DTSTART;VALUE=DATE:20150814\nDURATION:P5DT16H\nRRULE:FREQ=YEARLY;INTERVAL=1"
+                        "ical": "DTSTART;VALUE=DATE:20150814 DURATION:P5DT16H RRULE:FREQ=YEARLY;INTERVAL=1"
                     }
                 }
             ],
@@ -928,28 +888,8 @@ const festsFromAPI = {
             "geo": {
                 "geometry": {
                     "coordinates": [
-                        [
-                            [
-                                -0.2428911,
-                                39.161602
-                            ],
-                            [
-                                -0.2427141,
-                                39.1605621
-                            ],
-                            [
-                                -0.2402465,
-                                39.1603084
-                            ],
-                            [
-                                -0.240504,
-                                39.1615937
-                            ],
-                            [
-                                -0.2428911,
-                                39.161602
-                            ]
-                        ]
+                        -0.2428911,
+                        39.161602
                     ],
                     "type": "Polygon"
                 }
@@ -998,7 +938,7 @@ const festsFromAPI = {
                     "entity_id": "4fssHSXqGGemP94DvLq4id",
                     "name": "Leyendas del Rock Festival",
                     "type": "venue",
-                    "formatted_address": "Calle San Vicente de Raspeig, 1\nVillena\nSpain"
+                    "formatted_address": "Calle San Vicente de Raspeig, 1 Villena Spain"
                 }
             ],
             "duration": 345599,
@@ -1065,7 +1005,7 @@ const festsFromAPI = {
                     "entity_id": "Y9K3jGmfsevFPvmXebchKs",
                     "name": "Sonarma Ribera,",
                     "type": "venue",
-                    "formatted_address": "Aranda de Duero\nSpain"
+                    "formatted_address": "Aranda de Duero Spain"
                 }
             ],
             "duration": 431999,
@@ -1122,7 +1062,7 @@ const festsFromAPI = {
                     "entity_id": "SevABcfYuwGiNnWEKTDABU",
                     "name": "Playa de Villaricos - Cuevas de Almanzora",
                     "type": "venue",
-                    "formatted_address": "AL-7107, 33, 04616 Cuevas del Almanzora, Almería, España\nPalomares\nSpain"
+                    "formatted_address": "AL-7107, 33, 04616 Cuevas del Almanzora, Almería, España Palomares Spain"
                 }
             ],
             "duration": 86399,
@@ -1180,7 +1120,7 @@ const festsFromAPI = {
                     "entity_id": "v4u766UVTLSivgeD4NtLki",
                     "name": "Auditorio La Cantera de Nagüeles",
                     "type": "venue",
-                    "formatted_address": "Calle Albioni, s/n, 29602\n29602 Marbella\nSpain"
+                    "formatted_address": "Calle Albioni, s/n, 29602 29602 Marbella Spain"
                 }
             ],
             "duration": 0,
@@ -1247,7 +1187,7 @@ const festsFromAPI = {
                     "entity_id": "Azf9xjfhPaLwLF2Q5Ywg4x",
                     "name": "Club Chinois",
                     "type": "venue",
-                    "formatted_address": "Passeig Joan Carles I, 17\nIbiza\nSpain"
+                    "formatted_address": "Passeig Joan Carles I, 17 Ibiza Spain"
                 }
             ],
             "duration": 172799,
@@ -1305,7 +1245,7 @@ const festsFromAPI = {
                     "entity_id": "F2bgq7as9M6YKVSm4fdBSV",
                     "name": "Casa de Cultura Azagra",
                     "type": "venue",
-                    "formatted_address": "Patio Casa de Cultura. C/ Donantes de Sangre\nNavarra\nSpain"
+                    "formatted_address": "Patio Casa de Cultura. C/ Donantes de Sangre Navarra Spain"
                 }
             ],
             "duration": 86399,
@@ -1372,7 +1312,7 @@ const festsFromAPI = {
                     "entity_id": "PnyVYdPwRCRgqwxxWdtaga",
                     "name": "Jardins de la Marquesa",
                     "type": "venue",
-                    "formatted_address": "Gandía\nSpain"
+                    "formatted_address": "Gandía Spain"
                 }
             ],
             "duration": 86399,
@@ -1430,7 +1370,7 @@ const festsFromAPI = {
                     "entity_id": "v4u766UVTLSivgeD4NtLki",
                     "name": "Auditorio La Cantera de Nagüeles",
                     "type": "venue",
-                    "formatted_address": "Calle Albioni, s/n, 29602\n29602 Marbella\nSpain"
+                    "formatted_address": "Calle Albioni, s/n, 29602 29602 Marbella Spain"
                 }
             ],
             "duration": 0,
@@ -1497,7 +1437,7 @@ const festsFromAPI = {
                     "entity_id": "37qnjee7TLsEQcwCpyHMbTa",
                     "name": "Parque da Hortiña",
                     "type": "venue",
-                    "formatted_address": "Limodre\n15520 Fene\nSpain"
+                    "formatted_address": "Limodre 15520 Fene Spain"
                 }
             ],
             "duration": 172799,
@@ -1555,7 +1495,7 @@ const festsFromAPI = {
                     "entity_id": "32u4uuzGk36XKWz57bk2Lid",
                     "name": "Campa de la Magdalena",
                     "type": "venue",
-                    "formatted_address": "Avda. de La Magdalena\n39005 Santander\nSpain"
+                    "formatted_address": "Avda. de La Magdalena 39005 Santander Spain"
                 }
             ],
             "duration": 259199,
@@ -1613,7 +1553,7 @@ const festsFromAPI = {
                     "entity_id": "VEDNaWHynFSbpwpXe2XgVv",
                     "name": "Praia fluvial. Catoira",
                     "type": "venue",
-                    "formatted_address": "Praia fluvial, Catoira\nPontevedra\nSpain"
+                    "formatted_address": "Praia fluvial, Catoira Pontevedra Spain"
                 }
             ],
             "duration": 172799,
@@ -1680,7 +1620,7 @@ const festsFromAPI = {
                     "entity_id": "s43qQqZhecUQ5FchiqJRb5",
                     "name": "Parque Antonio Soria",
                     "type": "venue",
-                    "formatted_address": "Avenida Delfina Viudes sn\n03183 Torrevieja\nSpain"
+                    "formatted_address": "Avenida Delfina Viudes sn 03183 Torrevieja Spain"
                 }
             ],
             "duration": 86399,
@@ -1747,7 +1687,7 @@ const festsFromAPI = {
                     "entity_id": "Uw6vudXFeEJnjfRKvLKKxv",
                     "name": "FESTIUET",
                     "type": "venue",
-                    "formatted_address": "Platja de Sant Salvador\nEl Vendrell\nSpain"
+                    "formatted_address": "Platja de Sant Salvador El Vendrell Spain"
                 }
             ],
             "duration": 259199,
@@ -1814,7 +1754,7 @@ const festsFromAPI = {
                     "entity_id": "d9pnsgp2ZM6ehF69tQ5nha",
                     "name": "Recinto Presto Fest en Cangas del Narcea",
                     "type": "venue",
-                    "formatted_address": "Cangas Del Narcea\nSpain"
+                    "formatted_address": "Cangas Del Narcea Spain"
                 }
             ],
             "duration": 259199,
@@ -1872,7 +1812,7 @@ const festsFromAPI = {
                     "entity_id": "33L9ZjqfyVWy8ng7YnKTXnT",
                     "name": "Pacha Ibiza",
                     "type": "venue",
-                    "formatted_address": "Avenida de Agosto 8\n07800 Ibiza\nSpain"
+                    "formatted_address": "Avenida de Agosto 8 07800 Ibiza Spain"
                 }
             ],
             "duration": 86399,
@@ -1933,7 +1873,7 @@ const festsFromAPI = {
                     "entity_id": "kBsXnVfFiCzu6WbeUrXXNA",
                     "name": "Arenal Sound",
                     "type": "venue",
-                    "formatted_address": "Burriana\nSpain"
+                    "formatted_address": "Burriana Spain"
                 }
             ],
             "duration": 345599,
@@ -2000,13 +1940,13 @@ const festsFromAPI = {
                     "entity_id": "NGPCvLX7at4reDEYjqcUZ4",
                     "name": "Playa de Adra",
                     "type": "venue",
-                    "formatted_address": "Camino Ingenio San Nicolás, Adra\nAlmería\nSpain"
+                    "formatted_address": "Camino Ingenio San Nicolás, Adra Almería Spain"
                 },
                 {
                     "entity_id": "pSyMvbYH6NJ5tFTEwxgKqx",
                     "name": "Juergas Rock Festival",
                     "type": "event-group",
-                    "formatted_address": "04770 Adra\nSpain",
+                    "formatted_address": "04770 Adra Spain",
                     "category": "festivals",
                     "labels": [
                         "event-group",
@@ -2014,7 +1954,7 @@ const festsFromAPI = {
                         "recurring"
                     ],
                     "recurring": {
-                        "ical": "DTSTART;VALUE=DATE-TIME:20180801T000000\nRRULE:FREQ=YEARLY;INTERVAL=1"
+                        "ical": "DTSTART;VALUE=DATE-TIME:20180801T000000 RRULE:FREQ=YEARLY;INTERVAL=1"
                     }
                 }
             ],
@@ -2073,7 +2013,7 @@ const festsFromAPI = {
                     "entity_id": "p3C38Ze6LyXMdqcuzBEecZ",
                     "name": "Poblado de Sancti Petri",
                     "type": "venue",
-                    "formatted_address": "Calle Avenida\n11139 Chiclana de la Frontera Poblado Sancti Petri)\nCádiz\nChiclana De La Frontera\nSpain"
+                    "formatted_address": "Calle Avenida 11139 Chiclana de la Frontera Poblado Sancti Petri) Cádiz Chiclana De La Frontera Spain"
                 }
             ],
             "duration": 86399,
@@ -2140,7 +2080,7 @@ const festsFromAPI = {
                     "entity_id": "bWzDKLEjiMdPwxQyvUp3gE",
                     "name": "Edificio Histórico de la Universidad de Oviedo",
                     "type": "venue",
-                    "formatted_address": "Calle San Francisco 3\n33003 Oviedo\nSpain"
+                    "formatted_address": "Calle San Francisco 3 33003 Oviedo Spain"
                 }
             ],
             "duration": 86399,
@@ -2198,7 +2138,7 @@ const festsFromAPI = {
                     "entity_id": "DNYgy5KDk2m3PVyBUBZwgz",
                     "name": "Arenal Sound",
                     "type": "venue",
-                    "formatted_address": "Playa del Arenal\n12530 Burriana\nSpain"
+                    "formatted_address": "Playa del Arenal 12530 Burriana Spain"
                 },
                 {
                     "entity_id": "YqtCRJFdQHwRBtcGaXxkJE",
@@ -2214,7 +2154,7 @@ const festsFromAPI = {
                     ],
                     "description": "Arenal Sound is a open-air music festival held each summer in the Spanish coastal town of Borianna. It is one of the country's flagship festivals and is hugely popular with young music fans.",
                     "recurring": {
-                        "ical": "DTSTART;VALUE=DATE:20150728\nDURATION:P4DT16H\nRRULE:FREQ=YEARLY;INTERVAL=1"
+                        "ical": "DTSTART;VALUE=DATE:20150728 DURATION:P4DT16H RRULE:FREQ=YEARLY;INTERVAL=1"
                     }
                 }
             ],
@@ -2231,36 +2171,8 @@ const festsFromAPI = {
             "geo": {
                 "geometry": {
                     "coordinates": [
-                        [
-                            [
-                                -0.0714608,
-                                39.8659692
-                            ],
-                            [
-                                -0.0681563,
-                                39.8625599
-                            ],
-                            [
-                                -0.0655063,
-                                39.8616046
-                            ],
-                            [
-                                -0.0642451,
-                                39.865535
-                            ],
-                            [
-                                -0.0666645,
-                                39.8650697
-                            ],
-                            [
-                                -0.0691267,
-                                39.8674373
-                            ],
-                            [
-                                -0.0714608,
-                                39.8659692
-                            ]
-                        ]
+                        -0.0714608,
+                        39.8659692
                     ],
                     "type": "Polygon"
                 }
@@ -2309,7 +2221,7 @@ const festsFromAPI = {
                     "entity_id": "v4u766UVTLSivgeD4NtLki",
                     "name": "Auditorio La Cantera de Nagüeles",
                     "type": "venue",
-                    "formatted_address": "Calle Albioni, s/n, 29602\n29602 Marbella\nSpain"
+                    "formatted_address": "Calle Albioni, s/n, 29602 29602 Marbella Spain"
                 }
             ],
             "duration": 0,
@@ -2443,7 +2355,7 @@ const festsFromAPI = {
                     "entity_id": "v4u766UVTLSivgeD4NtLki",
                     "name": "Auditorio La Cantera de Nagüeles",
                     "type": "venue",
-                    "formatted_address": "Calle Albioni, s/n, 29602\n29602 Marbella\nSpain"
+                    "formatted_address": "Calle Albioni, s/n, 29602 29602 Marbella Spain"
                 }
             ],
             "duration": 0,
@@ -2513,7 +2425,7 @@ const festsFromAPI = {
                     "entity_id": "9tE8KCpcxL9PGLrac23Ypr",
                     "name": "Auditorio Natural de Lanuza",
                     "type": "venue",
-                    "formatted_address": "Sallent de Gállego\nHuesca\nSpain"
+                    "formatted_address": "Sallent de Gállego Huesca Spain"
                 }
             ],
             "duration": 0,
@@ -2570,7 +2482,7 @@ const festsFromAPI = {
                     "entity_id": "S3LHhHhYP3sXJcbB6d6FX5",
                     "name": "Festival Enclave De Agua Grounds",
                     "type": "venue",
-                    "formatted_address": "Soria\nSpain"
+                    "formatted_address": "Soria Spain"
                 }
             ],
             "duration": 86399,
@@ -2628,7 +2540,7 @@ const festsFromAPI = {
                     "entity_id": "3HY8dAJFHJPMGs6AMXtXLv",
                     "name": "Auditorio Torres Oscuras",
                     "type": "venue",
-                    "formatted_address": "Las Torres, Torreperogil\nJaén\nSpain"
+                    "formatted_address": "Las Torres, Torreperogil Jaén Spain"
                 }
             ],
             "duration": 172799,
@@ -2686,7 +2598,7 @@ const festsFromAPI = {
                     "entity_id": "sqyhaDCLh5BFxfwRfkiB44",
                     "name": "Poble Espanyol",
                     "type": "venue",
-                    "formatted_address": "13 Avinguda de Francesc Ferrer i Guàrdia\n08038 Barcelona\nSpain"
+                    "formatted_address": "13 Avinguda de Francesc Ferrer i Guàrdia 08038 Barcelona Spain"
                 }
             ],
             "duration": 86399,
@@ -2744,7 +2656,7 @@ const festsFromAPI = {
                     "entity_id": "G2Yn9GVEiiw2LcdjS7QJBM",
                     "name": "Monegros Desert Festival",
                     "type": "venue",
-                    "formatted_address": "Nacional II, KM416\n22520 Fraga\nSpain"
+                    "formatted_address": "Nacional II, KM416 22520 Fraga Spain"
                 }
             ],
             "duration": 172799,
@@ -2805,7 +2717,7 @@ const festsFromAPI = {
                     "entity_id": "9tE8KCpcxL9PGLrac23Ypr",
                     "name": "Auditorio Natural de Lanuza",
                     "type": "venue",
-                    "formatted_address": "Sallent de Gállego\nHuesca\nSpain"
+                    "formatted_address": "Sallent de Gállego Huesca Spain"
                 }
             ],
             "duration": 0,
@@ -2863,7 +2775,7 @@ const festsFromAPI = {
                     "entity_id": "cJDvnk3QxNdYcVVqx9CDc",
                     "name": "Marina Beach Club",
                     "type": "venue",
-                    "formatted_address": "s/n Carrer Marina Real Juan Carlos I\n46024 València\nSpain"
+                    "formatted_address": "s/n Carrer Marina Real Juan Carlos I 46024 València Spain"
                 }
             ],
             "duration": 86399,
@@ -2930,7 +2842,7 @@ const festsFromAPI = {
                     "entity_id": "CCVU43YBxd9MLpVRbeLLgm",
                     "name": "Parc de n'Hereveta, Porreres",
                     "type": "venue",
-                    "formatted_address": "Palma De Mallorca\nSpain"
+                    "formatted_address": "Palma De Mallorca Spain"
                 }
             ],
             "duration": 172799,
@@ -2988,7 +2900,7 @@ const festsFromAPI = {
                     "entity_id": "WCKyD6ZGUXztnHZisqgt8S",
                     "name": "Espai masia Bas",
                     "type": "venue",
-                    "formatted_address": "Platja d'Aro, Girona, España\nGirona\nSpain"
+                    "formatted_address": "Platja d'Aro, Girona, España Girona Spain"
                 }
             ],
             "duration": 172799,
@@ -3055,7 +2967,7 @@ const festsFromAPI = {
                     "entity_id": "jr6frptrQg2kSvBVt7EWe4",
                     "name": "Festival Ribeira Sacra",
                     "type": "venue",
-                    "formatted_address": "Doade S/N, 27424, Lugo\nMonforte De Lemos\nSpain"
+                    "formatted_address": "Doade S/N, 27424, Lugo Monforte De Lemos Spain"
                 }
             ],
             "duration": 259199,
@@ -3122,13 +3034,13 @@ const festsFromAPI = {
                     "entity_id": "GpbVQyfbnGEEEtkjjLPjPd",
                     "name": "Ciudad Deportiva Guillermo Amor",
                     "type": "venue",
-                    "formatted_address": "C/ Capitán Cortés S/n\n03502 Benidorm\nSpain"
+                    "formatted_address": "C/ Capitán Cortés S/n 03502 Benidorm Spain"
                 },
                 {
                     "entity_id": "mqvsimgpPaGs2Ymm7uFtLs",
                     "name": "Low Festival Day",
                     "type": "event-group",
-                    "formatted_address": "03502 Benidorm\nSpain",
+                    "formatted_address": "03502 Benidorm Spain",
                     "category": "festivals",
                     "labels": [
                         "event-group",
@@ -3136,7 +3048,7 @@ const festsFromAPI = {
                         "recurring"
                     ],
                     "recurring": {
-                        "ical": "DTSTART;VALUE=DATE-TIME:20160729T120000\nRRULE:FREQ=YEARLY;INTERVAL=1"
+                        "ical": "DTSTART;VALUE=DATE-TIME:20160729T120000 RRULE:FREQ=YEARLY;INTERVAL=1"
                     }
                 }
             ],
@@ -3203,7 +3115,7 @@ const festsFromAPI = {
                     "entity_id": "S3LHhHhYP3sXJcbB6d6FX5",
                     "name": "Festival Enclave De Agua Grounds",
                     "type": "venue",
-                    "formatted_address": "Soria\nSpain"
+                    "formatted_address": "Soria Spain"
                 }
             ],
             "duration": 86399,
@@ -3261,7 +3173,7 @@ const festsFromAPI = {
                     "entity_id": "8CTR3gwJi3cJ5cic9V2rV7",
                     "name": "Parc Del Pinaret",
                     "type": "venue",
-                    "formatted_address": "2 Carrer Josep Serra i Dalmau\n43850 Cambrils\nSpain"
+                    "formatted_address": "2 Carrer Josep Serra i Dalmau 43850 Cambrils Spain"
                 }
             ],
             "duration": 863999,
@@ -3328,7 +3240,7 @@ const festsFromAPI = {
                     "entity_id": "v4u766UVTLSivgeD4NtLki",
                     "name": "Auditorio La Cantera de Nagüeles",
                     "type": "venue",
-                    "formatted_address": "Calle Albioni, s/n, 29602\n29602 Marbella\nSpain"
+                    "formatted_address": "Calle Albioni, s/n, 29602 29602 Marbella Spain"
                 }
             ],
             "duration": 0,
@@ -3398,7 +3310,7 @@ const festsFromAPI = {
                     "entity_id": "9tE8KCpcxL9PGLrac23Ypr",
                     "name": "Auditorio Natural de Lanuza",
                     "type": "venue",
-                    "formatted_address": "Sallent de Gállego\nHuesca\nSpain"
+                    "formatted_address": "Sallent de Gállego Huesca Spain"
                 }
             ],
             "duration": 0,
@@ -3456,7 +3368,7 @@ const festsFromAPI = {
                     "entity_id": "sWXsJswgmEZUUN9tWDh9Um",
                     "name": "Autocine Malaga Cesurfp",
                     "type": "venue",
-                    "formatted_address": "29004 Málaga\nSpain"
+                    "formatted_address": "29004 Málaga Spain"
                 }
             ],
             "duration": 0,
@@ -3523,7 +3435,7 @@ const festsFromAPI = {
                     "entity_id": "sqyhaDCLh5BFxfwRfkiB44",
                     "name": "Poble Espanyol",
                     "type": "venue",
-                    "formatted_address": "13 Avinguda de Francesc Ferrer i Guàrdia\n08038 Barcelona\nSpain"
+                    "formatted_address": "13 Avinguda de Francesc Ferrer i Guàrdia 08038 Barcelona Spain"
                 }
             ],
             "duration": 0,
@@ -3581,7 +3493,7 @@ const festsFromAPI = {
                     "entity_id": "FS3BBifxJZeFttPQh7ns8M",
                     "name": "Jardines De Abril",
                     "type": "venue",
-                    "formatted_address": "Alicante\nSpain"
+                    "formatted_address": "Alicante Spain"
                 }
             ],
             "duration": 1555199,
@@ -3639,7 +3551,7 @@ const festsFromAPI = {
                     "entity_id": "d7ptgv4XqCawKEBgY9UBHM",
                     "name": "Enclave de Agua",
                     "type": "venue",
-                    "formatted_address": "P.º San Prudencio, 14\n42005 Soria\nSpain"
+                    "formatted_address": "P.º San Prudencio, 14 42005 Soria Spain"
                 }
             ],
             "duration": 259199,
@@ -3697,7 +3609,7 @@ const festsFromAPI = {
                     "entity_id": "sqyhaDCLh5BFxfwRfkiB44",
                     "name": "Poble Espanyol",
                     "type": "venue",
-                    "formatted_address": "13 Avinguda de Francesc Ferrer i Guàrdia\n08038 Barcelona\nSpain"
+                    "formatted_address": "13 Avinguda de Francesc Ferrer i Guàrdia 08038 Barcelona Spain"
                 }
             ],
             "duration": 0,
@@ -3755,7 +3667,7 @@ const festsFromAPI = {
                     "entity_id": "FDYSBxrPHbx7k8McTWcNLN",
                     "name": "Cabo de Plata Festival",
                     "type": "venue",
-                    "formatted_address": "AV. DE LA MAR, 138, Barbate\nCadiz\nSpain"
+                    "formatted_address": "AV. DE LA MAR, 138, Barbate Cadiz Spain"
                 }
             ],
             "duration": 345599,
@@ -3813,7 +3725,7 @@ const festsFromAPI = {
                     "entity_id": "sqyhaDCLh5BFxfwRfkiB44",
                     "name": "Poble Espanyol",
                     "type": "venue",
-                    "formatted_address": "13 Avinguda de Francesc Ferrer i Guàrdia\n08038 Barcelona\nSpain"
+                    "formatted_address": "13 Avinguda de Francesc Ferrer i Guàrdia 08038 Barcelona Spain"
                 }
             ],
             "duration": 0,
@@ -3871,7 +3783,7 @@ const festsFromAPI = {
                     "entity_id": "qdfu6asYdYYvzUHD3GNM35",
                     "name": "Auditorio Mar de Vigo",
                     "type": "venue",
-                    "formatted_address": "Avenida De Beiramar 59\n36208 Vigo\nSpain"
+                    "formatted_address": "Avenida De Beiramar 59 36208 Vigo Spain"
                 }
             ],
             "duration": 86399,
@@ -3938,7 +3850,7 @@ const festsFromAPI = {
                     "entity_id": "v4u766UVTLSivgeD4NtLki",
                     "name": "Auditorio La Cantera de Nagüeles",
                     "type": "venue",
-                    "formatted_address": "Calle Albioni, s/n, 29602\n29602 Marbella\nSpain"
+                    "formatted_address": "Calle Albioni, s/n, 29602 29602 Marbella Spain"
                 }
             ],
             "duration": 0,
@@ -4005,7 +3917,7 @@ const festsFromAPI = {
                     "entity_id": "sqyhaDCLh5BFxfwRfkiB44",
                     "name": "Poble Espanyol",
                     "type": "venue",
-                    "formatted_address": "13 Avinguda de Francesc Ferrer i Guàrdia\n08038 Barcelona\nSpain"
+                    "formatted_address": "13 Avinguda de Francesc Ferrer i Guàrdia 08038 Barcelona Spain"
                 }
             ],
             "duration": 0,
@@ -4066,7 +3978,7 @@ const festsFromAPI = {
                     "entity_id": "9tE8KCpcxL9PGLrac23Ypr",
                     "name": "Auditorio Natural de Lanuza",
                     "type": "venue",
-                    "formatted_address": "Sallent de Gállego\nHuesca\nSpain"
+                    "formatted_address": "Sallent de Gállego Huesca Spain"
                 }
             ],
             "duration": 0,
@@ -4124,7 +4036,7 @@ const festsFromAPI = {
                     "entity_id": "v4u766UVTLSivgeD4NtLki",
                     "name": "Auditorio La Cantera de Nagüeles",
                     "type": "venue",
-                    "formatted_address": "Calle Albioni, s/n, 29602\n29602 Marbella\nSpain"
+                    "formatted_address": "Calle Albioni, s/n, 29602 29602 Marbella Spain"
                 }
             ],
             "duration": 0,
@@ -4194,7 +4106,7 @@ const festsFromAPI = {
                     "entity_id": "9tE8KCpcxL9PGLrac23Ypr",
                     "name": "Auditorio Natural de Lanuza",
                     "type": "venue",
-                    "formatted_address": "Sallent de Gállego\nHuesca\nSpain"
+                    "formatted_address": "Sallent de Gállego Huesca Spain"
                 }
             ],
             "duration": 0,
@@ -4252,7 +4164,7 @@ const festsFromAPI = {
                     "entity_id": "iszujchjfYHY8c7YA2Cfmf",
                     "name": "Recinto Ferial El Carmen",
                     "type": "venue",
-                    "formatted_address": "Avenida del Carnaval\n21410 Isla Cristina\nSpain"
+                    "formatted_address": "Avenida del Carnaval 21410 Isla Cristina Spain"
                 }
             ],
             "duration": 86399,
@@ -4319,7 +4231,7 @@ const festsFromAPI = {
                     "entity_id": "Pgh88SnjZVaGtSeyQYHrDq",
                     "name": "Aerodromo La Morgal",
                     "type": "venue",
-                    "formatted_address": "Asturias\nSpain"
+                    "formatted_address": "Asturias Spain"
                 }
             ],
             "duration": 172799,
@@ -4447,7 +4359,7 @@ const festsFromAPI = {
                     "entity_id": "etBSJEgHSXLp5pJHhcBnCk",
                     "name": "Parc del Fòrum",
                     "type": "venue",
-                    "formatted_address": "Parc Del Forum, 1 Rambla de Prim\n08019 Barcelona\nSpain"
+                    "formatted_address": "Parc Del Forum, 1 Rambla de Prim 08019 Barcelona Spain"
                 }
             ],
             "duration": 172799,
@@ -4514,7 +4426,7 @@ const festsFromAPI = {
                     "entity_id": "iciCmf6HVisLLMKzSGrSUW",
                     "name": "Jardines del Real o Viveros",
                     "type": "venue",
-                    "formatted_address": "1 Carrer de Cavanilles\n46010 València\nSpain"
+                    "formatted_address": "1 Carrer de Cavanilles 46010 València Spain"
                 }
             ],
             "duration": 86399,
@@ -4572,7 +4484,7 @@ const festsFromAPI = {
                     "entity_id": "v4u766UVTLSivgeD4NtLki",
                     "name": "Auditorio La Cantera de Nagüeles",
                     "type": "venue",
-                    "formatted_address": "Calle Albioni, s/n, 29602\n29602 Marbella\nSpain"
+                    "formatted_address": "Calle Albioni, s/n, 29602 29602 Marbella Spain"
                 }
             ],
             "duration": 0,
@@ -4642,7 +4554,7 @@ const festsFromAPI = {
                     "entity_id": "9tE8KCpcxL9PGLrac23Ypr",
                     "name": "Auditorio Natural de Lanuza",
                     "type": "venue",
-                    "formatted_address": "Sallent de Gállego\nHuesca\nSpain"
+                    "formatted_address": "Sallent de Gállego Huesca Spain"
                 }
             ],
             "duration": 0,
@@ -4700,7 +4612,7 @@ const festsFromAPI = {
                     "entity_id": "EY6AfVnMzTye53kZAB9RqM",
                     "name": "Puerto de Cádiz",
                     "type": "venue",
-                    "formatted_address": "11006 Cádiz\nSpain"
+                    "formatted_address": "11006 Cádiz Spain"
                 }
             ],
             "duration": 259199,
@@ -4758,7 +4670,7 @@ const festsFromAPI = {
                     "entity_id": "C5gk8g8jBbjhFtHAcfFZm3",
                     "name": "Plaza de Toros de Soria",
                     "type": "venue",
-                    "formatted_address": "C/San Benito, 0\n42001 Soria\nSpain"
+                    "formatted_address": "C/San Benito, 0 42001 Soria Spain"
                 }
             ],
             "duration": 172799,
@@ -4816,7 +4728,7 @@ const festsFromAPI = {
                     "entity_id": "dy9JCjaHzXirWwqKerWp5g",
                     "name": "Alcazaba Árabe De Badajoz",
                     "type": "venue",
-                    "formatted_address": "Badajoz\nSpain"
+                    "formatted_address": "Badajoz Spain"
                 }
             ],
             "duration": 86399,
@@ -4874,7 +4786,7 @@ const festsFromAPI = {
                     "entity_id": "3AvDZuRAtyB7fsSnf9peZMx",
                     "name": "Jazzaldia Festival",
                     "type": "venue",
-                    "formatted_address": "Reina Regente, 8 - 20003 Donostia-san Sebastián\nSan Sebastián\nSpain"
+                    "formatted_address": "Reina Regente, 8 - 20003 Donostia-san Sebastián San Sebastián Spain"
                 }
             ],
             "duration": 431999,
@@ -4932,7 +4844,7 @@ const festsFromAPI = {
                     "entity_id": "3AeNGREkKK442p8iYPv9hLd",
                     "name": "Leturalma",
                     "type": "venue",
-                    "formatted_address": "Letur\nAlbacete\nSpain"
+                    "formatted_address": "Letur Albacete Spain"
                 }
             ],
             "duration": 172799,
@@ -4990,7 +4902,7 @@ const festsFromAPI = {
                     "entity_id": "35mu8GDt9kpRNEerKcMdUWp",
                     "name": "Plaza de Ricardo Nogal",
                     "type": "venue",
-                    "formatted_address": "Trespaderne\nBurgos\nSpain"
+                    "formatted_address": "Trespaderne Burgos Spain"
                 }
             ],
             "duration": 172799,
@@ -5048,7 +4960,7 @@ const festsFromAPI = {
                     "entity_id": "sqyhaDCLh5BFxfwRfkiB44",
                     "name": "Poble Espanyol",
                     "type": "venue",
-                    "formatted_address": "13 Avinguda de Francesc Ferrer i Guàrdia\n08038 Barcelona\nSpain"
+                    "formatted_address": "13 Avinguda de Francesc Ferrer i Guàrdia 08038 Barcelona Spain"
                 }
             ],
             "duration": 0,
@@ -5106,7 +5018,7 @@ const festsFromAPI = {
                     "entity_id": "qkAK6aeZF32hKvgD2isujd",
                     "name": "La Morgal",
                     "type": "venue",
-                    "formatted_address": "Asturias\nSpain"
+                    "formatted_address": "Asturias Spain"
                 }
             ],
             "duration": 259199,
@@ -5173,13 +5085,13 @@ const festsFromAPI = {
                     "entity_id": "FXwtAG3if58DvUDRuFJskv",
                     "name": "El Tingladu",
                     "type": "venue",
-                    "formatted_address": "Vilanova i la Geltrú\nSpain"
+                    "formatted_address": "Vilanova i la Geltrú Spain"
                 },
                 {
                     "entity_id": "37hDVYLCTpYkTVjcEm9JRfH",
                     "name": "Tingladu",
                     "type": "event-group",
-                    "formatted_address": "Vitoria-Gasteiz\nBasque Country\nSpain",
+                    "formatted_address": "Vitoria-Gasteiz Basque Country Spain",
                     "category": "festivals",
                     "labels": [
                         "event-group",
@@ -5187,7 +5099,7 @@ const festsFromAPI = {
                         "recurring"
                     ],
                     "recurring": {
-                        "ical": "DTSTART;VALUE=DATE-TIME:20210722T000000\nRRULE:FREQ=YEARLY;INTERVAL=1"
+                        "ical": "DTSTART;VALUE=DATE-TIME:20210722T000000 RRULE:FREQ=YEARLY;INTERVAL=1"
                     }
                 }
             ],
@@ -5255,7 +5167,7 @@ const festsFromAPI = {
                     "entity_id": "tEyUhGDDbpSRCRiew8nejM",
                     "name": "NO SIN MÚSICA",
                     "type": "venue",
-                    "formatted_address": "Cadiz\nSpain"
+                    "formatted_address": "Cadiz Spain"
                 }
             ],
             "duration": 259199,
@@ -5313,7 +5225,7 @@ const festsFromAPI = {
                     "entity_id": "v4u766UVTLSivgeD4NtLki",
                     "name": "Auditorio La Cantera de Nagüeles",
                     "type": "venue",
-                    "formatted_address": "Calle Albioni, s/n, 29602\n29602 Marbella\nSpain"
+                    "formatted_address": "Calle Albioni, s/n, 29602 29602 Marbella Spain"
                 }
             ],
             "duration": 0,
@@ -5380,7 +5292,7 @@ const festsFromAPI = {
                     "entity_id": "sqyhaDCLh5BFxfwRfkiB44",
                     "name": "Poble Espanyol",
                     "type": "venue",
-                    "formatted_address": "13 Avinguda de Francesc Ferrer i Guàrdia\n08038 Barcelona\nSpain"
+                    "formatted_address": "13 Avinguda de Francesc Ferrer i Guàrdia 08038 Barcelona Spain"
                 }
             ],
             "duration": 0,
@@ -5438,7 +5350,7 @@ const festsFromAPI = {
                     "entity_id": "v4u766UVTLSivgeD4NtLki",
                     "name": "Auditorio La Cantera de Nagüeles",
                     "type": "venue",
-                    "formatted_address": "Calle Albioni, s/n, 29602\n29602 Marbella\nSpain"
+                    "formatted_address": "Calle Albioni, s/n, 29602 29602 Marbella Spain"
                 }
             ],
             "duration": 0,
@@ -5505,7 +5417,7 @@ const festsFromAPI = {
                     "entity_id": "sqyhaDCLh5BFxfwRfkiB44",
                     "name": "Poble Espanyol",
                     "type": "venue",
-                    "formatted_address": "13 Avinguda de Francesc Ferrer i Guàrdia\n08038 Barcelona\nSpain"
+                    "formatted_address": "13 Avinguda de Francesc Ferrer i Guàrdia 08038 Barcelona Spain"
                 }
             ],
             "duration": 0,
@@ -5563,7 +5475,7 @@ const festsFromAPI = {
                     "entity_id": "XiAtRXxnwKueeCRtb53Kum",
                     "name": "Ushuaïa Ibiza Beach Hotel",
                     "type": "venue",
-                    "formatted_address": "10 Platja d'en Bossa\n07817 Sant Jordi de ses Salines\nSpain"
+                    "formatted_address": "10 Platja d'en Bossa 07817 Sant Jordi de ses Salines Spain"
                 }
             ],
             "duration": 86399,
@@ -5621,7 +5533,7 @@ const festsFromAPI = {
                     "entity_id": "v4u766UVTLSivgeD4NtLki",
                     "name": "Auditorio La Cantera de Nagüeles",
                     "type": "venue",
-                    "formatted_address": "Calle Albioni, s/n, 29602\n29602 Marbella\nSpain"
+                    "formatted_address": "Calle Albioni, s/n, 29602 29602 Marbella Spain"
                 }
             ],
             "duration": 0,
@@ -5688,7 +5600,7 @@ const festsFromAPI = {
                     "entity_id": "sqyhaDCLh5BFxfwRfkiB44",
                     "name": "Poble Espanyol",
                     "type": "venue",
-                    "formatted_address": "13 Avinguda de Francesc Ferrer i Guàrdia\n08038 Barcelona\nSpain"
+                    "formatted_address": "13 Avinguda de Francesc Ferrer i Guàrdia 08038 Barcelona Spain"
                 }
             ],
             "duration": 0,
@@ -5746,7 +5658,7 @@ const festsFromAPI = {
                     "entity_id": "sqyhaDCLh5BFxfwRfkiB44",
                     "name": "Poble Espanyol",
                     "type": "venue",
-                    "formatted_address": "13 Avinguda de Francesc Ferrer i Guàrdia\n08038 Barcelona\nSpain"
+                    "formatted_address": "13 Avinguda de Francesc Ferrer i Guàrdia 08038 Barcelona Spain"
                 }
             ],
             "duration": 0,
@@ -5804,7 +5716,7 @@ const festsFromAPI = {
                     "entity_id": "XXSTXaChTS3WaaPWBqx79p",
                     "name": "SON FUSTERET",
                     "type": "venue",
-                    "formatted_address": "Camí Vell de Bunyola, s/n\nPalma de Mallorca\nSpain"
+                    "formatted_address": "Camí Vell de Bunyola, s/n Palma de Mallorca Spain"
                 }
             ],
             "duration": 86399,
@@ -5871,7 +5783,7 @@ const festsFromAPI = {
                     "entity_id": "v4u766UVTLSivgeD4NtLki",
                     "name": "Auditorio La Cantera de Nagüeles",
                     "type": "venue",
-                    "formatted_address": "Calle Albioni, s/n, 29602\n29602 Marbella\nSpain"
+                    "formatted_address": "Calle Albioni, s/n, 29602 29602 Marbella Spain"
                 }
             ],
             "duration": 0,
@@ -5938,7 +5850,7 @@ const festsFromAPI = {
                     "entity_id": "ERVM3ZXLeRS4sqnLJ8urEs",
                     "name": "Auditorio Marina Sur",
                     "type": "venue",
-                    "formatted_address": "Explanada Marisa Sur - Marina Real Juan Carlos I\n46024 Valencia\nSpain"
+                    "formatted_address": "Explanada Marisa Sur - Marina Real Juan Carlos I 46024 Valencia Spain"
                 }
             ],
             "duration": 0,
@@ -6004,7 +5916,7 @@ const festsFromAPI = {
                     "entity_id": "N9WqkGNnPiYeBteLH3pRPV",
                     "name": "Huercasa Country Festival Grounds",
                     "type": "venue",
-                    "formatted_address": "Segovia\nSpain"
+                    "formatted_address": "Segovia Spain"
                 }
             ],
             "duration": 86399,
@@ -6061,7 +5973,7 @@ const festsFromAPI = {
                     "entity_id": "seadihEacWt799xbaWFNDv",
                     "name": "Caldas De Reis",
                     "type": "venue",
-                    "formatted_address": "Galicia\nSpain"
+                    "formatted_address": "Galicia Spain"
                 }
             ],
             "duration": 86399,
@@ -6128,7 +6040,7 @@ const festsFromAPI = {
                     "entity_id": "MSaA63tvKvEvE62F3pwW6v",
                     "name": "Salmaya Live Festival",
                     "type": "venue",
-                    "formatted_address": "Explanada de la UMH de Elche - Av. del Alcalde Vicente Quiles, 90, 03202 Elche, Alicante\n03202 Elche\nSpain"
+                    "formatted_address": "Explanada de la UMH de Elche - Av. del Alcalde Vicente Quiles, 90, 03202 Elche, Alicante 03202 Elche Spain"
                 }
             ],
             "duration": 86399,
@@ -6195,7 +6107,7 @@ const festsFromAPI = {
                     "entity_id": "7MKHxfvBmZkxDMuyqDKhxr",
                     "name": "Castillo De Castelldefels",
                     "type": "venue",
-                    "formatted_address": "Castelldefels\nSpain"
+                    "formatted_address": "Castelldefels Spain"
                 }
             ],
             "duration": 86399,
@@ -6262,7 +6174,7 @@ const festsFromAPI = {
                     "entity_id": "sWXsJswgmEZUUN9tWDh9Um",
                     "name": "Autocine Malaga Cesurfp",
                     "type": "venue",
-                    "formatted_address": "29004 Málaga\nSpain"
+                    "formatted_address": "29004 Málaga Spain"
                 }
             ],
             "duration": 0,
@@ -6329,7 +6241,7 @@ const festsFromAPI = {
                     "entity_id": "v4u766UVTLSivgeD4NtLki",
                     "name": "Auditorio La Cantera de Nagüeles",
                     "type": "venue",
-                    "formatted_address": "Calle Albioni, s/n, 29602\n29602 Marbella\nSpain"
+                    "formatted_address": "Calle Albioni, s/n, 29602 29602 Marbella Spain"
                 }
             ],
             "duration": 0,
@@ -6396,7 +6308,7 @@ const festsFromAPI = {
                     "entity_id": "sqyhaDCLh5BFxfwRfkiB44",
                     "name": "Poble Espanyol",
                     "type": "venue",
-                    "formatted_address": "13 Avinguda de Francesc Ferrer i Guàrdia\n08038 Barcelona\nSpain"
+                    "formatted_address": "13 Avinguda de Francesc Ferrer i Guàrdia 08038 Barcelona Spain"
                 }
             ],
             "duration": 0,
@@ -6453,7 +6365,7 @@ const festsFromAPI = {
                     "entity_id": "zTAspmtRVQGqpa7erNZftC",
                     "name": "Upload",
                     "type": "venue",
-                    "formatted_address": "08100 Barcelona\nSpain"
+                    "formatted_address": "08100 Barcelona Spain"
                 }
             ],
             "duration": 86399,
@@ -6511,7 +6423,7 @@ const festsFromAPI = {
                     "entity_id": "xqbnx4xHvitjNPWCH9pkRM",
                     "name": "Ciruelos de Coca",
                     "type": "venue",
-                    "formatted_address": "Segovia\nSpain"
+                    "formatted_address": "Segovia Spain"
                 }
             ],
             "duration": 259199,
@@ -6578,7 +6490,7 @@ const festsFromAPI = {
                     "entity_id": "uMTSWdRcywWD9XtyiJDpJx",
                     "name": "Mar De Músicas",
                     "type": "venue",
-                    "formatted_address": "Cartagena\nSpain"
+                    "formatted_address": "Cartagena Spain"
                 }
             ],
             "duration": 777599,
@@ -6645,7 +6557,7 @@ const festsFromAPI = {
                     "entity_id": "GshCGbY8m9A9ikMg43Jbkm",
                     "name": "Huercasa Country Festival",
                     "type": "venue",
-                    "formatted_address": "Av. Madrid, 37, Riaza\nSegovia\nSpain"
+                    "formatted_address": "Av. Madrid, 37, Riaza Segovia Spain"
                 }
             ],
             "duration": 172799,
@@ -6703,7 +6615,7 @@ const festsFromAPI = {
                     "entity_id": "M8FdTtmv9zPszDKcYEitwn",
                     "name": "Colegio Alto Segura, Santiago de la Espada",
                     "type": "venue",
-                    "formatted_address": "Jaén\nSpain"
+                    "formatted_address": "Jaén Spain"
                 }
             ],
             "duration": 172799,
@@ -6761,7 +6673,7 @@ const festsFromAPI = {
                     "entity_id": "3AnqkBNrJfhdzb5zWeLUHp5",
                     "name": "Bodegas Gonzalez Las Copas",
                     "type": "venue",
-                    "formatted_address": "C. Desconsuelo, 1\nCadiz\nSpain"
+                    "formatted_address": "C. Desconsuelo, 1 Cadiz Spain"
                 }
             ],
             "duration": 2764799,
@@ -6828,7 +6740,7 @@ const festsFromAPI = {
                     "entity_id": "nFYhKEnBXdZ7kj2L9enLjd",
                     "name": "Acueducto de Segovia",
                     "type": "venue",
-                    "formatted_address": "Segovia\nSpain"
+                    "formatted_address": "Segovia Spain"
                 }
             ],
             "duration": 172799,
@@ -6886,7 +6798,7 @@ const festsFromAPI = {
                     "entity_id": "eg4ZNXSDrUDd7kkuYXW9gq",
                     "name": "Hollister Rockabilly&Biker",
                     "type": "venue",
-                    "formatted_address": "Carrer Vallespir, 7 Poligono Las Salinas\n08880 Cubelles\nSpain"
+                    "formatted_address": "Carrer Vallespir, 7 Poligono Las Salinas 08880 Cubelles Spain"
                 }
             ],
             "duration": 259199,
@@ -6952,7 +6864,7 @@ const festsFromAPI = {
                     "entity_id": "seadihEacWt799xbaWFNDv",
                     "name": "Caldas De Reis",
                     "type": "venue",
-                    "formatted_address": "Galicia\nSpain"
+                    "formatted_address": "Galicia Spain"
                 }
             ],
             "duration": 86399,
@@ -7019,7 +6931,7 @@ const festsFromAPI = {
                     "entity_id": "WLfE4pF9uvq32f6NirtTt3",
                     "name": "Estadio Riomar",
                     "type": "venue",
-                    "formatted_address": "Castro Urdiales\nSpain"
+                    "formatted_address": "Castro Urdiales Spain"
                 }
             ],
             "duration": 172799,
@@ -7086,7 +6998,7 @@ const festsFromAPI = {
                     "entity_id": "xY4R9VFjxdKDjR3FAEHEhM",
                     "name": "Arnedo",
                     "type": "venue",
-                    "formatted_address": "Plaza de España\n26003 Logroño\nSpain"
+                    "formatted_address": "Plaza de España 26003 Logroño Spain"
                 }
             ],
             "duration": 259199,
@@ -7144,7 +7056,7 @@ const festsFromAPI = {
                     "entity_id": "33cKDmcDmBPACRRGQ7pyqAV",
                     "name": "Plaza de Toros la Condomina",
                     "type": "venue",
-                    "formatted_address": "Ronda de Garay, 48\n30003 Murcia\nSpain"
+                    "formatted_address": "Ronda de Garay, 48 30003 Murcia Spain"
                 }
             ],
             "duration": 0,
@@ -7160,28 +7072,8 @@ const festsFromAPI = {
             "geo": {
                 "geometry": {
                     "coordinates": [
-                        [
-                            [
-                                -1.1235148,
-                                37.9854651
-                            ],
-                            [
-                                -1.1229569,
-                                37.9845265
-                            ],
-                            [
-                                -1.1213744,
-                                37.9849704
-                            ],
-                            [
-                                -1.1220047,
-                                37.9859788
-                            ],
-                            [
-                                -1.1235148,
-                                37.9854651
-                            ]
-                        ]
+                        -1.1235148,
+                        37.9854651
                     ],
                     "type": "Polygon"
                 }
@@ -7221,7 +7113,7 @@ const festsFromAPI = {
                     "entity_id": "sqyhaDCLh5BFxfwRfkiB44",
                     "name": "Poble Espanyol",
                     "type": "venue",
-                    "formatted_address": "13 Avinguda de Francesc Ferrer i Guàrdia\n08038 Barcelona\nSpain"
+                    "formatted_address": "13 Avinguda de Francesc Ferrer i Guàrdia 08038 Barcelona Spain"
                 }
             ],
             "duration": 0,
@@ -7282,7 +7174,7 @@ const festsFromAPI = {
                     "entity_id": "9tE8KCpcxL9PGLrac23Ypr",
                     "name": "Auditorio Natural de Lanuza",
                     "type": "venue",
-                    "formatted_address": "Sallent de Gállego\nHuesca\nSpain"
+                    "formatted_address": "Sallent de Gállego Huesca Spain"
                 }
             ],
             "duration": 0,
@@ -7340,7 +7232,7 @@ const festsFromAPI = {
                     "entity_id": "mTu8cnyanP7z2Q5hebRHqA",
                     "name": "EtnoSur Festival",
                     "type": "venue",
-                    "formatted_address": "23680 Alcalá la Real\nSpain"
+                    "formatted_address": "23680 Alcalá la Real Spain"
                 }
             ],
             "duration": 345599,
@@ -7407,7 +7299,7 @@ const festsFromAPI = {
                     "entity_id": "jX4Q8ht9EmYAGr27SweSzZ",
                     "name": "Festival Internacional de Benicassim (FIB)",
                     "type": "venue",
-                    "formatted_address": "Road N-340\nBenicassim\nSpain"
+                    "formatted_address": "Road N-340 Benicassim Spain"
                 }
             ],
             "duration": 345599,
@@ -7474,7 +7366,7 @@ const festsFromAPI = {
                     "entity_id": "4TfZ3gcVs5SF5qYs8SxiDx",
                     "name": "PortAmerica",
                     "type": "venue",
-                    "formatted_address": "Carballeira de Caldas de Reis\n36650 Caldas de Reis\nSpain"
+                    "formatted_address": "Carballeira de Caldas de Reis 36650 Caldas de Reis Spain"
                 }
             ],
             "duration": 259199,
@@ -7541,7 +7433,7 @@ const festsFromAPI = {
                     "entity_id": "36Yn7qfz2TkL6kwELkYFuaD",
                     "name": "Bahía Sound",
                     "type": "venue",
-                    "formatted_address": "San Fernando\nSpain"
+                    "formatted_address": "San Fernando Spain"
                 }
             ],
             "duration": 86399,
@@ -7608,7 +7500,7 @@ const festsFromAPI = {
                     "entity_id": "xicRfy7scRYczzgkZ4paH4",
                     "name": "Poligono Benieto",
                     "type": "venue",
-                    "formatted_address": "46701 Gandia\nSpain"
+                    "formatted_address": "46701 Gandia Spain"
                 }
             ],
             "duration": 345599,
@@ -7666,7 +7558,7 @@ const festsFromAPI = {
                     "entity_id": "B3dDiHxEbH3JkGbSMDuPcE",
                     "name": "Acampada Jove",
                     "type": "venue",
-                    "formatted_address": "Sant Sadurní d'Anoia\nSpain"
+                    "formatted_address": "Sant Sadurní d'Anoia Spain"
                 }
             ],
             "duration": 259199,
@@ -7733,7 +7625,7 @@ const festsFromAPI = {
                     "entity_id": "LgnHiDUZnRn6jH8QCBw8dv",
                     "name": "Recinto De Festivales De Benicassim",
                     "type": "venue",
-                    "formatted_address": "Benicásim Comunidad Valenciana\nEspaña"
+                    "formatted_address": "Benicásim Comunidad Valenciana España"
                 }
             ],
             "duration": 345599,
@@ -7799,7 +7691,7 @@ const festsFromAPI = {
                     "entity_id": "seadihEacWt799xbaWFNDv",
                     "name": "Caldas De Reis",
                     "type": "venue",
-                    "formatted_address": "Galicia\nSpain"
+                    "formatted_address": "Galicia Spain"
                 }
             ],
             "duration": 86399,
@@ -7866,7 +7758,7 @@ const festsFromAPI = {
                     "entity_id": "sqyhaDCLh5BFxfwRfkiB44",
                     "name": "Poble Espanyol",
                     "type": "venue",
-                    "formatted_address": "13 Avinguda de Francesc Ferrer i Guàrdia\n08038 Barcelona\nSpain"
+                    "formatted_address": "13 Avinguda de Francesc Ferrer i Guàrdia 08038 Barcelona Spain"
                 }
             ],
             "duration": 0,
@@ -7924,7 +7816,7 @@ const festsFromAPI = {
                     "entity_id": "CR75eZKTCF3imNqfGXqYqD",
                     "name": "Pirata Beach Festival",
                     "type": "venue",
-                    "formatted_address": "Gandía\nSpain"
+                    "formatted_address": "Gandía Spain"
                 }
             ],
             "duration": 345599,
@@ -7982,7 +7874,7 @@ const festsFromAPI = {
                     "entity_id": "sqyhaDCLh5BFxfwRfkiB44",
                     "name": "Poble Espanyol",
                     "type": "venue",
-                    "formatted_address": "13 Avinguda de Francesc Ferrer i Guàrdia\n08038 Barcelona\nSpain"
+                    "formatted_address": "13 Avinguda de Francesc Ferrer i Guàrdia 08038 Barcelona Spain"
                 }
             ],
             "duration": 0,
@@ -8043,7 +7935,7 @@ const festsFromAPI = {
                     "entity_id": "9tE8KCpcxL9PGLrac23Ypr",
                     "name": "Auditorio Natural de Lanuza",
                     "type": "venue",
-                    "formatted_address": "Sallent de Gállego\nHuesca\nSpain"
+                    "formatted_address": "Sallent de Gállego Huesca Spain"
                 }
             ],
             "duration": 0,
@@ -8101,7 +7993,7 @@ const festsFromAPI = {
                     "entity_id": "7PSPikNG5Y7zQrN4p7BMP4",
                     "name": "IFEMA - Feria de Madrid",
                     "type": "venue",
-                    "formatted_address": "IFEMA Feria de Madrid, 5 Avenida Partenón\n28042 Madrid\nSpain"
+                    "formatted_address": "IFEMA Feria de Madrid, 5 Avenida Partenón 28042 Madrid Spain"
                 }
             ],
             "duration": 86399,
@@ -8169,7 +8061,7 @@ const festsFromAPI = {
                     "entity_id": "HZvZPC6ANz8e3PgcVL5abd",
                     "name": "Teatro Auditorio Roquetas de Mar",
                     "type": "venue",
-                    "formatted_address": "Plaza Teniente Arturo Munoz S/N\n04740 Roquetas De Mar\nSpain"
+                    "formatted_address": "Plaza Teniente Arturo Munoz S/N 04740 Roquetas De Mar Spain"
                 }
             ],
             "duration": 0,
@@ -8239,7 +8131,7 @@ const festsFromAPI = {
                     "entity_id": "9tE8KCpcxL9PGLrac23Ypr",
                     "name": "Auditorio Natural de Lanuza",
                     "type": "venue",
-                    "formatted_address": "Sallent de Gállego\nHuesca\nSpain"
+                    "formatted_address": "Sallent de Gállego Huesca Spain"
                 }
             ],
             "duration": 0,
@@ -8297,7 +8189,7 @@ const festsFromAPI = {
                     "entity_id": "v4u766UVTLSivgeD4NtLki",
                     "name": "Auditorio La Cantera de Nagüeles",
                     "type": "venue",
-                    "formatted_address": "Calle Albioni, s/n, 29602\n29602 Marbella\nSpain"
+                    "formatted_address": "Calle Albioni, s/n, 29602 29602 Marbella Spain"
                 }
             ],
             "duration": 0,
@@ -8364,7 +8256,7 @@ const festsFromAPI = {
                     "entity_id": "khyqRDnqs4cw4vMAb7637H",
                     "name": "Recinto Ferial La Roda",
                     "type": "venue",
-                    "formatted_address": "Castilla-La Mancha\n02001 Albacete\nSpain"
+                    "formatted_address": "Castilla-La Mancha 02001 Albacete Spain"
                 }
             ],
             "duration": 0,
@@ -8421,7 +8313,7 @@ const festsFromAPI = {
                     "entity_id": "jbQjEr8YPuCyKwwgrmfkm3",
                     "name": "Playa de Torre del Mar",
                     "type": "venue",
-                    "formatted_address": "29740 Torre del Mar\nSpain"
+                    "formatted_address": "29740 Torre del Mar Spain"
                 }
             ],
             "duration": 86399,
@@ -8488,7 +8380,7 @@ const festsFromAPI = {
                     "entity_id": "dzU9p9mnfyTXTxqMsQHubN",
                     "name": "Auditorio Pazo de Congresos Mar de Vigo",
                     "type": "venue",
-                    "formatted_address": "36202 Vigo\nSpain"
+                    "formatted_address": "36202 Vigo Spain"
                 }
             ],
             "duration": 86399,
@@ -8554,13 +8446,13 @@ const festsFromAPI = {
                     "entity_id": "etBSJEgHSXLp5pJHhcBnCk",
                     "name": "Parc del Fòrum",
                     "type": "venue",
-                    "formatted_address": "Parc Del Forum, 1 Rambla de Prim\n08019 Barcelona\nSpain"
+                    "formatted_address": "Parc Del Forum, 1 Rambla de Prim 08019 Barcelona Spain"
                 },
                 {
                     "entity_id": "NvgtuE6N2adjWAEWziWJww",
                     "name": "Cruilla Barcelona Season Festival",
                     "type": "event-group",
-                    "formatted_address": "08019 Barcelona\nSpain",
+                    "formatted_address": "08019 Barcelona Spain",
                     "category": "festivals",
                     "labels": [
                         "event-group",
@@ -8568,7 +8460,7 @@ const festsFromAPI = {
                         "recurring"
                     ],
                     "recurring": {
-                        "ical": "DTSTART;VALUE=DATE-TIME:20170707T000000\nRRULE:FREQ=YEARLY;INTERVAL=1"
+                        "ical": "DTSTART;VALUE=DATE-TIME:20170707T000000 RRULE:FREQ=YEARLY;INTERVAL=1"
                     }
                 }
             ],
@@ -8636,7 +8528,7 @@ const festsFromAPI = {
                     "entity_id": "fbvyUvi24RdUGv5wZidw77",
                     "name": "Plaza de Toros Tudela de Duero",
                     "type": "venue",
-                    "formatted_address": "Carretera la Parrilla\n47320 Tudela de Duero\nSpain"
+                    "formatted_address": "Carretera la Parrilla 47320 Tudela de Duero Spain"
                 }
             ],
             "duration": 86399,
@@ -8702,7 +8594,7 @@ const festsFromAPI = {
                     "entity_id": "ppSj9bL2tmdEKbBj5psbkm",
                     "name": "Mad Cool Space",
                     "type": "venue",
-                    "formatted_address": "Madrid\nSpain"
+                    "formatted_address": "Madrid Spain"
                 }
             ],
             "duration": 86399,
@@ -8769,7 +8661,7 @@ const festsFromAPI = {
                     "entity_id": "33ECHALc6hcUGYmUKKZXDmu",
                     "name": "Kobetamendi Park",
                     "type": "venue",
-                    "formatted_address": "Calle del Monte Cobetas\n48002 Bilbao\nSpain"
+                    "formatted_address": "Calle del Monte Cobetas 48002 Bilbao Spain"
                 }
             ],
             "duration": 86399,
@@ -8827,7 +8719,7 @@ const festsFromAPI = {
                     "entity_id": "vaqCFiJU3quy4wYHqWL2kv",
                     "name": "Palau Olímpic de Badalona",
                     "type": "venue",
-                    "formatted_address": "Avinguda Alfons Xiii, S/n\n08912 Badalona\nSpain"
+                    "formatted_address": "Avinguda Alfons Xiii, S/n 08912 Badalona Spain"
                 }
             ],
             "duration": 86399,
@@ -8894,7 +8786,7 @@ const festsFromAPI = {
                     "entity_id": "HZvZPC6ANz8e3PgcVL5abd",
                     "name": "Teatro Auditorio Roquetas de Mar",
                     "type": "venue",
-                    "formatted_address": "Plaza Teniente Arturo Munoz S/N\n04740 Roquetas De Mar\nSpain"
+                    "formatted_address": "Plaza Teniente Arturo Munoz S/N 04740 Roquetas De Mar Spain"
                 }
             ],
             "duration": 0,
@@ -8961,7 +8853,7 @@ const festsFromAPI = {
                     "entity_id": "v4u766UVTLSivgeD4NtLki",
                     "name": "Auditorio La Cantera de Nagüeles",
                     "type": "venue",
-                    "formatted_address": "Calle Albioni, s/n, 29602\n29602 Marbella\nSpain"
+                    "formatted_address": "Calle Albioni, s/n, 29602 29602 Marbella Spain"
                 },
                 {
                     "entity_id": "3BdVwMihDDhAFtH38RFe3de",
@@ -8977,7 +8869,7 @@ const festsFromAPI = {
                     ],
                     "description": "Starlite Festival is the most important boutique festival in Europe. The event not only features concerts, since the public also will have the opportunity to have dance, have dinner and drinks.",
                     "recurring": {
-                        "ical": "DTSTART;VALUE=DATE:20170713\nDURATION:P47DT4H\nRRULE:FREQ=YEARLY;INTERVAL=1"
+                        "ical": "DTSTART;VALUE=DATE:20170713 DURATION:P47DT4H RRULE:FREQ=YEARLY;INTERVAL=1"
                     }
                 }
             ],
@@ -8993,30 +8885,12 @@ const festsFromAPI = {
             ],
             "geo": {
                 "geometry": {
-                    "coordinates": [
+                    "coordinates":
                         [
-                            [
-                                -4.9209113,
-                                36.5330482
-                            ],
-                            [
-                                -4.9215014,
-                                36.5327034
-                            ],
-                            [
-                                -4.9213915,
-                                36.5323284
-                            ],
-                            [
-                                -4.9206458,
-                                36.5327206
-                            ],
-                            [
-                                -4.9209113,
-                                36.5330482
-                            ]
-                        ]
-                    ],
+                            -4.9209113,
+                            36.5330482
+
+                        ],
                     "type": "Polygon"
                 }
             },
@@ -9050,7 +8924,7 @@ const festsFromAPI = {
             "relevance": 0,
             "id": "4taVTp3ot3tYmKBEbV",
             "title": "Festival de música electrónica en Málaga",
-            "description": "3 DÍAS DE FIESTA AL AIRE LIBRE EN LA COSTA DEL SOL.\nMusica electrónica, house y música del mundo en Málaga.",
+            "description": "3 DÍAS DE FIESTA AL AIRE LIBRE EN LA COSTA DEL SOL. Musica electrónica, house y música del mundo en Málaga.",
             "category": "festivals",
             "labels": [
                 "festival",
@@ -9124,7 +8998,7 @@ const festsFromAPI = {
                     "entity_id": "JC6pGYU46jwR7Af8HgMTjm",
                     "name": "Aparcamiento del Estadio de Gran Canaria",
                     "type": "venue",
-                    "formatted_address": "35011 Las Palmas de Gran Canaria\nSpain"
+                    "formatted_address": "35011 Las Palmas de Gran Canaria Spain"
                 }
             ],
             "duration": 172799,
@@ -9182,7 +9056,7 @@ const festsFromAPI = {
                     "entity_id": "sDi66wPp89uZucebWabbdd",
                     "name": "Parque de San Agustín",
                     "type": "venue",
-                    "formatted_address": "Burgos\nSpain"
+                    "formatted_address": "Burgos Spain"
                 }
             ],
             "duration": 172799,
@@ -9252,7 +9126,7 @@ const festsFromAPI = {
                     ],
                     "description": "Pirineos Sur is a music and multicultural festival with many concerts plus exhibitions, a market, workshops and more!",
                     "recurring": {
-                        "ical": "DTSTART;VALUE=DATE:20150717\nDURATION:P16DT13H\nRRULE:FREQ=YEARLY;INTERVAL=1"
+                        "ical": "DTSTART;VALUE=DATE:20150717 DURATION:P16DT13H RRULE:FREQ=YEARLY;INTERVAL=1"
                     }
                 }
             ],
@@ -9269,28 +9143,11 @@ const festsFromAPI = {
             "geo": {
                 "geometry": {
                     "coordinates": [
-                        [
-                            [
-                                -0.3165561,
-                                42.7585704
-                            ],
-                            [
-                                -0.3170872,
-                                42.757767
-                            ],
-                            [
-                                -0.3161645,
-                                42.7573573
-                            ],
-                            [
-                                -0.3156441,
-                                42.7582199
-                            ],
-                            [
-                                -0.3165561,
-                                42.7585704
-                            ]
-                        ]
+
+
+                        -0.3165561,
+                        42.7585704
+
                     ],
                     "type": "Polygon"
                 }
@@ -9388,7 +9245,7 @@ const festsFromAPI = {
                     "entity_id": "ppSj9bL2tmdEKbBj5psbkm",
                     "name": "Mad Cool Space",
                     "type": "venue",
-                    "formatted_address": "Madrid\nSpain"
+                    "formatted_address": "Madrid Spain"
                 }
             ],
             "duration": 86399,
@@ -9455,7 +9312,7 @@ const festsFromAPI = {
                     "entity_id": "jbQjEr8YPuCyKwwgrmfkm3",
                     "name": "Playa de Torre del Mar",
                     "type": "venue",
-                    "formatted_address": "29740 Torre del Mar\nSpain"
+                    "formatted_address": "29740 Torre del Mar Spain"
                 }
             ],
             "duration": 86399,
@@ -9522,7 +9379,7 @@ const festsFromAPI = {
                     "entity_id": "q6yHtxkiSsnwAMXLV3mr3M",
                     "name": "Instalaciones Deportivas Los Pinos",
                     "type": "venue",
-                    "formatted_address": "Valladolid\nSpain"
+                    "formatted_address": "Valladolid Spain"
                 }
             ],
             "duration": 172799,
@@ -9580,7 +9437,7 @@ const festsFromAPI = {
                     "entity_id": "36j69wa4n4QBGMjsycCehkR",
                     "name": "Antiguas Escuelas de Ambrosero",
                     "type": "venue",
-                    "formatted_address": "Calle San Ándres s/n\nCantabria\nSpain"
+                    "formatted_address": "Calle San Ándres s/n Cantabria Spain"
                 }
             ],
             "duration": 172799,
@@ -9646,7 +9503,7 @@ const festsFromAPI = {
                     "entity_id": "33ECHALc6hcUGYmUKKZXDmu",
                     "name": "Kobetamendi Park",
                     "type": "venue",
-                    "formatted_address": "Calle del Monte Cobetas\n48002 Bilbao\nSpain"
+                    "formatted_address": "Calle del Monte Cobetas 48002 Bilbao Spain"
                 }
             ],
             "duration": 86399,
@@ -9755,7 +9612,7 @@ const festsFromAPI = {
                     "entity_id": "fptNa7FQjT3VmJQasREAKN",
                     "name": "Teatro Principale",
                     "type": "venue",
-                    "formatted_address": "15 Carrer de les Barques\n46002 València\nSpain"
+                    "formatted_address": "15 Carrer de les Barques 46002 València Spain"
                 }
             ],
             "duration": 86399,
@@ -9813,7 +9670,7 @@ const festsFromAPI = {
                     "entity_id": "t8vkzKBKe2h7NgfASwGWU",
                     "name": "Riaño",
                     "type": "venue",
-                    "formatted_address": "Castilla y León\nLeón\nSpain"
+                    "formatted_address": "Castilla y León León Spain"
                 }
             ],
             "duration": 259199,
@@ -9871,7 +9728,7 @@ const festsFromAPI = {
                     "entity_id": "assZMazBcuuR2GuaTu5w6E",
                     "name": "Vijazz Vilafranca (Plaça Jaume I)",
                     "type": "venue",
-                    "formatted_address": "Vilafranca del Penedès\nSpain"
+                    "formatted_address": "Vilafranca del Penedès Spain"
                 }
             ],
             "duration": 259199,
@@ -9938,7 +9795,7 @@ const festsFromAPI = {
                     "entity_id": "sqyhaDCLh5BFxfwRfkiB44",
                     "name": "Poble Espanyol",
                     "type": "venue",
-                    "formatted_address": "13 Avinguda de Francesc Ferrer i Guàrdia\n08038 Barcelona\nSpain"
+                    "formatted_address": "13 Avinguda de Francesc Ferrer i Guàrdia 08038 Barcelona Spain"
                 }
             ],
             "duration": 172799,
@@ -9995,13 +9852,13 @@ const festsFromAPI = {
                     "entity_id": "etBSJEgHSXLp5pJHhcBnCk",
                     "name": "Parc del Fòrum",
                     "type": "venue",
-                    "formatted_address": "Parc Del Forum, 1 Rambla de Prim\n08019 Barcelona\nSpain"
+                    "formatted_address": "Parc Del Forum, 1 Rambla de Prim 08019 Barcelona Spain"
                 },
                 {
                     "entity_id": "NvgtuE6N2adjWAEWziWJww",
                     "name": "Cruilla Barcelona Season Festival",
                     "type": "event-group",
-                    "formatted_address": "08019 Barcelona\nSpain",
+                    "formatted_address": "08019 Barcelona Spain",
                     "category": "festivals",
                     "labels": [
                         "event-group",
@@ -10009,7 +9866,7 @@ const festsFromAPI = {
                         "recurring"
                     ],
                     "recurring": {
-                        "ical": "DTSTART;VALUE=DATE-TIME:20170707T000000\nRRULE:FREQ=YEARLY;INTERVAL=1"
+                        "ical": "DTSTART;VALUE=DATE-TIME:20170707T000000 RRULE:FREQ=YEARLY;INTERVAL=1"
                     }
                 }
             ],
@@ -10077,7 +9934,7 @@ const festsFromAPI = {
                     "entity_id": "v4u766UVTLSivgeD4NtLki",
                     "name": "Auditorio La Cantera de Nagüeles",
                     "type": "venue",
-                    "formatted_address": "Calle Albioni, s/n, 29602\n29602 Marbella\nSpain"
+                    "formatted_address": "Calle Albioni, s/n, 29602 29602 Marbella Spain"
                 }
             ],
             "duration": 0,
@@ -10144,7 +10001,7 @@ const festsFromAPI = {
                     "entity_id": "R6bDVz9AswRmFFHuebzHsL",
                     "name": "Nao Pool Club",
                     "type": "venue",
-                    "formatted_address": "Calle los Tilos\nMalaga\nSpain"
+                    "formatted_address": "Calle los Tilos Malaga Spain"
                 }
             ],
             "duration": 0,
@@ -10213,7 +10070,7 @@ const festsFromAPI = {
                     ],
                     "description": "Bilbao BBK Live is a rock and pop festival situated on the slopes of Mount Cobetas, overlooking the northern Spanish city. With the idyllic town and world-famous surfing spot a stone's throw away, the location is among the best in Europe for a diverse festival experience.",
                     "recurring": {
-                        "ical": "DTSTART;VALUE=DATE-TIME:20140710T170000\nDURATION:P2DT7H\nRRULE:FREQ=YEARLY;INTERVAL=1"
+                        "ical": "DTSTART;VALUE=DATE-TIME:20140710T170000 DURATION:P2DT7H RRULE:FREQ=YEARLY;INTERVAL=1"
                     }
                 }
             ],
@@ -10270,7 +10127,7 @@ const festsFromAPI = {
                     "entity_id": "jbQjEr8YPuCyKwwgrmfkm3",
                     "name": "Playa de Torre del Mar",
                     "type": "venue",
-                    "formatted_address": "29740 Torre del Mar\nSpain"
+                    "formatted_address": "29740 Torre del Mar Spain"
                 }
             ],
             "duration": 86399,
@@ -10337,13 +10194,13 @@ const festsFromAPI = {
                     "entity_id": "35AWiUM3BPFAKUGibXninLU",
                     "name": "Auditori Municipal Benlloc",
                     "type": "venue",
-                    "formatted_address": "Mestre Ortega 6\nBenlloch\nSpain"
+                    "formatted_address": "Mestre Ortega 6 Benlloch Spain"
                 },
                 {
                     "entity_id": "krBT4MTQXBwU8kTHYRSLKv",
                     "name": "Feslloc",
                     "type": "event-group",
-                    "formatted_address": "12181 Bell-lloc\nSpain",
+                    "formatted_address": "12181 Bell-lloc Spain",
                     "category": "festivals",
                     "labels": [
                         "event-group",
@@ -10351,7 +10208,7 @@ const festsFromAPI = {
                         "recurring"
                     ],
                     "recurring": {
-                        "ical": "DTSTART;VALUE=DATE-TIME:20200709T000000\nRRULE:FREQ=YEARLY;INTERVAL=1"
+                        "ical": "DTSTART;VALUE=DATE-TIME:20200709T000000 RRULE:FREQ=YEARLY;INTERVAL=1"
                     }
                 }
             ],
@@ -10428,7 +10285,7 @@ const festsFromAPI = {
                     ],
                     "description": "The festival commemorates the martyrdom of San Fermin, the city's patron saint. Secular cattle fairs and bull fighting events have eventually become part of the tradition and now the festival is internationally known for the encierro or the running of the bulls event. Today, the festival of San Fermin attracts over a million visitors each year from all corners of the world.",
                     "recurring": {
-                        "ical": "DTSTART;VALUE=DATE:20150706\nDURATION:P10D\nRRULE:FREQ=YEARLY;INTERVAL=1"
+                        "ical": "DTSTART;VALUE=DATE:20150706 DURATION:P10D RRULE:FREQ=YEARLY;INTERVAL=1"
                     }
                 }
             ],
@@ -10495,7 +10352,7 @@ const festsFromAPI = {
                     "entity_id": "ppSj9bL2tmdEKbBj5psbkm",
                     "name": "Mad Cool Space",
                     "type": "venue",
-                    "formatted_address": "Madrid\nSpain"
+                    "formatted_address": "Madrid Spain"
                 }
             ],
             "duration": 86399,
@@ -10582,44 +10439,8 @@ const festsFromAPI = {
             "geo": {
                 "geometry": {
                     "coordinates": [
-                        [
-                            [
-                                -3.705879426767791,
-                                40.33207206497761
-                            ],
-                            [
-                                -3.7064171946073863,
-                                40.32939754716018
-                            ],
-                            [
-                                -3.7063254564547496,
-                                40.32787584857239
-                            ],
-                            [
-                                -3.7074981296347866,
-                                40.326366043997595
-                            ],
-                            [
-                                -3.709982783644409,
-                                40.32627583330164
-                            ],
-                            [
-                                -3.714291034146301,
-                                40.327092802832844
-                            ],
-                            [
-                                -3.717634849555707,
-                                40.32840784478455
-                            ],
-                            [
-                                -3.713625910674239,
-                                40.33198284816894
-                            ],
-                            [
-                                -3.705879426767791,
-                                40.33207206497761
-                            ]
-                        ]
+                        -3.705879426767791,
+                        40.33207206497761
                     ],
                     "type": "Polygon"
                 }
@@ -10687,28 +10508,11 @@ const festsFromAPI = {
             "geo": {
                 "geometry": {
                     "coordinates": [
-                        [
-                            [
-                                2.222601,
-                                41.4106868
-                            ],
-                            [
-                                2.2252617,
-                                41.407436
-                            ],
-                            [
-                                2.2283516,
-                                41.4125214
-                            ],
-                            [
-                                2.225133,
-                                41.413487
-                            ],
-                            [
-                                2.222601,
-                                41.4106868
-                            ]
-                        ]
+
+
+                        2.222601,
+                        41.4106868
+
                     ],
                     "type": "Polygon"
                 }
@@ -10757,7 +10561,7 @@ const festsFromAPI = {
                     "entity_id": "32rCvEsLbWNetjaMNguhJBT",
                     "name": "Jardín Botánico La Concepción",
                     "type": "venue",
-                    "formatted_address": "Camino del Jardín Botánico, 3\n29014 Málaga\nSpain"
+                    "formatted_address": "Camino del Jardín Botánico, 3 29014 Málaga Spain"
                 }
             ],
             "duration": 259199,
@@ -10815,7 +10619,7 @@ const festsFromAPI = {
                     "entity_id": "36Yn7qfz2TkL6kwELkYFuaD",
                     "name": "Bahía Sound",
                     "type": "venue",
-                    "formatted_address": "San Fernando\nSpain"
+                    "formatted_address": "San Fernando Spain"
                 }
             ],
             "duration": 86399,
@@ -10882,7 +10686,7 @@ const festsFromAPI = {
                     "entity_id": "FQdUGbgAC2D7rL2attp3aV",
                     "name": "Gran Teatro de Córdoba",
                     "type": "venue",
-                    "formatted_address": "3 Avenida del Gran Capitán\n14008 Córdoba\nSpain"
+                    "formatted_address": "3 Avenida del Gran Capitán 14008 Córdoba Spain"
                 }
             ],
             "duration": 863999,
@@ -10940,7 +10744,7 @@ const festsFromAPI = {
                     "entity_id": "v4u766UVTLSivgeD4NtLki",
                     "name": "Auditorio La Cantera de Nagüeles",
                     "type": "venue",
-                    "formatted_address": "Calle Albioni, s/n, 29602\n29602 Marbella\nSpain"
+                    "formatted_address": "Calle Albioni, s/n, 29602 29602 Marbella Spain"
                 }
             ],
             "duration": 0,
@@ -11007,7 +10811,7 @@ const festsFromAPI = {
                     "entity_id": "FVhnALBFhGSRTLs7T98Nq",
                     "name": "Weekend Beach Festival",
                     "type": "venue",
-                    "formatted_address": "Calle Faro Nuevo\n29740 Torre del Mar\nSpain"
+                    "formatted_address": "Calle Faro Nuevo 29740 Torre del Mar Spain"
                 }
             ],
             "duration": 345599,
@@ -11074,7 +10878,7 @@ const festsFromAPI = {
                     "entity_id": "v4u766UVTLSivgeD4NtLki",
                     "name": "Auditorio La Cantera de Nagüeles",
                     "type": "venue",
-                    "formatted_address": "Calle Albioni, s/n, 29602\n29602 Marbella\nSpain"
+                    "formatted_address": "Calle Albioni, s/n, 29602 29602 Marbella Spain"
                 }
             ],
             "duration": 0,
@@ -11141,7 +10945,7 @@ const festsFromAPI = {
                     "entity_id": "YRsCdugWLW4Q9XE2yaiGT5",
                     "name": "Festival De Jazz De Vitoria-gasteiz",
                     "type": "venue",
-                    "formatted_address": "Plaza Amadeo Garcia de Salaza\nVitoria-Gasteiz\nSpain"
+                    "formatted_address": "Plaza Amadeo Garcia de Salaza Vitoria-Gasteiz Spain"
                 }
             ],
             "duration": 518399,
@@ -11208,7 +11012,7 @@ const festsFromAPI = {
                     "entity_id": "v4u766UVTLSivgeD4NtLki",
                     "name": "Auditorio La Cantera de Nagüeles",
                     "type": "venue",
-                    "formatted_address": "Calle Albioni, s/n, 29602\n29602 Marbella\nSpain"
+                    "formatted_address": "Calle Albioni, s/n, 29602 29602 Marbella Spain"
                 }
             ],
             "duration": 0,
@@ -11275,7 +11079,7 @@ const festsFromAPI = {
                     "entity_id": "vGH2UCdEzwuPshyJTgAdfB",
                     "name": "Caja Mágica",
                     "type": "venue",
-                    "formatted_address": "The Magic Box, 23 Camino de Perales\n28041 Madrid\nSpain"
+                    "formatted_address": "The Magic Box, 23 Camino de Perales 28041 Madrid Spain"
                 }
             ],
             "duration": 0,
@@ -11334,7 +11138,7 @@ const festsFromAPI = {
                     "entity_id": "39TnXCfSAzLjZrb7DgqTycB",
                     "name": "Centro Cultura Contemporánea L’escorxador De Elche",
                     "type": "venue",
-                    "formatted_address": "CURTIDORS, 23 03203 ELX – ALACANT\nAlicante\nSpain"
+                    "formatted_address": "CURTIDORS, 23 03203 ELX – ALACANT Alicante Spain"
                 }
             ],
             "duration": 32400,
@@ -11401,7 +11205,7 @@ const festsFromAPI = {
                     "entity_id": "7J4md3Y8km9MhudK3KeXhJ",
                     "name": "Canetrock'14",
                     "type": "venue",
-                    "formatted_address": "08360 Canet de Mar\nSpain"
+                    "formatted_address": "08360 Canet de Mar Spain"
                 }
             ],
             "duration": 86399,
@@ -11467,7 +11271,7 @@ const festsFromAPI = {
                     "entity_id": "39g7Fe3UeUstPvJAM8H5FjZ",
                     "name": "Masia d'en Cabanyes",
                     "type": "venue",
-                    "formatted_address": "Camí Ral S/N\n08800 Vilanova i la Geltrú\nSpain"
+                    "formatted_address": "Camí Ral S/N 08800 Vilanova i la Geltrú Spain"
                 }
             ],
             "duration": 86399,
@@ -11534,7 +11338,7 @@ const festsFromAPI = {
                     "entity_id": "nbiPS8YZrshLYFZB5D947j",
                     "name": "Jardines del Conde",
                     "type": "venue",
-                    "formatted_address": "Calle de la Fuente, 8\n41940 Tomares\nSpain"
+                    "formatted_address": "Calle de la Fuente, 8 41940 Tomares Spain"
                 }
             ],
             "duration": 86399,
@@ -11613,7 +11417,7 @@ const festsFromAPI = {
                     ],
                     "description": "MADO (Madrid Pride) , is a series of street celebrations that take place during the city´s LGTB (lesbian, gay, transsexual and bisexual) Pride Week. This is the climax of the Madrid Pride.",
                     "recurring": {
-                        "ical": "DTSTART;VALUE=DATE:20140705\nDURATION:P1D\nRRULE:FREQ=YEARLY;INTERVAL=1"
+                        "ical": "DTSTART;VALUE=DATE:20140705 DURATION:P1D RRULE:FREQ=YEARLY;INTERVAL=1"
                     }
                 }
             ],
@@ -11630,44 +11434,10 @@ const festsFromAPI = {
             "geo": {
                 "geometry": {
                     "coordinates": [
-                        [
-                            [
-                                -3.6932562186051214,
-                                40.41587409049488
-                            ],
-                            [
-                                -3.691501503387454,
-                                40.40916136136554
-                            ],
-                            [
-                                -3.6914003420219146,
-                                40.40877436475299
-                            ],
-                            [
-                                -3.6921743352470067,
-                                40.40857204202191
-                            ],
-                            [
-                                -3.6940825813948788,
-                                40.415872109505116
-                            ],
-                            [
-                                -3.6931985771779354,
-                                40.419321404766144
-                            ],
-                            [
-                                -3.6930992724117897,
-                                40.41970888194408
-                            ],
-                            [
-                                -3.692324318055919,
-                                40.41951027241179
-                            ],
-                            [
-                                -3.6932562186051214,
-                                40.41587409049488
-                            ]
-                        ]
+
+                        -3.6932562186051214,
+                        40.41587409049488
+
                     ],
                     "type": "Polygon"
                 }
@@ -11760,7 +11530,7 @@ const festsFromAPI = {
                     "entity_id": "SZSVUBf9wkiGNyMhrDsKPX",
                     "name": "Fira Montjuic",
                     "type": "venue",
-                    "formatted_address": "08002 Barcelona\nSpain"
+                    "formatted_address": "08002 Barcelona Spain"
                 }
             ],
             "duration": 172799,
@@ -11817,7 +11587,7 @@ const festsFromAPI = {
                     "entity_id": "XKRzRFhA9x4uuzCKCwDgBd",
                     "name": "Resurrection Fest Grounds",
                     "type": "venue",
-                    "formatted_address": "Avenida Ramon Canosa\n27869 Viveiro\nSpain"
+                    "formatted_address": "Avenida Ramon Canosa 27869 Viveiro Spain"
                 }
             ],
             "duration": 86399,
@@ -11875,7 +11645,7 @@ const festsFromAPI = {
                     "entity_id": "VQTMkbXtZsb9XyLVPH8PgD",
                     "name": "Asalto ao castelo de Vimianzo",
                     "type": "venue",
-                    "formatted_address": "Camino Campo de Fútbol, sn. Vimianzo\nLa Coruna\nSpain"
+                    "formatted_address": "Camino Campo de Fútbol, sn. Vimianzo La Coruna Spain"
                 }
             ],
             "duration": 86399,
@@ -11942,7 +11712,7 @@ const festsFromAPI = {
                     "entity_id": "vGH2UCdEzwuPshyJTgAdfB",
                     "name": "Caja Mágica",
                     "type": "venue",
-                    "formatted_address": "The Magic Box, 23 Camino de Perales\n28041 Madrid\nSpain"
+                    "formatted_address": "The Magic Box, 23 Camino de Perales 28041 Madrid Spain"
                 }
             ],
             "duration": 0,
@@ -12000,7 +11770,7 @@ const festsFromAPI = {
                     "entity_id": "vGH2UCdEzwuPshyJTgAdfB",
                     "name": "Caja Mágica",
                     "type": "venue",
-                    "formatted_address": "The Magic Box, 23 Camino de Perales\n28041 Madrid\nSpain"
+                    "formatted_address": "The Magic Box, 23 Camino de Perales 28041 Madrid Spain"
                 }
             ],
             "duration": 259199,
@@ -12016,28 +11786,9 @@ const festsFromAPI = {
             "geo": {
                 "geometry": {
                     "coordinates": [
-                        [
-                            [
-                                -3.6853784,
-                                40.3693587
-                            ],
-                            [
-                                -3.6846328,
-                                40.367969
-                            ],
-                            [
-                                -3.6827874,
-                                40.3685821
-                            ],
-                            [
-                                -3.6835384,
-                                40.3699513
-                            ],
-                            [
-                                -3.6853784,
-                                40.3693587
-                            ]
-                        ]
+                        -3.6853784,
+                        40.3693587
+
                     ],
                     "type": "Polygon"
                 }
@@ -12077,7 +11828,7 @@ const festsFromAPI = {
                     "entity_id": "UcP64VUz6h6zgcnwSwfwah",
                     "name": "IES Arzobispo Lozano",
                     "type": "venue",
-                    "formatted_address": "Av. de Levante, 20\n30520 Jumilla\nSpain"
+                    "formatted_address": "Av. de Levante, 20 30520 Jumilla Spain"
                 }
             ],
             "duration": 172799,
@@ -12135,7 +11886,7 @@ const festsFromAPI = {
                     "entity_id": "gNemBqW9vCp7duLVvmRTUV",
                     "name": "Recinto Oasis Sound",
                     "type": "venue",
-                    "formatted_address": "Camino Pozo de los Carneros S/N\nCiudad Real\nSpain"
+                    "formatted_address": "Camino Pozo de los Carneros S/N Ciudad Real Spain"
                 }
             ],
             "duration": 172799,
@@ -12193,7 +11944,7 @@ const festsFromAPI = {
                     "entity_id": "Ef9tLQBGdsDQ5iGmMe5U95",
                     "name": "Conexión Valladolid",
                     "type": "venue",
-                    "formatted_address": "CL-610, 230\n47008 Valladolid\nSpain"
+                    "formatted_address": "CL-610, 230 47008 Valladolid Spain"
                 }
             ],
             "duration": 172799,
@@ -12260,7 +12011,7 @@ const festsFromAPI = {
                     "entity_id": "HzJ55gk5FL78S8UrURXhWm",
                     "name": "Estadio Mpal. Antonio Peroles",
                     "type": "venue",
-                    "formatted_address": "04740 Roquetas de Mar\nSpain"
+                    "formatted_address": "04740 Roquetas de Mar Spain"
                 }
             ],
             "duration": 172799,
@@ -12326,7 +12077,7 @@ const festsFromAPI = {
                     "entity_id": "XKRzRFhA9x4uuzCKCwDgBd",
                     "name": "Resurrection Fest Grounds",
                     "type": "venue",
-                    "formatted_address": "Avenida Ramon Canosa\n27869 Viveiro\nSpain"
+                    "formatted_address": "Avenida Ramon Canosa 27869 Viveiro Spain"
                 }
             ],
             "duration": 86399,
@@ -12384,7 +12135,7 @@ const festsFromAPI = {
                     "entity_id": "nBnaiXz9WhETGx4GSUsVDu",
                     "name": "Porto Do Son",
                     "type": "venue",
-                    "formatted_address": "La Coruna\nSpain"
+                    "formatted_address": "La Coruna Spain"
                 }
             ],
             "duration": 259199,
@@ -12442,7 +12193,7 @@ const festsFromAPI = {
                     "entity_id": "q6yHtxkiSsnwAMXLV3mr3M",
                     "name": "Instalaciones Deportivas Los Pinos",
                     "type": "venue",
-                    "formatted_address": "Valladolid\nSpain"
+                    "formatted_address": "Valladolid Spain"
                 }
             ],
             "duration": 86399,
@@ -12500,7 +12251,7 @@ const festsFromAPI = {
                     "entity_id": "sEWcbKESeu8myGzAtU4nF7",
                     "name": "Guixols Arena",
                     "type": "venue",
-                    "formatted_address": "Av. de Catalunya\n17220 Sant Feliu de Guíxols\nSpain"
+                    "formatted_address": "Av. de Catalunya 17220 Sant Feliu de Guíxols Spain"
                 }
             ],
             "duration": 4492799,
@@ -12567,7 +12318,7 @@ const festsFromAPI = {
                     "entity_id": "aUVz7zFxKkeG8fn4WYkp3V",
                     "name": "Campo Hípico Municipal \"El Parque\"",
                     "type": "venue",
-                    "formatted_address": "León\nSpain"
+                    "formatted_address": "León Spain"
                 }
             ],
             "duration": 86399,
@@ -12633,7 +12384,7 @@ const festsFromAPI = {
                     "entity_id": "39g7Fe3UeUstPvJAM8H5FjZ",
                     "name": "Masia d'en Cabanyes",
                     "type": "venue",
-                    "formatted_address": "Camí Ral S/N\n08800 Vilanova i la Geltrú\nSpain"
+                    "formatted_address": "Camí Ral S/N 08800 Vilanova i la Geltrú Spain"
                 }
             ],
             "duration": 86399,
@@ -12700,7 +12451,7 @@ const festsFromAPI = {
                     "entity_id": "Zjw4NQSff8z3qwWCbfBygi",
                     "name": "Auditorio Natural",
                     "type": "venue",
-                    "formatted_address": "Balboa\nSpain"
+                    "formatted_address": "Balboa Spain"
                 }
             ],
             "duration": 0,
@@ -12758,7 +12509,7 @@ const festsFromAPI = {
                     "entity_id": "qQKPPLdfzUTjgRmfKCh2FX",
                     "name": "Ciudad de las Artes y las Ciencias",
                     "type": "venue",
-                    "formatted_address": "Avinguda Autopista Del Saler Nº 1, 3, 5, 7\nValencia\nSpain"
+                    "formatted_address": "Avinguda Autopista Del Saler Nº 1, 3, 5, 7 Valencia Spain"
                 }
             ],
             "duration": 259199,
@@ -12824,7 +12575,7 @@ const festsFromAPI = {
                     "entity_id": "39g7Fe3UeUstPvJAM8H5FjZ",
                     "name": "Masia d'en Cabanyes",
                     "type": "venue",
-                    "formatted_address": "Camí Ral S/N\n08800 Vilanova i la Geltrú\nSpain"
+                    "formatted_address": "Camí Ral S/N 08800 Vilanova i la Geltrú Spain"
                 }
             ],
             "duration": 86399,
@@ -12894,7 +12645,7 @@ const festsFromAPI = {
                     "entity_id": "HQRBEwPmFYFZ2UNSaAwEut",
                     "name": "Estadio el Malecón",
                     "type": "venue",
-                    "formatted_address": "39300 Torrelavega\nSpain"
+                    "formatted_address": "39300 Torrelavega Spain"
                 }
             ],
             "duration": 259199,
@@ -12960,7 +12711,7 @@ const festsFromAPI = {
                     "entity_id": "XKRzRFhA9x4uuzCKCwDgBd",
                     "name": "Resurrection Fest Grounds",
                     "type": "venue",
-                    "formatted_address": "Avenida Ramon Canosa\n27869 Viveiro\nSpain"
+                    "formatted_address": "Avenida Ramon Canosa 27869 Viveiro Spain"
                 }
             ],
             "duration": 86399,
@@ -13018,7 +12769,7 @@ const festsFromAPI = {
                     "entity_id": "vEwnrM87gueJQ6AP3xgFQF",
                     "name": "Resurrection Festival",
                     "type": "venue",
-                    "formatted_address": "Santiago de Compostela\nSpain"
+                    "formatted_address": "Santiago de Compostela Spain"
                 }
             ],
             "duration": 431999,
@@ -13076,7 +12827,7 @@ const festsFromAPI = {
                     "entity_id": "5Sqc6EfMz3nvtRWDrHE3Zb",
                     "name": "Campo de Fútbol Celeiro",
                     "type": "venue",
-                    "formatted_address": "Av De Vicente Gradaile Trobo\nViveiro\nSpain"
+                    "formatted_address": "Av De Vicente Gradaile Trobo Viveiro Spain"
                 }
             ],
             "duration": 345599,
@@ -13134,13 +12885,13 @@ const festsFromAPI = {
                     "entity_id": "Aj9tQntTgf9iCvk5GfFsKm",
                     "name": "El Malecon Torrelavega",
                     "type": "venue",
-                    "formatted_address": "11 Calle Hermanos de Carriedo y Peredo\n39300 Torrelavega\nSpain"
+                    "formatted_address": "11 Calle Hermanos de Carriedo y Peredo 39300 Torrelavega Spain"
                 },
                 {
                     "entity_id": "tpzYpcB7YGJUEbg6CkeQHZ",
                     "name": "Musica Grande",
                     "type": "event-group",
-                    "formatted_address": "39300 Torrelavega\nSpain",
+                    "formatted_address": "39300 Torrelavega Spain",
                     "category": "festivals",
                     "labels": [
                         "event-group",
@@ -13148,7 +12899,7 @@ const festsFromAPI = {
                         "recurring"
                     ],
                     "recurring": {
-                        "ical": "DTSTART;VALUE=DATE-TIME:20180722T000000\nRRULE:FREQ=YEARLY;INTERVAL=1"
+                        "ical": "DTSTART;VALUE=DATE-TIME:20180722T000000 RRULE:FREQ=YEARLY;INTERVAL=1"
                     }
                 }
             ],
@@ -13216,7 +12967,7 @@ const festsFromAPI = {
                     "entity_id": "37MBmKGz9ABTWEjzX3UDsLz",
                     "name": "Palau Sant Jordi",
                     "type": "venue",
-                    "formatted_address": "5-7 Passeig Olímpic\n08038 Barcelona\nSpain"
+                    "formatted_address": "5-7 Passeig Olímpic 08038 Barcelona Spain"
                 }
             ],
             "duration": 0,
@@ -13232,28 +12983,9 @@ const festsFromAPI = {
             "geo": {
                 "geometry": {
                     "coordinates": [
-                        [
-                            [
-                                2.1518684,
-                                41.3641399
-                            ],
-                            [
-                                2.151627,
-                                41.3621349
-                            ],
-                            [
-                                2.1533329,
-                                41.3620946
-                            ],
-                            [
-                                2.1533705,
-                                41.3641198
-                            ],
-                            [
-                                2.1518684,
-                                41.3641399
-                            ]
-                        ]
+                        2.1518684,
+                        41.3641399
+
                     ],
                     "type": "Polygon"
                 }
@@ -13293,7 +13025,7 @@ const festsFromAPI = {
                     "entity_id": "Mv8wvzUfRZVSQWnRfFWXcK",
                     "name": "Parc de Pedralbes",
                     "type": "venue",
-                    "formatted_address": "686 Avda. Diagonal\n08034 Barcelona\nSpain"
+                    "formatted_address": "686 Avda. Diagonal 08034 Barcelona Spain"
                 }
             ],
             "duration": 2591999,
@@ -13360,7 +13092,7 @@ const festsFromAPI = {
                     "entity_id": "32kCzLCCaxPDeHLFHeKTaAb",
                     "name": "Parc de Can Muntanyà",
                     "type": "venue",
-                    "formatted_address": "La Riera, 54\n08393 Caldes d'Estrac\nSpain"
+                    "formatted_address": "La Riera, 54 08393 Caldes d'Estrac Spain"
                 }
             ],
             "duration": 1123199,
@@ -13427,7 +13159,7 @@ const festsFromAPI = {
                     "entity_id": "jA4VufxHptgxy649P854cV",
                     "name": "Parador de Cuenca",
                     "type": "venue",
-                    "formatted_address": "Cuenca\nSpain"
+                    "formatted_address": "Cuenca Spain"
                 }
             ],
             "duration": 1036799,
@@ -13485,7 +13217,7 @@ const festsFromAPI = {
                     "entity_id": "DVePDcieJgJQJqMVFWKHdv",
                     "name": "Valle De La Música, Cangas de Onís",
                     "type": "venue",
-                    "formatted_address": "N-634, km 340\nVillaviciosa\nSpain"
+                    "formatted_address": "N-634, km 340 Villaviciosa Spain"
                 }
             ],
             "duration": 172799,
@@ -13501,28 +13233,9 @@ const festsFromAPI = {
             "geo": {
                 "geometry": {
                     "coordinates": [
-                        [
-                            [
-                                -5.1779749,
-                                43.3963118
-                            ],
-                            [
-                                -5.1800885,
-                                43.3928192
-                            ],
-                            [
-                                -5.1726427,
-                                43.3938171
-                            ],
-                            [
-                                -5.1734366,
-                                43.3957194
-                            ],
-                            [
-                                -5.1779749,
-                                43.3963118
-                            ]
-                        ]
+                        -5.1779749,
+                        43.3963118
+
                     ],
                     "type": "Polygon"
                 }
@@ -13562,7 +13275,7 @@ const festsFromAPI = {
                     "entity_id": "v4u766UVTLSivgeD4NtLki",
                     "name": "Auditorio La Cantera de Nagüeles",
                     "type": "venue",
-                    "formatted_address": "Calle Albioni, s/n, 29602\n29602 Marbella\nSpain"
+                    "formatted_address": "Calle Albioni, s/n, 29602 29602 Marbella Spain"
                 }
             ],
             "duration": 0,
@@ -13740,7 +13453,7 @@ const festsFromAPI = {
                     "entity_id": "SW927raYeKvmidPSMkk9fv",
                     "name": "Abadiño",
                     "type": "venue",
-                    "formatted_address": "Herriko Plaza\n48200 Durango\nSpain"
+                    "formatted_address": "Herriko Plaza 48200 Durango Spain"
                 }
             ],
             "duration": 86399,
@@ -13807,7 +13520,7 @@ const festsFromAPI = {
                     "entity_id": "uiU9xKBMDGLpacyAxpVANk",
                     "name": "Cebarock",
                     "type": "venue",
-                    "formatted_address": "La Pobla de Vallbona\nValencia\nSpain"
+                    "formatted_address": "La Pobla de Vallbona Valencia Spain"
                 }
             ],
             "duration": 86399,
@@ -13874,7 +13587,7 @@ const festsFromAPI = {
                     "entity_id": "nbiPS8YZrshLYFZB5D947j",
                     "name": "Jardines del Conde",
                     "type": "venue",
-                    "formatted_address": "Calle de la Fuente, 8\n41940 Tomares\nSpain"
+                    "formatted_address": "Calle de la Fuente, 8 41940 Tomares Spain"
                 }
             ],
             "duration": 86399,
@@ -13941,7 +13654,7 @@ const festsFromAPI = {
                     "entity_id": "36wH9WeXsMJHM2riEB5dAtY",
                     "name": "Castillo Sohail",
                     "type": "venue",
-                    "formatted_address": "C/Tartessos s/n\n29640 Fuengirola\nSpain"
+                    "formatted_address": "C/Tartessos s/n 29640 Fuengirola Spain"
                 }
             ],
             "duration": 86399,
@@ -14008,7 +13721,7 @@ const festsFromAPI = {
                     "entity_id": "XatHyM6T8k4rny3jw54CJD",
                     "name": "Spring Urban Soria",
                     "type": "venue",
-                    "formatted_address": "42004 Soria\nSpain"
+                    "formatted_address": "42004 Soria Spain"
                 }
             ],
             "duration": 172799,
@@ -14065,7 +13778,7 @@ const festsFromAPI = {
                     "entity_id": "RbkSK9ghGbTmhG5wm8nd7D",
                     "name": "Enrique Tierno Galván Park",
                     "type": "venue",
-                    "formatted_address": "4 Calle Meneses\n28045 Madrid\nSpain"
+                    "formatted_address": "4 Calle Meneses 28045 Madrid Spain"
                 }
             ],
             "duration": 86399,
@@ -14132,7 +13845,7 @@ const festsFromAPI = {
                     "entity_id": "7PSPikNG5Y7zQrN4p7BMP4",
                     "name": "IFEMA - Feria de Madrid",
                     "type": "venue",
-                    "formatted_address": "IFEMA Feria de Madrid, 5 Avenida Partenón\n28042 Madrid\nSpain"
+                    "formatted_address": "IFEMA Feria de Madrid, 5 Avenida Partenón 28042 Madrid Spain"
                 }
             ],
             "duration": 172799,
@@ -14200,7 +13913,7 @@ const festsFromAPI = {
                     "entity_id": "35Th4U2PJU3dT7Cnrf4CyKm",
                     "name": "Murcia Parque",
                     "type": "venue",
-                    "formatted_address": "30004 Murcia\nSpain"
+                    "formatted_address": "30004 Murcia Spain"
                 }
             ],
             "duration": 86399,
@@ -14258,7 +13971,7 @@ const festsFromAPI = {
                     "entity_id": "WdESGANciBwpNZJ9SFEFn6",
                     "name": "Platja de L'Estartit",
                     "type": "venue",
-                    "formatted_address": "Pg. Marítim, 95\nL'Estartit\nSpain"
+                    "formatted_address": "Pg. Marítim, 95 L'Estartit Spain"
                 }
             ],
             "duration": 86399,
@@ -14325,7 +14038,7 @@ const festsFromAPI = {
                     "entity_id": "jXDAzKNRu6JXsKwNi2TxX5",
                     "name": "Complejo Deportivo Municipal Lozano Montoya de el Toboso",
                     "type": "venue",
-                    "formatted_address": "Cam. Belmonte, 3, El Toboso\nToledo\nSpain"
+                    "formatted_address": "Cam. Belmonte, 3, El Toboso Toledo Spain"
                 }
             ],
             "duration": 0,
@@ -14383,7 +14096,7 @@ const festsFromAPI = {
                     "entity_id": "v4u766UVTLSivgeD4NtLki",
                     "name": "Auditorio La Cantera de Nagüeles",
                     "type": "venue",
-                    "formatted_address": "Calle Albioni, s/n, 29602\n29602 Marbella\nSpain"
+                    "formatted_address": "Calle Albioni, s/n, 29602 29602 Marbella Spain"
                 }
             ],
             "duration": 0,
@@ -14522,7 +14235,7 @@ const festsFromAPI = {
                     ],
                     "description": "Starlite Festival is the most important boutique festival in Europe. The event not only features concerts, since the public also will have the opportunity to have dance, have dinner and drinks.",
                     "recurring": {
-                        "ical": "DTSTART;VALUE=DATE:20170713\nDURATION:P47DT4H\nRRULE:FREQ=YEARLY;INTERVAL=1"
+                        "ical": "DTSTART;VALUE=DATE:20170713 DURATION:P47DT4H RRULE:FREQ=YEARLY;INTERVAL=1"
                     }
                 }
             ],
@@ -14539,28 +14252,9 @@ const festsFromAPI = {
             "geo": {
                 "geometry": {
                     "coordinates": [
-                        [
-                            [
-                                -4.914334,
-                                36.5088058
-                            ],
-                            [
-                                -4.9142482,
-                                36.5085751
-                            ],
-                            [
-                                -4.9130171,
-                                36.5088834
-                            ],
-                            [
-                                -4.9131109,
-                                36.5091119
-                            ],
-                            [
-                                -4.914334,
-                                36.5088058
-                            ]
-                        ]
+                        -4.914334,
+                        36.5088058
+
                     ],
                     "type": "Polygon"
                 }
@@ -14609,7 +14303,7 @@ const festsFromAPI = {
                     "entity_id": "XXSTXaChTS3WaaPWBqx79p",
                     "name": "SON FUSTERET",
                     "type": "venue",
-                    "formatted_address": "Camí Vell de Bunyola, s/n\nPalma de Mallorca\nSpain"
+                    "formatted_address": "Camí Vell de Bunyola, s/n Palma de Mallorca Spain"
                 }
             ],
             "duration": 0,
@@ -14676,7 +14370,7 @@ const festsFromAPI = {
                     "entity_id": "S4tcLTmUq5HTsub6VnFQ4b",
                     "name": "Anexo Estadio de Gran Canaria",
                     "type": "venue",
-                    "formatted_address": "s/n Calle Fondos de Segura\n35019 Las Palmas de Gran Canaria\nSpain"
+                    "formatted_address": "s/n Calle Fondos de Segura 35019 Las Palmas de Gran Canaria Spain"
                 }
             ],
             "duration": 172799,
@@ -14743,13 +14437,13 @@ const festsFromAPI = {
                     "entity_id": "Ga22XxG4U3biFENVmAgUQY",
                     "name": "Ítaca Cultura (Platja Gran)",
                     "type": "venue",
-                    "formatted_address": "L'Estartit\nSpain"
+                    "formatted_address": "L'Estartit Spain"
                 },
                 {
                     "entity_id": "LCnsCmXZxSwnH27VFe2rS",
                     "name": "Festival Itaca",
                     "type": "event-group",
-                    "formatted_address": "17258 Torroella de Montgrí\nSpain",
+                    "formatted_address": "17258 Torroella de Montgrí Spain",
                     "category": "festivals",
                     "labels": [
                         "event-group",
@@ -14757,7 +14451,7 @@ const festsFromAPI = {
                         "recurring"
                     ],
                     "recurring": {
-                        "ical": "DTSTART;VALUE=DATE-TIME:20210624T000000\nRRULE:FREQ=YEARLY;INTERVAL=1"
+                        "ical": "DTSTART;VALUE=DATE-TIME:20210624T000000 RRULE:FREQ=YEARLY;INTERVAL=1"
                     }
                 }
             ],
@@ -14833,7 +14527,7 @@ const festsFromAPI = {
                     ],
                     "description": "MADO (Madrid Pride) , is a series of street celebrations that take place during the city´s LGTB (lesbian, gay, transsexual and bisexual) Pride Week.",
                     "recurring": {
-                        "ical": "DTSTART;VALUE=DATE:20140702\nDURATION:P8D\nRRULE:FREQ=YEARLY;INTERVAL=1"
+                        "ical": "DTSTART;VALUE=DATE:20140702 DURATION:P8D RRULE:FREQ=YEARLY;INTERVAL=1"
                     }
                 }
             ],
@@ -14850,44 +14544,9 @@ const festsFromAPI = {
             "geo": {
                 "geometry": {
                     "coordinates": [
-                        [
-                            [
-                                -3.6956153181926874,
-                                40.42806066791875
-                            ],
-                            [
-                                -3.690795993275601,
-                                40.42571413541965
-                            ],
-                            [
-                                -3.6904363578559463,
-                                40.425539028695255
-                            ],
-                            [
-                                -3.6907865713047445,
-                                40.42481975785594
-                            ],
-                            [
-                                -3.6958540818073127,
-                                40.427287132081254
-                            ],
-                            [
-                                -3.715834258820282,
-                                40.430218235962485
-                            ],
-                            [
-                                -3.716230022857794,
-                                40.430276294782765
-                            ],
-                            [
-                                -3.7161139052172296,
-                                40.43106782285779
-                            ],
-                            [
-                                -3.6956153181926874,
-                                40.42806066791875
-                            ]
-                        ]
+                        -3.6956153181926874,
+                        40.42806066791875
+
                     ],
                     "type": "Polygon"
                 }
@@ -14927,13 +14586,13 @@ const festsFromAPI = {
                     "entity_id": "32xEGMyiknW2H7PRUZNZBzz",
                     "name": "Mozota",
                     "type": "venue",
-                    "formatted_address": "Av. Poza Genaro\nZaragoza\nSpain"
+                    "formatted_address": "Av. Poza Genaro Zaragoza Spain"
                 },
                 {
                     "entity_id": "3BhQehksg9WBZTFpWh7sYLv",
                     "name": "Bosque Sonoro",
                     "type": "event-group",
-                    "formatted_address": "50440 Mozota\nSpain",
+                    "formatted_address": "50440 Mozota Spain",
                     "category": "festivals",
                     "labels": [
                         "event-group",
@@ -14941,7 +14600,7 @@ const festsFromAPI = {
                         "recurring"
                     ],
                     "recurring": {
-                        "ical": "DTSTART;VALUE=DATE-TIME:20210701T000000\nRRULE:FREQ=YEARLY;INTERVAL=1"
+                        "ical": "DTSTART;VALUE=DATE-TIME:20210701T000000 RRULE:FREQ=YEARLY;INTERVAL=1"
                     }
                 }
             ],
@@ -15009,7 +14668,7 @@ const festsFromAPI = {
                     "entity_id": "tJDRRqRK6dyp9YdtKK9gLR",
                     "name": "Ciudad del Rock",
                     "type": "venue",
-                    "formatted_address": "28500 Arganda del Rey\nSpain"
+                    "formatted_address": "28500 Arganda del Rey Spain"
                 }
             ],
             "duration": 172799,
@@ -15076,7 +14735,7 @@ const festsFromAPI = {
                     "entity_id": "nbiPS8YZrshLYFZB5D947j",
                     "name": "Jardines del Conde",
                     "type": "venue",
-                    "formatted_address": "Calle de la Fuente, 8\n41940 Tomares\nSpain"
+                    "formatted_address": "Calle de la Fuente, 8 41940 Tomares Spain"
                 }
             ],
             "duration": 259199,
@@ -15142,7 +14801,7 @@ const festsFromAPI = {
                     "entity_id": "RbkSK9ghGbTmhG5wm8nd7D",
                     "name": "Enrique Tierno Galván Park",
                     "type": "venue",
-                    "formatted_address": "4 Calle Meneses\n28045 Madrid\nSpain"
+                    "formatted_address": "4 Calle Meneses 28045 Madrid Spain"
                 }
             ],
             "duration": 86399,
@@ -15209,7 +14868,7 @@ const festsFromAPI = {
                     "entity_id": "uR5RnsAknf2RPKxR7tERr6",
                     "name": "El Ventorrillo del Cura",
                     "type": "venue",
-                    "formatted_address": "Camino de Totalán, s/n\n29018 Málaga\nSpain"
+                    "formatted_address": "Camino de Totalán, s/n 29018 Málaga Spain"
                 }
             ],
             "duration": 86399,
@@ -15276,7 +14935,7 @@ const festsFromAPI = {
                     "entity_id": "fyLF82BYwCQakveKBfdBAD",
                     "name": "Rock Imperium Festival, Cartagena",
                     "type": "venue",
-                    "formatted_address": "Parque de la Cuesta del Batel\n30202 Cartagena\nSpain"
+                    "formatted_address": "Parque de la Cuesta del Batel 30202 Cartagena Spain"
                 }
             ],
             "duration": 259199,
@@ -15343,7 +15002,7 @@ const festsFromAPI = {
                     "entity_id": "dttpEuKZ63cCtiam644H6W",
                     "name": "Mugacu Fest",
                     "type": "venue",
-                    "formatted_address": "Viana\nSpain"
+                    "formatted_address": "Viana Spain"
                 }
             ],
             "duration": 259199,
@@ -15400,7 +15059,7 @@ const festsFromAPI = {
                     "entity_id": "RbkSK9ghGbTmhG5wm8nd7D",
                     "name": "Enrique Tierno Galván Park",
                     "type": "venue",
-                    "formatted_address": "4 Calle Meneses\n28045 Madrid\nSpain"
+                    "formatted_address": "4 Calle Meneses 28045 Madrid Spain"
                 }
             ],
             "duration": 86399,
@@ -15518,7 +15177,7 @@ const festsFromAPI = {
                     "entity_id": "3BNy535DQmeSMCDwPAuYMaS",
                     "name": "Recinto Ferial de Albacete ITAP",
                     "type": "venue",
-                    "formatted_address": "Albacete\nSpain"
+                    "formatted_address": "Albacete Spain"
                 }
             ],
             "duration": 259199,
@@ -15576,7 +15235,7 @@ const festsFromAPI = {
                     "entity_id": "rYV3ZGBDC4hx4aZKw8j9tS",
                     "name": "Parque Enrique Tierno Galván",
                     "type": "venue",
-                    "formatted_address": "Av. del Planetario, s/n\n28045 Madrid\nSpain"
+                    "formatted_address": "Av. del Planetario, s/n 28045 Madrid Spain"
                 }
             ],
             "duration": 259199,
@@ -15634,7 +15293,7 @@ const festsFromAPI = {
                     "entity_id": "v4u766UVTLSivgeD4NtLki",
                     "name": "Auditorio La Cantera de Nagüeles",
                     "type": "venue",
-                    "formatted_address": "Calle Albioni, s/n, 29602\n29602 Marbella\nSpain"
+                    "formatted_address": "Calle Albioni, s/n, 29602 29602 Marbella Spain"
                 }
             ],
             "duration": 0,
@@ -15701,7 +15360,7 @@ const festsFromAPI = {
                     "entity_id": "aUVz7zFxKkeG8fn4WYkp3V",
                     "name": "Campo Hípico Municipal \"El Parque\"",
                     "type": "venue",
-                    "formatted_address": "León\nSpain"
+                    "formatted_address": "León Spain"
                 }
             ],
             "duration": 172799,
@@ -15768,7 +15427,7 @@ const festsFromAPI = {
                     "entity_id": "NYmXbtB7tZDtyYM9qDHLMT",
                     "name": "Sala CLAMORES",
                     "type": "venue",
-                    "formatted_address": "14 Calle Alburquerque\n28010 Madrid\nSpain"
+                    "formatted_address": "14 Calle Alburquerque 28010 Madrid Spain"
                 }
             ],
             "duration": 0,
@@ -15827,7 +15486,7 @@ const festsFromAPI = {
                     "entity_id": "etBSJEgHSXLp5pJHhcBnCk",
                     "name": "Parc del Fòrum",
                     "type": "venue",
-                    "formatted_address": "Parc Del Forum, 1 Rambla de Prim\n08019 Barcelona\nSpain"
+                    "formatted_address": "Parc Del Forum, 1 Rambla de Prim 08019 Barcelona Spain"
                 }
             ],
             "duration": 39600,
@@ -15954,7 +15613,7 @@ const festsFromAPI = {
                     "entity_id": "NJrV4XyKWvJ4CBxQqmkPtf",
                     "name": "Lleida",
                     "type": "venue",
-                    "formatted_address": "08002 Barcelona\nSpain"
+                    "formatted_address": "08002 Barcelona Spain"
                 }
             ],
             "duration": 86399,
@@ -16071,7 +15730,7 @@ const festsFromAPI = {
                     "entity_id": "WFc98kwXkrkafQWcyrpRwB",
                     "name": "Complejo Playapark",
                     "type": "venue",
-                    "formatted_address": "Avenida de los Descubrimientos s/n\n13005 Ciudad Real\nSpain"
+                    "formatted_address": "Avenida de los Descubrimientos s/n 13005 Ciudad Real Spain"
                 }
             ],
             "duration": 86399,
@@ -16189,7 +15848,7 @@ const festsFromAPI = {
                     "entity_id": "FxZhDAHAgXyZwZzbSwXQXv",
                     "name": "Hola Beach Club",
                     "type": "venue",
-                    "formatted_address": "cala vallcarca, C-31\n08870 Sitges\nSpain"
+                    "formatted_address": "cala vallcarca, C-31 08870 Sitges Spain"
                 }
             ],
             "duration": 0,
@@ -16256,7 +15915,7 @@ const festsFromAPI = {
                     "entity_id": "7uAriU6TFspNsW2PD29eFc",
                     "name": "Amstel Art. Veles e vents",
                     "type": "venue",
-                    "formatted_address": "Marina Real Juan Carlos I, Muelle de la Aduana, s/n Valencia\n46024 València\nSpain"
+                    "formatted_address": "Marina Real Juan Carlos I, Muelle de la Aduana, s/n Valencia 46024 València Spain"
                 }
             ],
             "duration": 172799,
@@ -16322,7 +15981,7 @@ const festsFromAPI = {
                     "entity_id": "UePrBVd7Dz22kVNszC5UqF",
                     "name": "Tronco Bar",
                     "type": "venue",
-                    "formatted_address": "Av. Matos\n36153 Pontevedra\nSpain"
+                    "formatted_address": "Av. Matos 36153 Pontevedra Spain"
                 }
             ],
             "duration": 86399,
@@ -16389,7 +16048,7 @@ const festsFromAPI = {
                     "entity_id": "pU7zpGUsnmcUWbyhfRbyr6",
                     "name": "Auditorio Miguel Ríos",
                     "type": "venue",
-                    "formatted_address": "s/n Paseo Alicia Alonso\n28521 Rivas-Vaciamadrid\nSpain"
+                    "formatted_address": "s/n Paseo Alicia Alonso 28521 Rivas-Vaciamadrid Spain"
                 }
             ],
             "duration": 86399,
@@ -16456,7 +16115,7 @@ const festsFromAPI = {
                     "entity_id": "bVRMRJBbXW4qtADSnDZfX5",
                     "name": "Lalín Arena",
                     "type": "venue",
-                    "formatted_address": "Avenida José Cuíña, 42, Lalín\n36500 Lalín\nSpain"
+                    "formatted_address": "Avenida José Cuíña, 42, Lalín 36500 Lalín Spain"
                 }
             ],
             "duration": 86399,
@@ -16523,7 +16182,7 @@ const festsFromAPI = {
                     "entity_id": "JKwaqR66Jt8PsapTzTmnRh",
                     "name": "Camp Municipal d'Esports d'Empuriabrava",
                     "type": "venue",
-                    "formatted_address": "Castelló d'Empueries\nGirona\nSpain"
+                    "formatted_address": "Castelló d'Empueries Girona Spain"
                 }
             ],
             "duration": 86399,
@@ -16590,7 +16249,7 @@ const festsFromAPI = {
                     "entity_id": "7PSPikNG5Y7zQrN4p7BMP4",
                     "name": "IFEMA - Feria de Madrid",
                     "type": "venue",
-                    "formatted_address": "IFEMA Feria de Madrid, 5 Avenida Partenón\n28042 Madrid\nSpain"
+                    "formatted_address": "IFEMA Feria de Madrid, 5 Avenida Partenón 28042 Madrid Spain"
                 }
             ],
             "duration": 86399,
@@ -16657,7 +16316,7 @@ const festsFromAPI = {
                     "entity_id": "3LTuYczXExcMnQn7WbyCmx",
                     "name": "Azkena Rock Festival",
                     "type": "venue",
-                    "formatted_address": "Vitoria-Gasteiz\nSpain"
+                    "formatted_address": "Vitoria-Gasteiz Spain"
                 }
             ],
             "duration": 86399,
@@ -16724,7 +16383,7 @@ const festsFromAPI = {
                     "entity_id": "qfrBCErrugrjbTxvqKDvFw",
                     "name": "Industrial Copera",
                     "type": "venue",
-                    "formatted_address": "Parcela 13 Calle Desmond Tutu\n18640 La Zubia\nSpain"
+                    "formatted_address": "Parcela 13 Calle Desmond Tutu 18640 La Zubia Spain"
                 }
             ],
             "duration": 86399,
@@ -16791,7 +16450,7 @@ const festsFromAPI = {
                     "entity_id": "tMUKV7HVHpFVf3XaLMD3nG",
                     "name": "Recinto Pista Jardin, L'Alcora",
                     "type": "venue",
-                    "formatted_address": "Passeig de la Font Nova 2\nCastellon De La Plana\nSpain"
+                    "formatted_address": "Passeig de la Font Nova 2 Castellon De La Plana Spain"
                 }
             ],
             "duration": 172799,
@@ -16858,7 +16517,7 @@ const festsFromAPI = {
                     "entity_id": "37MBmKGz9ABTWEjzX3UDsLz",
                     "name": "Palau Sant Jordi",
                     "type": "venue",
-                    "formatted_address": "5-7 Passeig Olímpic\n08038 Barcelona\nSpain"
+                    "formatted_address": "5-7 Passeig Olímpic 08038 Barcelona Spain"
                 }
             ],
             "duration": 0,
@@ -16935,7 +16594,7 @@ const festsFromAPI = {
                     "entity_id": "YmFSQeZJqxpw9svHxNQucY",
                     "name": "Estadio Cívitas Metropolitano",
                     "type": "venue",
-                    "formatted_address": "4 Avenida De Luis Aragonés\n28022 Madrid\nSpain"
+                    "formatted_address": "4 Avenida De Luis Aragonés 28022 Madrid Spain"
                 }
             ],
             "duration": 0,
@@ -17002,7 +16661,7 @@ const festsFromAPI = {
                     "entity_id": "YmFSQeZJqxpw9svHxNQucY",
                     "name": "Estadio Cívitas Metropolitano",
                     "type": "venue",
-                    "formatted_address": "4 Avenida De Luis Aragonés\n28022 Madrid\nSpain"
+                    "formatted_address": "4 Avenida De Luis Aragonés 28022 Madrid Spain"
                 }
             ],
             "duration": 86399,
@@ -17068,7 +16727,7 @@ const festsFromAPI = {
                     "entity_id": "3LTuYczXExcMnQn7WbyCmx",
                     "name": "Azkena Rock Festival",
                     "type": "venue",
-                    "formatted_address": "Vitoria-Gasteiz\nSpain"
+                    "formatted_address": "Vitoria-Gasteiz Spain"
                 }
             ],
             "duration": 86399,
@@ -17135,7 +16794,7 @@ const festsFromAPI = {
                     "entity_id": "33UhcWUeTJkd5cNiNTzXKa9",
                     "name": "Marbella Arena",
                     "type": "venue",
-                    "formatted_address": "29660 Marbella\nSpain"
+                    "formatted_address": "29660 Marbella Spain"
                 }
             ],
             "duration": 259199,
@@ -17193,7 +16852,7 @@ const festsFromAPI = {
                     "entity_id": "CyCYTpFXGDyMXpKhFNisC7",
                     "name": "Revi Live",
                     "type": "venue",
-                    "formatted_address": "Calle los Cavilas\n28052 Madrid\nSpain"
+                    "formatted_address": "Calle los Cavilas 28052 Madrid Spain"
                 }
             ],
             "duration": 172799,
@@ -17260,7 +16919,7 @@ const festsFromAPI = {
                     "entity_id": "MkVFSbNXFykJQbUrzWPiKa",
                     "name": "Sala El Tren",
                     "type": "venue",
-                    "formatted_address": "Carretera Antigua De Malaga 136\nGranada\nSpain"
+                    "formatted_address": "Carretera Antigua De Malaga 136 Granada Spain"
                 }
             ],
             "duration": 172799,
@@ -17327,7 +16986,7 @@ const festsFromAPI = {
                     "entity_id": "y5HX6iTd5Hcyq9ymka2DZM",
                     "name": "Draco Disco Club",
                     "type": "venue",
-                    "formatted_address": "Barcelona\nSpain"
+                    "formatted_address": "Barcelona Spain"
                 }
             ],
             "duration": 172799,
@@ -17385,7 +17044,7 @@ const festsFromAPI = {
                     "entity_id": "AYDLzx7BC2pcdrS3mszSBM",
                     "name": "Cabró Rock",
                     "type": "venue",
-                    "formatted_address": "08500 Vic\nSpain"
+                    "formatted_address": "08500 Vic Spain"
                 }
             ],
             "duration": 172799,
@@ -17452,7 +17111,7 @@ const festsFromAPI = {
                     "entity_id": "362ftpHnP9fH8KPaBKigvPV",
                     "name": "Sala Vesta",
                     "type": "venue",
-                    "formatted_address": "C. del Barquillo, 29\nMadrid\nSpain"
+                    "formatted_address": "C. del Barquillo, 29 Madrid Spain"
                 }
             ],
             "duration": 172799,
@@ -17510,7 +17169,7 @@ const festsFromAPI = {
                     "entity_id": "GQtnxN7dE9BwpNYuhvA2cR",
                     "name": "Festival de los Sentidos",
                     "type": "venue",
-                    "formatted_address": "La Roda\n02630 La Roda\nSpain"
+                    "formatted_address": "La Roda 02630 La Roda Spain"
                 }
             ],
             "duration": 259199,
@@ -17577,7 +17236,7 @@ const festsFromAPI = {
                     "entity_id": "etBSJEgHSXLp5pJHhcBnCk",
                     "name": "Parc del Fòrum",
                     "type": "venue",
-                    "formatted_address": "Parc Del Forum, 1 Rambla de Prim\n08019 Barcelona\nSpain"
+                    "formatted_address": "Parc Del Forum, 1 Rambla de Prim 08019 Barcelona Spain"
                 }
             ],
             "duration": 172799,
@@ -17644,7 +17303,7 @@ const festsFromAPI = {
                     "entity_id": "pU7zpGUsnmcUWbyhfRbyr6",
                     "name": "Auditorio Miguel Ríos",
                     "type": "venue",
-                    "formatted_address": "s/n Paseo Alicia Alonso\n28521 Rivas-Vaciamadrid\nSpain"
+                    "formatted_address": "s/n Paseo Alicia Alonso 28521 Rivas-Vaciamadrid Spain"
                 }
             ],
             "duration": 86399,
@@ -17711,7 +17370,7 @@ const festsFromAPI = {
                     "entity_id": "RyNtmNpUP9NWNm9n7UYwjM",
                     "name": "Estadio Polideportivo Municipal de Toro",
                     "type": "venue",
-                    "formatted_address": "Camino Ruales 2\nZamora\nSpain"
+                    "formatted_address": "Camino Ruales 2 Zamora Spain"
                 }
             ],
             "duration": 172799,
@@ -17778,7 +17437,7 @@ const festsFromAPI = {
                     "entity_id": "6KyzUNK5BLsx8fwB2eYfsS",
                     "name": "Monkey Week",
                     "type": "venue",
-                    "formatted_address": "11500 El Puerto de Santa María\nSpain"
+                    "formatted_address": "11500 El Puerto de Santa María Spain"
                 }
             ],
             "duration": 172799,
@@ -17845,7 +17504,7 @@ const festsFromAPI = {
                     "entity_id": "SE62A35WTFdK95EAnaASyu",
                     "name": "WiZink Centre Madrid",
                     "type": "venue",
-                    "formatted_address": "S/N Avenida Felipe II\n28009 Madrid\nSpain"
+                    "formatted_address": "S/N Avenida Felipe II 28009 Madrid Spain"
                 }
             ],
             "duration": 0,
@@ -17861,28 +17520,9 @@ const festsFromAPI = {
             "geo": {
                 "geometry": {
                     "coordinates": [
-                        [
-                            [
-                                -3.670974,
-                                40.4245238
-                            ],
-                            [
-                                -3.6725726,
-                                40.4246014
-                            ],
-                            [
-                                -3.672653,
-                                40.4232415
-                            ],
-                            [
-                                -3.6710759,
-                                40.4231762
-                            ],
-                            [
-                                -3.670974,
-                                40.4245238
-                            ]
-                        ]
+                        -3.670974,
+                        40.4245238
+
                     ],
                     "type": "Polygon"
                 }
@@ -17922,7 +17562,7 @@ const festsFromAPI = {
                     "entity_id": "Xqn6PZTb9S6w799i9hka8M",
                     "name": "Azkena",
                     "type": "venue",
-                    "formatted_address": "Coronación, 4\nVitoria-Gasteiz\nSpain"
+                    "formatted_address": "Coronación, 4 Vitoria-Gasteiz Spain"
                 }
             ],
             "duration": 0,
@@ -17980,7 +17620,7 @@ const festsFromAPI = {
                     "entity_id": "32VdSnLfF5iv75XK257cx3x",
                     "name": "Fira de Barcelona - Montjuïc",
                     "type": "venue",
-                    "formatted_address": "Fira Barcelona Montjuïc, s/n Avinguda de la Reina Maria Cristina\n08004 Barcelona\nSpain"
+                    "formatted_address": "Fira Barcelona Montjuïc, s/n Avinguda de la Reina Maria Cristina 08004 Barcelona Spain"
                 },
                 {
                     "entity_id": "4d2i92FmrTDLBFQJQHcbBZ",
@@ -18006,32 +17646,9 @@ const festsFromAPI = {
             "geo": {
                 "geometry": {
                     "coordinates": [
-                        [
-                            [
-                                2.1541011,
-                                41.3748697
-                            ],
-                            [
-                                2.1498096,
-                                41.3748697
-                            ],
-                            [
-                                2.1496594,
-                                41.3744832
-                            ],
-                            [
-                                2.1517623,
-                                41.3718103
-                            ],
-                            [
-                                2.1550882,
-                                41.3729535
-                            ],
-                            [
-                                2.1541011,
-                                41.3748697
-                            ]
-                        ]
+                        2.1541011,
+                        41.3748697
+
                     ],
                     "type": "Polygon"
                 }
@@ -18071,7 +17688,7 @@ const festsFromAPI = {
                     "entity_id": "YukdSBN9Nud4wCWR4AyFHH",
                     "name": "Chango",
                     "type": "venue",
-                    "formatted_address": "42 Calle Covarrubias\n28010 Madrid\nSpain"
+                    "formatted_address": "42 Calle Covarrubias 28010 Madrid Spain"
                 }
             ],
             "duration": 172799,
@@ -18129,7 +17746,7 @@ const festsFromAPI = {
                     "entity_id": "fWshK59vQyheeAwRjnmd5Z",
                     "name": "Sala Apolo",
                     "type": "venue",
-                    "formatted_address": "113 Carrer Nou de la Rambla\n08004 Barcelona\nSpain"
+                    "formatted_address": "113 Carrer Nou de la Rambla 08004 Barcelona Spain"
                 }
             ],
             "duration": 86399,
@@ -18187,7 +17804,7 @@ const festsFromAPI = {
                     "entity_id": "sqyhaDCLh5BFxfwRfkiB44",
                     "name": "Poble Espanyol",
                     "type": "venue",
-                    "formatted_address": "13 Avinguda de Francesc Ferrer i Guàrdia\n08038 Barcelona\nSpain"
+                    "formatted_address": "13 Avinguda de Francesc Ferrer i Guàrdia 08038 Barcelona Spain"
                 }
             ],
             "duration": 86399,
@@ -18245,7 +17862,7 @@ const festsFromAPI = {
                     "entity_id": "RXDBRRVF3gcfwMyNz8Ts9C",
                     "name": "Almudin de Valencia",
                     "type": "venue",
-                    "formatted_address": "San Luis Beltrán, 1;\n46003 València\nSpain"
+                    "formatted_address": "San Luis Beltrán, 1; 46003 València Spain"
                 }
             ],
             "duration": 86399,
@@ -18303,7 +17920,7 @@ const festsFromAPI = {
                     "entity_id": "juef5Nm4SWdBH2A6c3fW4m",
                     "name": "Nuevo Recinto Ferial",
                     "type": "venue",
-                    "formatted_address": "Alhama de Murcia\nSpain"
+                    "formatted_address": "Alhama de Murcia Spain"
                 }
             ],
             "duration": 0,
@@ -18370,7 +17987,7 @@ const festsFromAPI = {
                     "entity_id": "RrYVnBS43nSffbruC8Zu2R",
                     "name": "Dabadaba",
                     "type": "venue",
-                    "formatted_address": "8 Mundaitz Kalea\n20012 Donostia\nSpain"
+                    "formatted_address": "8 Mundaitz Kalea 20012 Donostia Spain"
                 }
             ],
             "duration": 0,
@@ -18429,7 +18046,7 @@ const festsFromAPI = {
                     "entity_id": "39uXxJLkNhhAbLnaqEhBq7j",
                     "name": "Fabrik",
                     "type": "venue",
-                    "formatted_address": "82 Avenida de la Industria\n28970 Humanes de Madrid\nSpain"
+                    "formatted_address": "82 Avenida de la Industria 28970 Humanes de Madrid Spain"
                 }
             ],
             "duration": 43200,
@@ -18547,7 +18164,7 @@ const festsFromAPI = {
                     "entity_id": "wG6Fk8NDxu9kZQBJZAkeGF",
                     "name": "Bodega La Geria",
                     "type": "venue",
-                    "formatted_address": "Carretera La Geria Km 19 Yaiza\nLanzarote\nSpain"
+                    "formatted_address": "Carretera La Geria Km 19 Yaiza Lanzarote Spain"
                 }
             ],
             "duration": 172799,
@@ -18605,7 +18222,7 @@ const festsFromAPI = {
                     "entity_id": "BiRYycVeEkwCx2ivmAYia6",
                     "name": "Sala Más Música",
                     "type": "venue",
-                    "formatted_address": "05004 Ávila\nSpain"
+                    "formatted_address": "05004 Ávila Spain"
                 }
             ],
             "duration": 172799,
@@ -18663,7 +18280,7 @@ const festsFromAPI = {
                     "entity_id": "rYV3ZGBDC4hx4aZKw8j9tS",
                     "name": "Parque Enrique Tierno Galván",
                     "type": "venue",
-                    "formatted_address": "Av. del Planetario, s/n\n28045 Madrid\nSpain"
+                    "formatted_address": "Av. del Planetario, s/n 28045 Madrid Spain"
                 }
             ],
             "duration": 86399,
@@ -18721,7 +18338,7 @@ const festsFromAPI = {
                     "entity_id": "EU7TdxGJELqNPt6MNdEFTt",
                     "name": "La Deskomunal",
                     "type": "venue",
-                    "formatted_address": "Tenor Massini, 5\n08028 Barcelona\nSpain"
+                    "formatted_address": "Tenor Massini, 5 08028 Barcelona Spain"
                 }
             ],
             "duration": 86399,
@@ -18779,7 +18396,7 @@ const festsFromAPI = {
                     "entity_id": "jhYppiismmQKssymmpWMbf",
                     "name": "Estraperlo Club del Ritme",
                     "type": "venue",
-                    "formatted_address": "9 C/ Isidre Nonell\n08911 Badalona\nSpain"
+                    "formatted_address": "9 C/ Isidre Nonell 08911 Badalona Spain"
                 }
             ],
             "duration": 86399,
@@ -18845,7 +18462,7 @@ const festsFromAPI = {
                     "entity_id": "gGWJEx4BLW5tmTiUE9Mq2V",
                     "name": "Auditorio Municipal Ruta De La Plata",
                     "type": "venue",
-                    "formatted_address": "49004 Zamora\nSpain"
+                    "formatted_address": "49004 Zamora Spain"
                 }
             ],
             "duration": 86399,
@@ -18903,7 +18520,7 @@ const festsFromAPI = {
                     "entity_id": "A95CVJzyznT9PWetmzPgDd",
                     "name": "UBU A. Hospital Militar",
                     "type": "venue",
-                    "formatted_address": "Bernardino Obregón 24\n09001 Burgos\nSpain"
+                    "formatted_address": "Bernardino Obregón 24 09001 Burgos Spain"
                 }
             ],
             "duration": 86399,
@@ -18961,7 +18578,7 @@ const festsFromAPI = {
                     "entity_id": "sWXsJswgmEZUUN9tWDh9Um",
                     "name": "Autocine Malaga Cesurfp",
                     "type": "venue",
-                    "formatted_address": "29004 Málaga\nSpain"
+                    "formatted_address": "29004 Málaga Spain"
                 }
             ],
             "duration": 0,
@@ -19028,7 +18645,7 @@ const festsFromAPI = {
                     "entity_id": "svGK5Frzp4ZA76NdAUiX6u",
                     "name": "Baluard De Sant Pere",
                     "type": "venue",
-                    "formatted_address": "9 Plaça del Sol\nIbiza\nSpain"
+                    "formatted_address": "9 Plaça del Sol Ibiza Spain"
                 }
             ],
             "duration": 0,
@@ -19086,7 +18703,7 @@ const festsFromAPI = {
                     "entity_id": "9GtQqx63DyqSv6YGBrJqqD",
                     "name": "Polideportivo Labegaraieta",
                     "type": "venue",
-                    "formatted_address": "Bergara\nSpain"
+                    "formatted_address": "Bergara Spain"
                 }
             ],
             "duration": 172799,
@@ -19153,7 +18770,7 @@ const festsFromAPI = {
                     "entity_id": "XJhaMjZkCTd3axkRLFmgwv",
                     "name": "Ciudad de las Artes y las Ciencias",
                     "type": "venue",
-                    "formatted_address": "7 Avinguda del Professor López Piñero\n46013 València\nSpain"
+                    "formatted_address": "7 Avinguda del Professor López Piñero 46013 València Spain"
                 }
             ],
             "duration": 172799,
@@ -19220,7 +18837,7 @@ const festsFromAPI = {
                     "entity_id": "6uGYGAiSL79qTprqu3TjUV",
                     "name": "Amfiteatre Del Parc Catalunya",
                     "type": "venue",
-                    "formatted_address": "104 Carrer Prat de la Riba\n08206 Sabadell\nSpain"
+                    "formatted_address": "104 Carrer Prat de la Riba 08206 Sabadell Spain"
                 }
             ],
             "duration": 86399,
@@ -19286,7 +18903,7 @@ const festsFromAPI = {
                     "entity_id": "gGWJEx4BLW5tmTiUE9Mq2V",
                     "name": "Auditorio Municipal Ruta De La Plata",
                     "type": "venue",
-                    "formatted_address": "49004 Zamora\nSpain"
+                    "formatted_address": "49004 Zamora Spain"
                 }
             ],
             "duration": 86399,
@@ -19344,7 +18961,7 @@ const festsFromAPI = {
                     "entity_id": "MBTfxyhTpPkysachh999CV",
                     "name": "Z! Live Rock Fest",
                     "type": "venue",
-                    "formatted_address": "Zamora\nSpain"
+                    "formatted_address": "Zamora Spain"
                 }
             ],
             "duration": 259199,
@@ -19402,7 +19019,7 @@ const festsFromAPI = {
                     "entity_id": "hEzYcft67cr6v6QgNGjV7v",
                     "name": "Festival Palencia Sonora",
                     "type": "venue",
-                    "formatted_address": "Sotillo de los Canónigos\nPalencia\nSpain"
+                    "formatted_address": "Sotillo de los Canónigos Palencia Spain"
                 }
             ],
             "duration": 345599,
@@ -19460,7 +19077,7 @@ const festsFromAPI = {
                     "entity_id": "5yU8hHLTgUb3tY66J3wFsi",
                     "name": "Baluarte De Santa Llucia Dalt Vila",
                     "type": "venue",
-                    "formatted_address": "Ibiza\nSpain"
+                    "formatted_address": "Ibiza Spain"
                 }
             ],
             "duration": 86399,
@@ -19518,7 +19135,7 @@ const festsFromAPI = {
                     "entity_id": "366bBaNNRz83J5LVNBjbTZT",
                     "name": "Monocicle",
                     "type": "venue",
-                    "formatted_address": "Carrer Major 13\n08810 Sant Pere de Ribes\nSpain"
+                    "formatted_address": "Carrer Major 13 08810 Sant Pere de Ribes Spain"
                 }
             ],
             "duration": 345599,
@@ -19647,7 +19264,7 @@ const festsFromAPI = {
                     "entity_id": "KZv4Fxc7bRFPAMY4AeVBSi",
                     "name": "spazio culturale Serrería Belga",
                     "type": "venue",
-                    "formatted_address": "Calle Alameda número 15\n28014 Madrid\nSpain"
+                    "formatted_address": "Calle Alameda número 15 28014 Madrid Spain"
                 }
             ],
             "duration": 0,
@@ -19705,7 +19322,7 @@ const festsFromAPI = {
                     "entity_id": "kwV6rikqJLbHw7fGVc8pDG",
                     "name": "Paseo de la Vega",
                     "type": "venue",
-                    "formatted_address": "Toledo\nSpain"
+                    "formatted_address": "Toledo Spain"
                 }
             ],
             "duration": 86399,
@@ -19832,7 +19449,7 @@ const festsFromAPI = {
                     "entity_id": "tJDRRqRK6dyp9YdtKK9gLR",
                     "name": "Ciudad del Rock",
                     "type": "venue",
-                    "formatted_address": "28500 Arganda del Rey\nSpain"
+                    "formatted_address": "28500 Arganda del Rey Spain"
                 }
             ],
             "duration": 604799,
@@ -19848,28 +19465,9 @@ const festsFromAPI = {
             "geo": {
                 "geometry": {
                     "coordinates": [
-                        [
-                            [
-                                -3.4485978,
-                                40.3063877
-                            ],
-                            [
-                                -3.4477843,
-                                40.3059219
-                            ],
-                            [
-                                -3.4471754,
-                                40.3065478
-                            ],
-                            [
-                                -3.4480909,
-                                40.3069523
-                            ],
-                            [
-                                -3.4485978,
-                                40.3063877
-                            ]
-                        ]
+                        -3.4485978,
+                        40.3063877
+
                     ],
                     "type": "Polygon"
                 }
@@ -19918,7 +19516,7 @@ const festsFromAPI = {
                     "entity_id": "tqLy8XnnXbgaswai5uB8Dd",
                     "name": "VADE música",
                     "type": "venue",
-                    "formatted_address": "Plaça Laietana, 48\n08203 Sabadell\nSpain"
+                    "formatted_address": "Plaça Laietana, 48 08203 Sabadell Spain"
                 }
             ],
             "duration": 86399,
@@ -19985,7 +19583,7 @@ const festsFromAPI = {
                     "entity_id": "qU7eDSHgkTnrsLqtsRZemD",
                     "name": "Marquesina Via Júlia",
                     "type": "venue",
-                    "formatted_address": "Vía Júlia 144\n08016 Barcelona\nSpain"
+                    "formatted_address": "Vía Júlia 144 08016 Barcelona Spain"
                 }
             ],
             "duration": 86399,
@@ -20052,7 +19650,7 @@ const festsFromAPI = {
                     "entity_id": "ppjhXU59iCLT7eTPxcVafF",
                     "name": "Parque Lineal Del Manzanares",
                     "type": "venue",
-                    "formatted_address": "Madrid\nSpain"
+                    "formatted_address": "Madrid Spain"
                 }
             ],
             "duration": 86399,
@@ -20110,7 +19708,7 @@ const festsFromAPI = {
                     "entity_id": "WeKtjK2raF9dVxCaQpbPFa",
                     "name": "Castillo de Peñafiel",
                     "type": "venue",
-                    "formatted_address": "Valladolid\nSpain"
+                    "formatted_address": "Valladolid Spain"
                 }
             ],
             "duration": 86399,
@@ -20168,7 +19766,7 @@ const festsFromAPI = {
                     "entity_id": "DEH8XDUAsbVGyrNAwYDZvM",
                     "name": "Rachdingue",
                     "type": "venue",
-                    "formatted_address": "Figueres\nSpain"
+                    "formatted_address": "Figueres Spain"
                 }
             ],
             "duration": 172799,
@@ -20234,7 +19832,7 @@ const festsFromAPI = {
                     "entity_id": "etBSJEgHSXLp5pJHhcBnCk",
                     "name": "Parc del Fòrum",
                     "type": "venue",
-                    "formatted_address": "Parc Del Forum, 1 Rambla de Prim\n08019 Barcelona\nSpain"
+                    "formatted_address": "Parc Del Forum, 1 Rambla de Prim 08019 Barcelona Spain"
                 }
             ],
             "duration": 86399,
@@ -20301,7 +19899,7 @@ const festsFromAPI = {
                     "entity_id": "qfrBCErrugrjbTxvqKDvFw",
                     "name": "Industrial Copera",
                     "type": "venue",
-                    "formatted_address": "Parcela 13 Calle Desmond Tutu\n18640 La Zubia\nSpain"
+                    "formatted_address": "Parcela 13 Calle Desmond Tutu 18640 La Zubia Spain"
                 }
             ],
             "duration": 86399,
@@ -20368,7 +19966,7 @@ const festsFromAPI = {
                     "entity_id": "57rNrFrz6ULbgqXV6rg4gR",
                     "name": "Temps de Terra",
                     "type": "venue",
-                    "formatted_address": "Vall de Cabiscol\n43870 Amposta\nSpain"
+                    "formatted_address": "Vall de Cabiscol 43870 Amposta Spain"
                 }
             ],
             "duration": 86399,
@@ -20426,7 +20024,7 @@ const festsFromAPI = {
                     "entity_id": "xp8FFsXAnkxacjDnhqppcq",
                     "name": "Explanada Multiusos Madrid Río",
                     "type": "venue",
-                    "formatted_address": "Paseo de la Chopera, 6, Arganzuela.\n28045 Madrid\nSpain"
+                    "formatted_address": "Paseo de la Chopera, 6, Arganzuela. 28045 Madrid Spain"
                 }
             ],
             "duration": 86399,
@@ -20534,7 +20132,7 @@ const festsFromAPI = {
                     "entity_id": "etBSJEgHSXLp5pJHhcBnCk",
                     "name": "Parc del Fòrum",
                     "type": "venue",
-                    "formatted_address": "Parc Del Forum, 1 Rambla de Prim\n08019 Barcelona\nSpain"
+                    "formatted_address": "Parc Del Forum, 1 Rambla de Prim 08019 Barcelona Spain"
                 }
             ],
             "duration": 86399,
@@ -20601,7 +20199,7 @@ const festsFromAPI = {
                     "entity_id": "NEntFriGiQxPNVMB7LjQBd",
                     "name": "Premiere Club",
                     "type": "venue",
-                    "formatted_address": "Los Olivos, 2\n29660 Marbella\nSpain"
+                    "formatted_address": "Los Olivos, 2 29660 Marbella Spain"
                 }
             ],
             "duration": 172799,
@@ -20659,7 +20257,7 @@ const festsFromAPI = {
                     "entity_id": "dvggwrH5WipcmXYhrCFpt5",
                     "name": "Sala Repvblicca 2",
                     "type": "venue",
-                    "formatted_address": "46920 Mislata\nSpain"
+                    "formatted_address": "46920 Mislata Spain"
                 }
             ],
             "duration": 172799,
@@ -20726,7 +20324,7 @@ const festsFromAPI = {
                     "entity_id": "Q59uqcyMXX2LaiFmEPCYBd",
                     "name": "Alcalá Suena",
                     "type": "venue",
-                    "formatted_address": "Alcalá de Henares\nSpain"
+                    "formatted_address": "Alcalá de Henares Spain"
                 }
             ],
             "duration": 259199,
@@ -20794,7 +20392,7 @@ const festsFromAPI = {
                     "entity_id": "etBSJEgHSXLp5pJHhcBnCk",
                     "name": "Parc del Fòrum",
                     "type": "venue",
-                    "formatted_address": "Parc Del Forum, 1 Rambla de Prim\n08019 Barcelona\nSpain"
+                    "formatted_address": "Parc Del Forum, 1 Rambla de Prim 08019 Barcelona Spain"
                 },
                 {
                     "entity_id": "AYerSXs88XHJGeyTLgpRJh",
@@ -20809,7 +20407,7 @@ const festsFromAPI = {
                     ],
                     "description": "Primavera Sound is the biggest indie and alternative music festival in the world takes place between the end of May and beginning of June in Barcelona, Catalonia, Spain and Oporto, Portugal.",
                     "recurring": {
-                        "ical": "DTSTART;VALUE=DATE:20150528\nDURATION:P5DT1H\nRRULE:FREQ=YEARLY;INTERVAL=1"
+                        "ical": "DTSTART;VALUE=DATE:20150528 DURATION:P5DT1H RRULE:FREQ=YEARLY;INTERVAL=1"
                     }
                 }
             ],
@@ -20900,7 +20498,7 @@ const festsFromAPI = {
                     "entity_id": "sWXsJswgmEZUUN9tWDh9Um",
                     "name": "Autocine Malaga Cesurfp",
                     "type": "venue",
-                    "formatted_address": "29004 Málaga\nSpain"
+                    "formatted_address": "29004 Málaga Spain"
                 }
             ],
             "duration": 86399,
@@ -20967,7 +20565,7 @@ const festsFromAPI = {
                     "entity_id": "38A5JUQyr8U2C54G8aLWXCm",
                     "name": "Área recreativa da Praia de Cesantes",
                     "type": "venue",
-                    "formatted_address": "Paseo da Praia, 38, 36693, Pontevedra, España\nPontevedra\nSpain"
+                    "formatted_address": "Paseo da Praia, 38, 36693, Pontevedra, España Pontevedra Spain"
                 }
             ],
             "duration": 259199,
@@ -21034,7 +20632,7 @@ const festsFromAPI = {
                     "entity_id": "zWxA6zkawpsLbvaNh5uiyu",
                     "name": "Centre de Cultura Contemporània de Barcelona (CCCB)",
                     "type": "venue",
-                    "formatted_address": "5 Carrer de Montalegre\n08001 Barcelona\nSpain"
+                    "formatted_address": "5 Carrer de Montalegre 08001 Barcelona Spain"
                 }
             ],
             "duration": 259199,
@@ -21092,7 +20690,7 @@ const festsFromAPI = {
                     "entity_id": "etBSJEgHSXLp5pJHhcBnCk",
                     "name": "Parc del Fòrum",
                     "type": "venue",
-                    "formatted_address": "Parc Del Forum, 1 Rambla de Prim\n08019 Barcelona\nSpain"
+                    "formatted_address": "Parc Del Forum, 1 Rambla de Prim 08019 Barcelona Spain"
                 }
             ],
             "duration": 86399,
@@ -21159,7 +20757,7 @@ const festsFromAPI = {
                     "entity_id": "S4asPFLKNeR2BhY4HXDQmM",
                     "name": "Diobar",
                     "type": "venue",
-                    "formatted_address": "27 Avinguda del Marquès de l'Argentera\n08003 Barcelona\nSpain"
+                    "formatted_address": "27 Avinguda del Marquès de l'Argentera 08003 Barcelona Spain"
                 }
             ],
             "duration": 0,
@@ -21217,7 +20815,7 @@ const festsFromAPI = {
                     "entity_id": "qrXLZHfhSmzBLYUM4tc3s2",
                     "name": "Pabellón de la Navegación",
                     "type": "venue",
-                    "formatted_address": "Seville\nSpain"
+                    "formatted_address": "Seville Spain"
                 }
             ],
             "duration": 86399,
@@ -21284,7 +20882,7 @@ const festsFromAPI = {
                     "entity_id": "YYwfDGnXRKRvtyFhSqR4rp",
                     "name": "Teatre De La Garriga El Patronat",
                     "type": "venue",
-                    "formatted_address": "Carrer Del Passeig, 42, (la Garriga)\nBarcelona\nSpain"
+                    "formatted_address": "Carrer Del Passeig, 42, (la Garriga) Barcelona Spain"
                 }
             ],
             "duration": 691199,
@@ -21351,7 +20949,7 @@ const festsFromAPI = {
                     "entity_id": "JtQav55gea74RjVkMyezut",
                     "name": "Cova Santa",
                     "type": "venue",
-                    "formatted_address": "km 7 PM-803\n07817 Eivissa\nSpain"
+                    "formatted_address": "km 7 PM-803 07817 Eivissa Spain"
                 }
             ],
             "duration": 86399,
@@ -21409,7 +21007,7 @@ const festsFromAPI = {
                     "entity_id": "dhzyAzBWRk9yhjCACpSCrp",
                     "name": "Castillo De Gibralfaro",
                     "type": "venue",
-                    "formatted_address": "Camino De Gibralfaro, 11\nMalaga\nSpain"
+                    "formatted_address": "Camino De Gibralfaro, 11 Malaga Spain"
                 }
             ],
             "duration": 0,
@@ -21467,7 +21065,7 @@ const festsFromAPI = {
                     "entity_id": "wmHBku9bfRf9RcMgeZdapf",
                     "name": "Varias Salas, Madrid",
                     "type": "venue",
-                    "formatted_address": "Madrid\nSpain"
+                    "formatted_address": "Madrid Spain"
                 }
             ],
             "duration": 0,
@@ -21525,7 +21123,7 @@ const festsFromAPI = {
                     "entity_id": "TUS8QuXxpybJEbZ8GnkDKZ",
                     "name": "16 TONELADAS | ROCK CLUB",
                     "type": "venue",
-                    "formatted_address": "3 Carrer de Ricardo Micó\n46009 València\nSpain"
+                    "formatted_address": "3 Carrer de Ricardo Micó 46009 València Spain"
                 }
             ],
             "duration": 86399,
@@ -21592,7 +21190,7 @@ const festsFromAPI = {
                     "entity_id": "cEDbFv5zJjjeryHV7sUKjm",
                     "name": "Cce \"la Parrala\"",
                     "type": "venue",
-                    "formatted_address": "Las Infantas, 1\n09001 Burgos\nSpain"
+                    "formatted_address": "Las Infantas, 1 09001 Burgos Spain"
                 }
             ],
             "duration": 172799,
@@ -21650,7 +21248,7 @@ const festsFromAPI = {
                     "entity_id": "TvigJP2MZJayQs8N72QPUB",
                     "name": "Auditori de Girona",
                     "type": "venue",
-                    "formatted_address": "Passeig de la Devesa, 35\n17001 Girona\nSpain"
+                    "formatted_address": "Passeig de la Devesa, 35 17001 Girona Spain"
                 }
             ],
             "duration": 172799,
@@ -21717,7 +21315,7 @@ const festsFromAPI = {
                     "entity_id": "ekzQiHEvkPUxauzY9ddpJx",
                     "name": "Recinto Ferial Rabasa",
                     "type": "venue",
-                    "formatted_address": "Calle Xavita s/n\nAlicante\nSpain"
+                    "formatted_address": "Calle Xavita s/n Alicante Spain"
                 }
             ],
             "duration": 86399,
@@ -21784,7 +21382,7 @@ const festsFromAPI = {
                     "entity_id": "37xsW2ULiVnABCdHhV5DEMc",
                     "name": "Autocine",
                     "type": "venue",
-                    "formatted_address": "Madrid\nSpain"
+                    "formatted_address": "Madrid Spain"
                 }
             ],
             "duration": 86399,
@@ -21852,7 +21450,7 @@ const festsFromAPI = {
                     "entity_id": "dKGEBMLiSzgNZ4EqKUs84V",
                     "name": "Sala Rebullón",
                     "type": "venue",
-                    "formatted_address": "Avda. do Rebullón 23, Tameiga\nPontevedra\nSpain"
+                    "formatted_address": "Avda. do Rebullón 23, Tameiga Pontevedra Spain"
                 }
             ],
             "duration": 86399,
@@ -21919,7 +21517,7 @@ const festsFromAPI = {
                     "entity_id": "6NMpPYQDWmtazDhekgx9FU",
                     "name": "Es Gremi",
                     "type": "venue",
-                    "formatted_address": "16 Carrer Gremi de Porgadors\n07009 Palma\nSpain"
+                    "formatted_address": "16 Carrer Gremi de Porgadors 07009 Palma Spain"
                 }
             ],
             "duration": 86399,
@@ -21986,7 +21584,7 @@ const festsFromAPI = {
                     "entity_id": "ZtepUavyXef4B3g5xa7ad7",
                     "name": "Sala Even",
                     "type": "venue",
-                    "formatted_address": "5 Calle José Díaz\n41009 Sevilla\nSpain"
+                    "formatted_address": "5 Calle José Díaz 41009 Sevilla Spain"
                 }
             ],
             "duration": 172799,
@@ -22053,7 +21651,7 @@ const festsFromAPI = {
                     "entity_id": "ekzQiHEvkPUxauzY9ddpJx",
                     "name": "Recinto Ferial Rabasa",
                     "type": "venue",
-                    "formatted_address": "Calle Xavita s/n\nAlicante\nSpain"
+                    "formatted_address": "Calle Xavita s/n Alicante Spain"
                 }
             ],
             "duration": 172799,
@@ -22120,7 +21718,7 @@ const festsFromAPI = {
                     "entity_id": "yD2MCg6DzQgQvZmRCRCTMx",
                     "name": "Auditorio Municipal Cortijo de Torres",
                     "type": "venue",
-                    "formatted_address": "C/ Paquiro, 9\n29006 Málaga\nSpain"
+                    "formatted_address": "C/ Paquiro, 9 29006 Málaga Spain"
                 }
             ],
             "duration": 172799,
@@ -22187,7 +21785,7 @@ const festsFromAPI = {
                     "entity_id": "362ftpHnP9fH8KPaBKigvPV",
                     "name": "Sala Vesta",
                     "type": "venue",
-                    "formatted_address": "C. del Barquillo, 29\nMadrid\nSpain"
+                    "formatted_address": "C. del Barquillo, 29 Madrid Spain"
                 }
             ],
             "duration": 172799,
@@ -22245,7 +21843,7 @@ const festsFromAPI = {
                     "entity_id": "xfDDweT9E94gEiyJPwbK5Z",
                     "name": "Estad. Mpal. Fuente De La Niña",
                     "type": "venue",
-                    "formatted_address": "19005 Guadalajara\nSpain"
+                    "formatted_address": "19005 Guadalajara Spain"
                 }
             ],
             "duration": 172799,
@@ -22303,7 +21901,7 @@ const festsFromAPI = {
                     "entity_id": "8hvnjbLnQfEcufqTeENhHc",
                     "name": "BARTS",
                     "type": "venue",
-                    "formatted_address": "62 Avinguda del Paraŀlel\n08001 Barcelona\nSpain"
+                    "formatted_address": "62 Avinguda del Paraŀlel 08001 Barcelona Spain"
                 }
             ],
             "duration": 86399,
@@ -22361,7 +21959,7 @@ const festsFromAPI = {
                     "entity_id": "qrXLZHfhSmzBLYUM4tc3s2",
                     "name": "Pabellón de la Navegación",
                     "type": "venue",
-                    "formatted_address": "Seville\nSpain"
+                    "formatted_address": "Seville Spain"
                 }
             ],
             "duration": 259199,
@@ -22488,7 +22086,7 @@ const festsFromAPI = {
                     "entity_id": "R6bDVz9AswRmFFHuebzHsL",
                     "name": "Nao Pool Club",
                     "type": "venue",
-                    "formatted_address": "Calle los Tilos\nMalaga\nSpain"
+                    "formatted_address": "Calle los Tilos Malaga Spain"
                 }
             ],
             "duration": 0,
@@ -22546,7 +22144,7 @@ const festsFromAPI = {
                     "entity_id": "yk3EMUxKeui5yViZ64X5Fw",
                     "name": "Theatre of Bretón de los Herreros",
                     "type": "venue",
-                    "formatted_address": "26001 Logroño\nSpain"
+                    "formatted_address": "26001 Logroño Spain"
                 }
             ],
             "duration": 86399,
@@ -22667,7 +22265,7 @@ const festsFromAPI = {
                     "entity_id": "szFWeYuNUXGYqsiez9xfVc",
                     "name": "Paral·lel 62",
                     "type": "venue",
-                    "formatted_address": "Av. del Paral.lel, 62\n08001 Barcelona\nSpain"
+                    "formatted_address": "Av. del Paral.lel, 62 08001 Barcelona Spain"
                 }
             ],
             "duration": 0,
@@ -22725,7 +22323,7 @@ const festsFromAPI = {
                     "entity_id": "3AFizti9g9pTW4UCYdYWXvr",
                     "name": "El Molino",
                     "type": "venue",
-                    "formatted_address": "99 Carrer de Vila i Vilà\n08004 Barcelona\nSpain"
+                    "formatted_address": "99 Carrer de Vila i Vilà 08004 Barcelona Spain"
                 }
             ],
             "duration": 0,
@@ -22783,7 +22381,7 @@ const festsFromAPI = {
                     "entity_id": "fWshK59vQyheeAwRjnmd5Z",
                     "name": "Sala Apolo",
                     "type": "venue",
-                    "formatted_address": "113 Carrer Nou de la Rambla\n08004 Barcelona\nSpain"
+                    "formatted_address": "113 Carrer Nou de la Rambla 08004 Barcelona Spain"
                 }
             ],
             "duration": 0,
@@ -22843,7 +22441,7 @@ const festsFromAPI = {
                     "entity_id": "VnQ8ZRZM2shGZum9vVeudm",
                     "name": "Malaga",
                     "type": "venue",
-                    "formatted_address": "29001 Málaga\nSpain"
+                    "formatted_address": "29001 Málaga Spain"
                 },
                 {
                     "entity_id": "38sqVJJ3KLATR9xrLJTtHxJ",
@@ -22860,7 +22458,7 @@ const festsFromAPI = {
                     ],
                     "description": "La Noche en Blanco is an initiative that allows people to experience culture in a special way. The whole city and its visitors go out that night to visit museums, monuments, listen to concerts and enjoy the hundreds of free activities that are offered during the evening.",
                     "recurring": {
-                        "ical": "DTSTART;VALUE=DATE:20170517\nDURATION:PT6H\nRRULE:FREQ=YEARLY;INTERVAL=1"
+                        "ical": "DTSTART;VALUE=DATE:20170517 DURATION:PT6H RRULE:FREQ=YEARLY;INTERVAL=1"
                     }
                 }
             ],
@@ -22938,7 +22536,7 @@ const festsFromAPI = {
                     "entity_id": "vPsNUcZNpxPZakvMU7emdw",
                     "name": "Medusa Beach Club",
                     "type": "venue",
-                    "formatted_address": "Cullera Beach\nSpain"
+                    "formatted_address": "Cullera Beach Spain"
                 }
             ],
             "duration": 86399,
@@ -23007,7 +22605,7 @@ const festsFromAPI = {
                     "entity_id": "Q5RYF2ncqFsdrsrw7RNnAx",
                     "name": "Aquapark",
                     "type": "venue",
-                    "formatted_address": "Calvia\nSpain"
+                    "formatted_address": "Calvia Spain"
                 }
             ],
             "duration": 86399,
@@ -23074,7 +22672,7 @@ const festsFromAPI = {
                     "entity_id": "ieBhcxr2jtWtQcTbEiwJDi",
                     "name": "Sala Clandestino",
                     "type": "venue",
-                    "formatted_address": "AV España, 47\n02002 Albacete\nSpain"
+                    "formatted_address": "AV España, 47 02002 Albacete Spain"
                 }
             ],
             "duration": 86399,
@@ -23132,7 +22730,7 @@ const festsFromAPI = {
                     "entity_id": "ZL2z2Cfj9mtHPCWzBzFdfb",
                     "name": "Altxerri Jazz club",
                     "type": "venue",
-                    "formatted_address": "Erregina Erregentearen Kalea, 2\nSan Sebastián\nSpain"
+                    "formatted_address": "Erregina Erregentearen Kalea, 2 San Sebastián Spain"
                 }
             ],
             "duration": 0,
@@ -23191,7 +22789,7 @@ const festsFromAPI = {
                     "entity_id": "9WPVukZVChburTfyCXBcJY",
                     "name": "Wakana",
                     "type": "venue",
-                    "formatted_address": "Carretera Benaluz- Casas Viejas\n Km 6.5\n 11190 Benalup\n Cádiz"
+                    "formatted_address": "Carretera Benaluz- Casas Viejas  Km 6.5  11190 Benalup  Cádiz"
                 }
             ],
             "duration": 306000,
@@ -23318,7 +22916,7 @@ const festsFromAPI = {
                     "entity_id": "7PSPikNG5Y7zQrN4p7BMP4",
                     "name": "IFEMA - Feria de Madrid",
                     "type": "venue",
-                    "formatted_address": "IFEMA Feria de Madrid, 5 Avenida Partenón\n28042 Madrid\nSpain"
+                    "formatted_address": "IFEMA Feria de Madrid, 5 Avenida Partenón 28042 Madrid Spain"
                 }
             ],
             "duration": 0,
@@ -23386,7 +22984,7 @@ const festsFromAPI = {
                     "entity_id": "WC7Wz2ECzG8ZuiVb64TB8D",
                     "name": "Esmorga Fest",
                     "type": "venue",
-                    "formatted_address": "Rúa das Ameneirizas, 2\n27619 Sarria\nSpain"
+                    "formatted_address": "Rúa das Ameneirizas, 2 27619 Sarria Spain"
                 }
             ],
             "duration": 172799,
@@ -23453,7 +23051,7 @@ const festsFromAPI = {
                     "entity_id": "W3RXMad36JmDG6kgu26b9a",
                     "name": "Interestelar Sevilla",
                     "type": "venue",
-                    "formatted_address": "Avenida Américo Vespucio, 2\nSeville\nSpain"
+                    "formatted_address": "Avenida Américo Vespucio, 2 Seville Spain"
                 }
             ],
             "duration": 172799,
@@ -23520,7 +23118,7 @@ const festsFromAPI = {
                     "entity_id": "qQZVqggpibdQUFZk9bBWR5",
                     "name": "Orozko Rock",
                     "type": "venue",
-                    "formatted_address": "Calle Ipergorta\nVizcaya\nSpain"
+                    "formatted_address": "Calle Ipergorta Vizcaya Spain"
                 }
             ],
             "duration": 172799,
@@ -23587,7 +23185,7 @@ const festsFromAPI = {
                     "entity_id": "cH7zHLL3LadqLTVu2ipaMr",
                     "name": "Arc De Bara Camping",
                     "type": "venue",
-                    "formatted_address": "43005 Tarragona\nSpain"
+                    "formatted_address": "43005 Tarragona Spain"
                 }
             ],
             "duration": 259199,
@@ -23645,7 +23243,7 @@ const festsFromAPI = {
                     "entity_id": "6uGYGAiSL79qTprqu3TjUV",
                     "name": "Amfiteatre Del Parc Catalunya",
                     "type": "venue",
-                    "formatted_address": "104 Carrer Prat de la Riba\n08206 Sabadell\nSpain"
+                    "formatted_address": "104 Carrer Prat de la Riba 08206 Sabadell Spain"
                 }
             ],
             "duration": 172799,
@@ -23712,7 +23310,7 @@ const festsFromAPI = {
                     "entity_id": "39zgRu6FZjykJr4DCFdVyEz",
                     "name": "La Cabra",
                     "type": "venue",
-                    "formatted_address": "Vic\nSpain"
+                    "formatted_address": "Vic Spain"
                 }
             ],
             "duration": 86399,
@@ -23779,7 +23377,7 @@ const festsFromAPI = {
                     "entity_id": "zDqbtjG8RSjbrenzm2BcVD",
                     "name": "Nit Jove AUP",
                     "type": "venue",
-                    "formatted_address": "Plaça Salvador Allende\n08191 Rubí\nSpain"
+                    "formatted_address": "Plaça Salvador Allende 08191 Rubí Spain"
                 }
             ],
             "duration": 86399,
@@ -23846,7 +23444,7 @@ const festsFromAPI = {
                     "entity_id": "8by4iYTncCrZah2CcizpNA",
                     "name": "Wakana Reunion",
                     "type": "venue",
-                    "formatted_address": "Cadiz\nSpain"
+                    "formatted_address": "Cadiz Spain"
                 }
             ],
             "duration": 345599,
@@ -23904,7 +23502,7 @@ const festsFromAPI = {
                     "entity_id": "4mgej9CNzRS7JdtVDbWYWA",
                     "name": "Alcantarilla",
                     "type": "venue",
-                    "formatted_address": "Murcia\nRegion of Murcia\nSpain"
+                    "formatted_address": "Murcia Region of Murcia Spain"
                 }
             ],
             "duration": 86399,
@@ -23962,7 +23560,7 @@ const festsFromAPI = {
                     "entity_id": "q4VKjb8KHdfBLuxZU3dtCL",
                     "name": "Aiguamolls de l'Empordà",
                     "type": "venue",
-                    "formatted_address": "Km 4.2 GIV-6216\n17486 Castelló d'Empúries\nSpain"
+                    "formatted_address": "Km 4.2 GIV-6216 17486 Castelló d'Empúries Spain"
                 }
             ],
             "duration": 259199,
@@ -24029,7 +23627,7 @@ const festsFromAPI = {
                     "entity_id": "MJp3UjSGLSyxY4PPQtUg2V",
                     "name": "Chantada",
                     "type": "venue",
-                    "formatted_address": "Praza de Galicia, 1\nLugo\nSpain"
+                    "formatted_address": "Praza de Galicia, 1 Lugo Spain"
                 }
             ],
             "duration": 172799,
@@ -24096,7 +23694,7 @@ const festsFromAPI = {
                     "entity_id": "xTGR6jvuhVMkpQmZRDiJJ9",
                     "name": "Autonomous University of Madrid",
                     "type": "venue",
-                    "formatted_address": "Ciudad Universitaria de Cantoblanco\n28049 Madrid\nSpain"
+                    "formatted_address": "Ciudad Universitaria de Cantoblanco 28049 Madrid Spain"
                 }
             ],
             "duration": 86399,
@@ -24281,7 +23879,7 @@ const festsFromAPI = {
                     "entity_id": "38uivkDx9yCqqdE4VbtJhbE",
                     "name": "Grand Teatro",
                     "type": "venue",
-                    "formatted_address": "Calle Cárcel Baja, 10\n18010 Granada\nSpain"
+                    "formatted_address": "Calle Cárcel Baja, 10 18010 Granada Spain"
                 }
             ],
             "duration": 86399,
@@ -24339,7 +23937,7 @@ const festsFromAPI = {
                     "entity_id": "d3CCQrwCm9uFDwQ5ksbuiU",
                     "name": "Sala Pelícano",
                     "type": "venue",
-                    "formatted_address": "3 Avenida do Porto\n15003 A Coruña\nSpain"
+                    "formatted_address": "3 Avenida do Porto 15003 A Coruña Spain"
                 }
             ],
             "duration": 86399,
@@ -24397,7 +23995,7 @@ const festsFromAPI = {
                     "entity_id": "HVvGGAsQpryhYRBuXnsx7a",
                     "name": "Plaza de Quintana",
                     "type": "venue",
-                    "formatted_address": "Plaza de la Quintana, S/n\n15704 Santiago de Compostela\nSpain"
+                    "formatted_address": "Plaza de la Quintana, S/n 15704 Santiago de Compostela Spain"
                 }
             ],
             "duration": 86399,
@@ -24455,7 +24053,7 @@ const festsFromAPI = {
                     "entity_id": "kteyEJKCxdKF5bCRFk3v2F",
                     "name": "Parque de la Alameda",
                     "type": "venue",
-                    "formatted_address": "45600 Talavera de la Reina\nSpain"
+                    "formatted_address": "45600 Talavera de la Reina Spain"
                 }
             ],
             "duration": 86399,
@@ -24513,7 +24111,7 @@ const festsFromAPI = {
                     "entity_id": "8VPKTMG7vxjUMGRyGLw3km",
                     "name": "Sala La Riviera",
                     "type": "venue",
-                    "formatted_address": "PASEO VIRGEN DEL PUERTO S/N\n28005 Madrid\nSpain"
+                    "formatted_address": "PASEO VIRGEN DEL PUERTO S/N 28005 Madrid Spain"
                 }
             ],
             "duration": 86399,
@@ -24572,7 +24170,7 @@ const festsFromAPI = {
                     "entity_id": "Ybhicqgn7NLMUQNLd4WiCp",
                     "name": "berlinClub",
                     "type": "venue",
-                    "formatted_address": "Costanilla de los Ángeles, 20\n28013 Madrid\nSpain"
+                    "formatted_address": "Costanilla de los Ángeles, 20 28013 Madrid Spain"
                 }
             ],
             "duration": 25200,
@@ -24630,7 +24228,7 @@ const festsFromAPI = {
                     "entity_id": "S4asPFLKNeR2BhY4HXDQmM",
                     "name": "Diobar",
                     "type": "venue",
-                    "formatted_address": "27 Avinguda del Marquès de l'Argentera\n08003 Barcelona\nSpain"
+                    "formatted_address": "27 Avinguda del Marquès de l'Argentera 08003 Barcelona Spain"
                 }
             ],
             "duration": 0,
@@ -24809,7 +24407,7 @@ const festsFromAPI = {
                     "entity_id": "QXPp5YXBKvHePVbcS63gGt",
                     "name": "Auditorio Rocio Jurado",
                     "type": "venue",
-                    "formatted_address": "s/n Camino de los Descubrimientos\n41092 Sevilla\nSpain"
+                    "formatted_address": "s/n Camino de los Descubrimientos 41092 Sevilla Spain"
                 }
             ],
             "duration": 36000,
@@ -24936,7 +24534,7 @@ const festsFromAPI = {
                     "entity_id": "wppDFPnzZbDf5WVXiAiDfP",
                     "name": "Centro Cormecial Bonaire",
                     "type": "venue",
-                    "formatted_address": "Autovía del Este, Km. 345, 46960 Valencia\nValencia\nSpain"
+                    "formatted_address": "Autovía del Este, Km. 345, 46960 Valencia Valencia Spain"
                 }
             ],
             "duration": 86399,
@@ -25003,7 +24601,7 @@ const festsFromAPI = {
                     "entity_id": "39B4PfaP5PjxDdPMxyvmW3L",
                     "name": "CSA La Purga",
                     "type": "venue",
-                    "formatted_address": "Ciudad Real\nSpain"
+                    "formatted_address": "Ciudad Real Spain"
                 }
             ],
             "duration": 86399,
@@ -25061,7 +24659,7 @@ const festsFromAPI = {
                     "entity_id": "dKGEBMLiSzgNZ4EqKUs84V",
                     "name": "Sala Rebullón",
                     "type": "venue",
-                    "formatted_address": "Avda. do Rebullón 23, Tameiga\nPontevedra\nSpain"
+                    "formatted_address": "Avda. do Rebullón 23, Tameiga Pontevedra Spain"
                 }
             ],
             "duration": 86399,
@@ -25128,7 +24726,7 @@ const festsFromAPI = {
                     "entity_id": "39H8NtqsC6ncBfTqXUddBma",
                     "name": "Pachamama Rock",
                     "type": "venue",
-                    "formatted_address": "Mojácar\nSpain"
+                    "formatted_address": "Mojácar Spain"
                 }
             ],
             "duration": 86399,
@@ -25186,7 +24784,7 @@ const festsFromAPI = {
                     "entity_id": "36wH9WeXsMJHM2riEB5dAtY",
                     "name": "Castillo Sohail",
                     "type": "venue",
-                    "formatted_address": "C/Tartessos s/n\n29640 Fuengirola\nSpain"
+                    "formatted_address": "C/Tartessos s/n 29640 Fuengirola Spain"
                 }
             ],
             "duration": 86399,
@@ -25253,7 +24851,7 @@ const festsFromAPI = {
                     "entity_id": "jUaqq969Q9LSmtANDjgnXD",
                     "name": "Sada (A Coruña)",
                     "type": "venue",
-                    "formatted_address": "La Coruna\nSpain"
+                    "formatted_address": "La Coruna Spain"
                 }
             ],
             "duration": 86399,
@@ -25311,7 +24909,7 @@ const festsFromAPI = {
                     "entity_id": "LvxsmSq9WzjtQMkEBaf9jj",
                     "name": "Sala Malandar",
                     "type": "venue",
-                    "formatted_address": "43 Avenida Torneo\n41002 Sevilla\nSpain"
+                    "formatted_address": "43 Avenida Torneo 41002 Sevilla Spain"
                 }
             ],
             "duration": 86399,
@@ -25369,13 +24967,13 @@ const festsFromAPI = {
                     "entity_id": "FXwtAG3if58DvUDRuFJskv",
                     "name": "El Tingladu",
                     "type": "venue",
-                    "formatted_address": "Vilanova i la Geltrú\nSpain"
+                    "formatted_address": "Vilanova i la Geltrú Spain"
                 },
                 {
                     "entity_id": "37hDVYLCTpYkTVjcEm9JRfH",
                     "name": "Tingladu",
                     "type": "event-group",
-                    "formatted_address": "Vitoria-Gasteiz\nBasque Country\nSpain",
+                    "formatted_address": "Vitoria-Gasteiz Basque Country Spain",
                     "category": "festivals",
                     "labels": [
                         "event-group",
@@ -25383,7 +24981,7 @@ const festsFromAPI = {
                         "recurring"
                     ],
                     "recurring": {
-                        "ical": "DTSTART;VALUE=DATE-TIME:20210722T000000\nRRULE:FREQ=YEARLY;INTERVAL=1"
+                        "ical": "DTSTART;VALUE=DATE-TIME:20210722T000000 RRULE:FREQ=YEARLY;INTERVAL=1"
                     }
                 }
             ],
@@ -25451,7 +25049,7 @@ const festsFromAPI = {
                     "entity_id": "gTj3seQzq9kyZBqLQXr8j3",
                     "name": "Recinto Ferial Auditorio Miguel Ríos",
                     "type": "venue",
-                    "formatted_address": "Rivas-Vaciamadrid\nSpain"
+                    "formatted_address": "Rivas-Vaciamadrid Spain"
                 }
             ],
             "duration": 86399,
@@ -25580,7 +25178,7 @@ const festsFromAPI = {
                     "entity_id": "8DKVsMFfqaq5pTHaXsWBcW",
                     "name": "Antiga Fàbrica Estrella Damm",
                     "type": "venue",
-                    "formatted_address": "515 Carrer del Rosselló\n08025 Barcelona\nSpain"
+                    "formatted_address": "515 Carrer del Rosselló 08025 Barcelona Spain"
                 }
             ],
             "duration": 86399,
@@ -25758,13 +25356,13 @@ const festsFromAPI = {
                     "entity_id": "EBSj2278ebtPq2S4GPdMts",
                     "name": "Estadio Municipal de Maspalomas",
                     "type": "venue",
-                    "formatted_address": "Las Palmas de Gran Canaria\nSpain"
+                    "formatted_address": "Las Palmas de Gran Canaria Spain"
                 },
                 {
                     "entity_id": "WmTvn9LUB55G7vE7nXMLpM",
                     "name": "Maspalomas Pride",
                     "type": "event-group",
-                    "formatted_address": "35100 Maspalomas\nSpain",
+                    "formatted_address": "35100 Maspalomas Spain",
                     "category": "festivals",
                     "labels": [
                         "event-group",
@@ -25772,7 +25370,7 @@ const festsFromAPI = {
                         "recurring"
                     ],
                     "recurring": {
-                        "ical": "DTSTART;VALUE=DATE-TIME:20180503T000000\nRRULE:FREQ=YEARLY;INTERVAL=1"
+                        "ical": "DTSTART;VALUE=DATE-TIME:20180503T000000 RRULE:FREQ=YEARLY;INTERVAL=1"
                     }
                 }
             ],
@@ -25840,7 +25438,7 @@ const festsFromAPI = {
                     "entity_id": "yjWpetjdDeXSmFHsvbLg6s",
                     "name": "La Lata de Bombillas",
                     "type": "venue",
-                    "formatted_address": "Calle de María Moliner, 7\n50007 Zaragoza\nSpain"
+                    "formatted_address": "Calle de María Moliner, 7 50007 Zaragoza Spain"
                 }
             ],
             "duration": 172799,
@@ -25898,7 +25496,7 @@ const festsFromAPI = {
                     "entity_id": "XS5B8DMvY5iTnSyKNLSVeb",
                     "name": "Luz de Gas",
                     "type": "venue",
-                    "formatted_address": "246 Carrer de Muntaner\n08021 Barcelona\nSpain"
+                    "formatted_address": "246 Carrer de Muntaner 08021 Barcelona Spain"
                 }
             ],
             "duration": 86399,
@@ -25956,7 +25554,7 @@ const festsFromAPI = {
                     "entity_id": "pU7zpGUsnmcUWbyhfRbyr6",
                     "name": "Auditorio Miguel Ríos",
                     "type": "venue",
-                    "formatted_address": "s/n Paseo Alicia Alonso\n28521 Rivas-Vaciamadrid\nSpain"
+                    "formatted_address": "s/n Paseo Alicia Alonso 28521 Rivas-Vaciamadrid Spain"
                 }
             ],
             "duration": 86399,
@@ -26023,7 +25621,7 @@ const festsFromAPI = {
                     "entity_id": "398vrDEVjRSMX2pFGCjjTA4",
                     "name": "Ateneu Popular 9 Barris",
                     "type": "venue",
-                    "formatted_address": "11-15 Carrer de Portlligat\n08042 Barcelona\nSpain"
+                    "formatted_address": "11-15 Carrer de Portlligat 08042 Barcelona Spain"
                 }
             ],
             "duration": 172799,
@@ -26141,7 +25739,7 @@ const festsFromAPI = {
                     "entity_id": "34LgMWXXUHPCmbQCqtb6HTm",
                     "name": "Teatre Eliseu (Roda de Ter)",
                     "type": "venue",
-                    "formatted_address": "Barcelona\nSpain"
+                    "formatted_address": "Barcelona Spain"
                 }
             ],
             "duration": 345599,
@@ -26208,13 +25806,13 @@ const festsFromAPI = {
                     "entity_id": "f28dW4pPfsCeZ9SbEXRHuE",
                     "name": "Maspalomas",
                     "type": "venue",
-                    "formatted_address": "Buggy Tour Gran Canaria\nMaspalomas\nSpain"
+                    "formatted_address": "Buggy Tour Gran Canaria Maspalomas Spain"
                 },
                 {
                     "entity_id": "WmTvn9LUB55G7vE7nXMLpM",
                     "name": "Maspalomas Pride",
                     "type": "event-group",
-                    "formatted_address": "35100 Maspalomas\nSpain",
+                    "formatted_address": "35100 Maspalomas Spain",
                     "category": "festivals",
                     "labels": [
                         "event-group",
@@ -26222,7 +25820,7 @@ const festsFromAPI = {
                         "recurring"
                     ],
                     "recurring": {
-                        "ical": "DTSTART;VALUE=DATE-TIME:20180503T000000\nRRULE:FREQ=YEARLY;INTERVAL=1"
+                        "ical": "DTSTART;VALUE=DATE-TIME:20180503T000000 RRULE:FREQ=YEARLY;INTERVAL=1"
                     }
                 }
             ],
@@ -26309,7 +25907,7 @@ const festsFromAPI = {
                     "entity_id": "DPxJ79DJLSnncUfuUBNg9a",
                     "name": "Recinto Ferial de Cuenca",
                     "type": "venue",
-                    "formatted_address": "Cuenca\nSpain"
+                    "formatted_address": "Cuenca Spain"
                 }
             ],
             "duration": 86399,
@@ -26367,7 +25965,7 @@ const festsFromAPI = {
                     "entity_id": "S4asPFLKNeR2BhY4HXDQmM",
                     "name": "Diobar",
                     "type": "venue",
-                    "formatted_address": "27 Avinguda del Marquès de l'Argentera\n08003 Barcelona\nSpain"
+                    "formatted_address": "27 Avinguda del Marquès de l'Argentera 08003 Barcelona Spain"
                 }
             ],
             "duration": 0,
@@ -26426,7 +26024,7 @@ const festsFromAPI = {
                     "entity_id": "YMYjPdLLz7PbbPsSPkXF3x",
                     "name": "Ibiza Rocks",
                     "type": "venue",
-                    "formatted_address": "07820 Sant Antoni de Portmany\nSpain"
+                    "formatted_address": "07820 Sant Antoni de Portmany Spain"
                 }
             ],
             "duration": 25200,
@@ -26724,7 +26322,7 @@ const festsFromAPI = {
                     "entity_id": "RrYVnBS43nSffbruC8Zu2R",
                     "name": "Dabadaba",
                     "type": "venue",
-                    "formatted_address": "8 Mundaitz Kalea\n20012 Donostia\nSpain"
+                    "formatted_address": "8 Mundaitz Kalea 20012 Donostia Spain"
                 }
             ],
             "duration": 0,
@@ -27013,7 +26611,7 @@ const festsFromAPI = {
                     "entity_id": "szFWeYuNUXGYqsiez9xfVc",
                     "name": "Paral·lel 62",
                     "type": "venue",
-                    "formatted_address": "Av. del Paral.lel, 62\n08001 Barcelona\nSpain"
+                    "formatted_address": "Av. del Paral.lel, 62 08001 Barcelona Spain"
                 }
             ],
             "duration": 86399,
@@ -27071,7 +26669,7 @@ const festsFromAPI = {
                     "entity_id": "ECs9v3J5NmV2VLu8yXJgzM",
                     "name": "Explanada de la Casa de la Cultura de Cullar Vega",
                     "type": "venue",
-                    "formatted_address": "Granada\nSpain"
+                    "formatted_address": "Granada Spain"
                 }
             ],
             "duration": 86399,
@@ -27198,7 +26796,7 @@ const festsFromAPI = {
                     "entity_id": "rdzcZyXFpkUD53iGJ9Ad5v",
                     "name": "Tokatu Music Club",
                     "type": "venue",
-                    "formatted_address": "Bellavista, Fuente del Rey. carretera de la Isla km 0, 1 Nave I\n41014 Dos Hermanas\nSpain"
+                    "formatted_address": "Bellavista, Fuente del Rey. carretera de la Isla km 0, 1 Nave I 41014 Dos Hermanas Spain"
                 }
             ],
             "duration": 86399,
@@ -27265,7 +26863,7 @@ const festsFromAPI = {
                     "entity_id": "BeHPW2TP7BTxgNLZKmrPMZ",
                     "name": "Sala Spook",
                     "type": "venue",
-                    "formatted_address": "C/Carretera del Río, 399\n46012 Pinedo\nSpain"
+                    "formatted_address": "C/Carretera del Río, 399 46012 Pinedo Spain"
                 }
             ],
             "duration": 86399,
@@ -27332,7 +26930,7 @@ const festsFromAPI = {
                     "entity_id": "t4jvjBJ5fDuvc6LBHPcmSM",
                     "name": "Parque Monte Tossal",
                     "type": "venue",
-                    "formatted_address": "Escultor Bañul\nAlicante\nSpain"
+                    "formatted_address": "Escultor Bañul Alicante Spain"
                 }
             ],
             "duration": 172799,
@@ -27390,7 +26988,7 @@ const festsFromAPI = {
                     "entity_id": "w3Mt6TrQZRMzPfRzpM24eb",
                     "name": "Camping Los Escullos (Cabo de Gata)",
                     "type": "venue",
-                    "formatted_address": "Almería\nSpain"
+                    "formatted_address": "Almería Spain"
                 }
             ],
             "duration": 172799,
@@ -27457,7 +27055,7 @@ const festsFromAPI = {
                     "entity_id": "Nge7f68JBWByRa3wztkJ6V",
                     "name": "Pabellón Municipal de Villamediana de Iregua",
                     "type": "venue",
-                    "formatted_address": "Villamediana de Iregua\nLogroño\nSpain"
+                    "formatted_address": "Villamediana de Iregua Logroño Spain"
                 }
             ],
             "duration": 172799,
@@ -27525,7 +27123,7 @@ const festsFromAPI = {
                     "entity_id": "JyNnmDwiJitRA3zc43CpZ5",
                     "name": "Paraje Natural de la Ermita de los Tres Juanes",
                     "type": "venue",
-                    "formatted_address": "Camino de la Ermita\n s/n\n Atarfe\n Granada\n 18230\n Spain"
+                    "formatted_address": "Camino de la Ermita  s/n  Atarfe  Granada  18230  Spain"
                 }
             ],
             "duration": 36000,
@@ -27652,7 +27250,7 @@ const festsFromAPI = {
                     "entity_id": "Nuc8GAPh4duU3xABYJqFKN",
                     "name": "Ku Disco",
                     "type": "venue",
-                    "formatted_address": "Avenida Comunidad Valenciana, Km 121, 03501\n03501 Benidorm\nSpain"
+                    "formatted_address": "Avenida Comunidad Valenciana, Km 121, 03501 03501 Benidorm Spain"
                 }
             ],
             "duration": 172799,
@@ -27719,7 +27317,7 @@ const festsFromAPI = {
                     "entity_id": "mWWaAbQ4Lu7zxFdDU4ukjH",
                     "name": "Plaza de toros de Alicante",
                     "type": "venue",
-                    "formatted_address": "7 Plaça d'Espanya\n03010 Alacant\nSpain"
+                    "formatted_address": "7 Plaça d'Espanya 03010 Alacant Spain"
                 }
             ],
             "duration": 86399,
@@ -27796,7 +27394,7 @@ const festsFromAPI = {
                     "entity_id": "t4jvjBJ5fDuvc6LBHPcmSM",
                     "name": "Parque Monte Tossal",
                     "type": "venue",
-                    "formatted_address": "Escultor Bañul\nAlicante\nSpain"
+                    "formatted_address": "Escultor Bañul Alicante Spain"
                 }
             ],
             "duration": 259199,
@@ -27854,7 +27452,7 @@ const festsFromAPI = {
                     "entity_id": "eqETArWt4ybtuDmxr6WYAV",
                     "name": "Jardins del Palau Robert",
                     "type": "venue",
-                    "formatted_address": "107 Passeig de Gràcia\n08008 Barcelona\nSpain"
+                    "formatted_address": "107 Passeig de Gràcia 08008 Barcelona Spain"
                 }
             ],
             "duration": 1814399,
@@ -27912,7 +27510,7 @@ const festsFromAPI = {
                     "entity_id": "392dAc8V4ctdZQhcjBbJ2Dx",
                     "name": "Heliogàbal",
                     "type": "venue",
-                    "formatted_address": "C/ Ramón y Cajal, 80 - Metro L4 Joanic\n08012 Barcelona\nSpain"
+                    "formatted_address": "C/ Ramón y Cajal, 80 - Metro L4 Joanic 08012 Barcelona Spain"
                 }
             ],
             "duration": 86399,
@@ -27970,7 +27568,7 @@ const festsFromAPI = {
                     "entity_id": "yYZwnAXdtYGkcUKhKBYKKf",
                     "name": "Auditorio Municipal de Burjassot",
                     "type": "venue",
-                    "formatted_address": "José Carsi, 50\n46100 Burjassot\nSpain"
+                    "formatted_address": "José Carsi, 50 46100 Burjassot Spain"
                 }
             ],
             "duration": 172799,
@@ -28037,7 +27635,7 @@ const festsFromAPI = {
                     "entity_id": "eqETArWt4ybtuDmxr6WYAV",
                     "name": "Jardins del Palau Robert",
                     "type": "venue",
-                    "formatted_address": "107 Passeig de Gràcia\n08008 Barcelona\nSpain"
+                    "formatted_address": "107 Passeig de Gràcia 08008 Barcelona Spain"
                 }
             ],
             "duration": 1987199,
@@ -28095,7 +27693,7 @@ const festsFromAPI = {
                     "entity_id": "heu6aaz49QidM8WNhTQvWT",
                     "name": "Plaza Mayor",
                     "type": "venue",
-                    "formatted_address": "Pl. Mayor\n28012 Madrid Madrid\nEspaña"
+                    "formatted_address": "Pl. Mayor 28012 Madrid Madrid España"
                 }
             ],
             "duration": 86399,
@@ -28153,7 +27751,7 @@ const festsFromAPI = {
                     "entity_id": "m3ebgqxLv3fYJCFZxhHUpa",
                     "name": "El Sótano",
                     "type": "venue",
-                    "formatted_address": "6 Calle de las Maldonadas\n28005 Madrid\nSpain"
+                    "formatted_address": "6 Calle de las Maldonadas 28005 Madrid Spain"
                 }
             ],
             "duration": 0,
@@ -28211,7 +27809,7 @@ const festsFromAPI = {
                     "entity_id": "35LXjKwp8YUaQSPxJDWHurv",
                     "name": "Expocoruña",
                     "type": "venue",
-                    "formatted_address": "Avenida De La Universidad\nLa Coruna\nSpain"
+                    "formatted_address": "Avenida De La Universidad La Coruna Spain"
                 }
             ],
             "duration": 2678399,
@@ -28269,7 +27867,7 @@ const festsFromAPI = {
                     "entity_id": "3BkwPmyuKYmKbtrGj7imBFK",
                     "name": "Cuartel General Luque",
                     "type": "venue",
-                    "formatted_address": "Inca Islas Baleares\nEspaña"
+                    "formatted_address": "Inca Islas Baleares España"
                 }
             ],
             "duration": 86399,
@@ -28336,7 +27934,7 @@ const festsFromAPI = {
                     "entity_id": "4BHUs3Gk4C3SfPKu8XgthT",
                     "name": "Complejo Embrujo",
                     "type": "venue",
-                    "formatted_address": "Granada\nSpain"
+                    "formatted_address": "Granada Spain"
                 }
             ],
             "duration": 86399,
@@ -28402,7 +28000,7 @@ const festsFromAPI = {
                     "entity_id": "qSQZCpqWp4xy3decx5zjVc",
                     "name": "Recinto Ferial de la Fica",
                     "type": "venue",
-                    "formatted_address": "30003 Murcia\nSpain"
+                    "formatted_address": "30003 Murcia Spain"
                 }
             ],
             "duration": 86399,
@@ -28470,7 +28068,7 @@ const festsFromAPI = {
                     "entity_id": "NYgUj2HnLcxbxXHckttX8t",
                     "name": "Bilbao Exhibition Centre",
                     "type": "venue",
-                    "formatted_address": "1 Azkue Kalea\n48902 Barakaldo\nSpain"
+                    "formatted_address": "1 Azkue Kalea 48902 Barakaldo Spain"
                 }
             ],
             "duration": 28800,
@@ -28537,7 +28135,7 @@ const festsFromAPI = {
                     "entity_id": "79j6bYNLfRYxGhzE6GTyKP",
                     "name": "Gorila",
                     "type": "venue",
-                    "formatted_address": "C. del Ciprés, 4\n50003 Zaragoza\nSpain"
+                    "formatted_address": "C. del Ciprés, 4 50003 Zaragoza Spain"
                 }
             ],
             "duration": 0,
@@ -28595,7 +28193,7 @@ const festsFromAPI = {
                     "entity_id": "3AQ5BjdtYkSGCsiR3kS9bRL",
                     "name": "Siroco",
                     "type": "venue",
-                    "formatted_address": "28015 Madrid\nSpain"
+                    "formatted_address": "28015 Madrid Spain"
                 }
             ],
             "duration": 0,
@@ -28653,7 +28251,7 @@ const festsFromAPI = {
                     "entity_id": "Xex7bizCLQaiu56y3EY7ih",
                     "name": "Mercat Vell",
                     "type": "venue",
-                    "formatted_address": "Plaça Prat De La Riba\n08100 Mollet del Vallès\nSpain"
+                    "formatted_address": "Plaça Prat De La Riba 08100 Mollet del Vallès Spain"
                 }
             ],
             "duration": 86399,
@@ -28720,7 +28318,7 @@ const festsFromAPI = {
                     "entity_id": "SiT7geyqVqa9dzjMebPkDV",
                     "name": "Sant Cugat",
                     "type": "venue",
-                    "formatted_address": "Sant Cugat del Vallès\nSpain"
+                    "formatted_address": "Sant Cugat del Vallès Spain"
                 }
             ],
             "duration": 86399,
@@ -28787,7 +28385,7 @@ const festsFromAPI = {
                     "entity_id": "SCAZbXvxftsfJidYnDSYWF",
                     "name": "Ceferino",
                     "type": "venue",
-                    "formatted_address": "88 Carrer de Pamplona\n08018 Barcelona\nSpain"
+                    "formatted_address": "88 Carrer de Pamplona 08018 Barcelona Spain"
                 }
             ],
             "duration": 86399,
@@ -28845,7 +28443,7 @@ const festsFromAPI = {
                     "entity_id": "37xsW2ULiVnABCdHhV5DEMc",
                     "name": "Autocine",
                     "type": "venue",
-                    "formatted_address": "Madrid\nSpain"
+                    "formatted_address": "Madrid Spain"
                 }
             ],
             "duration": 172799,
@@ -28913,7 +28511,7 @@ const festsFromAPI = {
                     "entity_id": "Em8GWeMkTnFcGF9t3cg5ha",
                     "name": "Hotel Garbi",
                     "type": "venue",
-                    "formatted_address": "Carrer de la Murtra, 5, San Jorge\nIbiza\nSpain"
+                    "formatted_address": "Carrer de la Murtra, 5, San Jorge Ibiza Spain"
                 }
             ],
             "duration": 86399,
@@ -28971,7 +28569,7 @@ const festsFromAPI = {
                     "entity_id": "KSdckcj3g9xHsNtThe5CJX",
                     "name": "Auditorio Municipal de Daimiel",
                     "type": "venue",
-                    "formatted_address": "Recinto Ferial, s/n\n13002 Ciudad Real\nSpain"
+                    "formatted_address": "Recinto Ferial, s/n 13002 Ciudad Real Spain"
                 }
             ],
             "duration": 86399,
@@ -29029,7 +28627,7 @@ const festsFromAPI = {
                     "entity_id": "yLpaWjjyZYuQkBAkMgCSkk",
                     "name": "Café Concierto Boogaloo",
                     "type": "venue",
-                    "formatted_address": "10 Avenida de Hernán Cortés\n10004 Cáceres\nSpain"
+                    "formatted_address": "10 Avenida de Hernán Cortés 10004 Cáceres Spain"
                 }
             ],
             "duration": 86399,
@@ -29096,7 +28694,7 @@ const festsFromAPI = {
                     "entity_id": "PbwVCzachCss2FjfZ4VmQS",
                     "name": "ESPACIO LA JÁBEGA",
                     "type": "venue",
-                    "formatted_address": "C/Alcalde Gómez de la Riva 11, Málaga.\n29006 Málaga\nSpain"
+                    "formatted_address": "C/Alcalde Gómez de la Riva 11, Málaga. 29006 Málaga Spain"
                 }
             ],
             "duration": 172799,
@@ -29163,7 +28761,7 @@ const festsFromAPI = {
                     "entity_id": "u4jHF4VqS867FSXvwnGtVr",
                     "name": "Centre Cívic Barri Vell-Mercadal",
                     "type": "venue",
-                    "formatted_address": "Cort Reial 16\n17004 Girona\nSpain"
+                    "formatted_address": "Cort Reial 16 17004 Girona Spain"
                 }
             ],
             "duration": 86399,
@@ -29221,7 +28819,7 @@ const festsFromAPI = {
                     "entity_id": "nwBCwuGDSUGixP8dJSWPMv",
                     "name": "Viñarock",
                     "type": "venue",
-                    "formatted_address": "Villarrobledo\nSpain"
+                    "formatted_address": "Villarrobledo Spain"
                 }
             ],
             "duration": 86399,
@@ -29279,7 +28877,7 @@ const festsFromAPI = {
                     "entity_id": "bqEEgEK9MfiQQxXWYVYLCE",
                     "name": "FICA Murcia",
                     "type": "venue",
-                    "formatted_address": "Murcia\nSpain"
+                    "formatted_address": "Murcia Spain"
                 }
             ],
             "duration": 172799,
@@ -29346,7 +28944,7 @@ const festsFromAPI = {
                     "entity_id": "gf4r6gb9ujt52NLZgrMGf5",
                     "name": "Parque de Ánkar. Poio",
                     "type": "venue",
-                    "formatted_address": "Poio\nPontevedra\nSpain"
+                    "formatted_address": "Poio Pontevedra Spain"
                 }
             ],
             "duration": 86399,
@@ -29399,7 +28997,7 @@ const festsFromAPI = {
             "relevance": 0,
             "id": "5o9eJaacJfnev7Hq5H",
             "title": "INFINITY FESTIVAL 2023",
-            "description": "The Best & Biggest Gay Spring Break in Torremolinos (Spain)\nMeet thousands of boys from all Europe...!",
+            "description": "The Best & Biggest Gay Spring Break in Torremolinos (Spain) Meet thousands of boys from all Europe...!",
             "category": "festivals",
             "labels": [
                 "festival",
@@ -29473,7 +29071,7 @@ const festsFromAPI = {
                     "entity_id": "Em8GWeMkTnFcGF9t3cg5ha",
                     "name": "Hotel Garbi",
                     "type": "venue",
-                    "formatted_address": "Carrer de la Murtra, 5, San Jorge\nIbiza\nSpain"
+                    "formatted_address": "Carrer de la Murtra, 5, San Jorge Ibiza Spain"
                 }
             ],
             "duration": 86399,
@@ -29531,7 +29129,7 @@ const festsFromAPI = {
                     "entity_id": "35paH7ycwRpQShtexA4222G",
                     "name": "Recinto Ferial De Almería",
                     "type": "venue",
-                    "formatted_address": "04007 Almería\nSpain"
+                    "formatted_address": "04007 Almería Spain"
                 }
             ],
             "duration": 259199,
@@ -29598,7 +29196,7 @@ const festsFromAPI = {
                     "entity_id": "babxVzpBLjSxZ5vWpX75WV",
                     "name": "Recinto Ferial La Fica",
                     "type": "venue",
-                    "formatted_address": "Avenida del Primero de Mayo\n30003 Murcia\nSpain"
+                    "formatted_address": "Avenida del Primero de Mayo 30003 Murcia Spain"
                 }
             ],
             "duration": 86399,
@@ -29656,7 +29254,7 @@ const festsFromAPI = {
                     "entity_id": "ZtepUavyXef4B3g5xa7ad7",
                     "name": "Sala Even",
                     "type": "venue",
-                    "formatted_address": "5 Calle José Díaz\n41009 Sevilla\nSpain"
+                    "formatted_address": "5 Calle José Díaz 41009 Sevilla Spain"
                 }
             ],
             "duration": 172799,
@@ -29722,7 +29320,7 @@ const festsFromAPI = {
                     "entity_id": "qSQZCpqWp4xy3decx5zjVc",
                     "name": "Recinto Ferial de la Fica",
                     "type": "venue",
-                    "formatted_address": "30003 Murcia\nSpain"
+                    "formatted_address": "30003 Murcia Spain"
                 }
             ],
             "duration": 86399,
@@ -29789,7 +29387,7 @@ const festsFromAPI = {
                     "entity_id": "7t6ikUBMg3hEpF25AXCLjs",
                     "name": "Mojo Club",
                     "type": "venue",
-                    "formatted_address": "Tarragona\nSpain"
+                    "formatted_address": "Tarragona Spain"
                 }
             ],
             "duration": 86399,
@@ -29847,7 +29445,7 @@ const festsFromAPI = {
                     "entity_id": "35ZBbKHigpKCWXnkCMCwxJb",
                     "name": "Sala Silikona",
                     "type": "venue",
-                    "formatted_address": "1 Plaza del Encuentro\n28030 Madrid\nSpain"
+                    "formatted_address": "1 Plaza del Encuentro 28030 Madrid Spain"
                 }
             ],
             "duration": 172799,
@@ -29905,7 +29503,7 @@ const festsFromAPI = {
                     "entity_id": "n7bSGdDxDD9H6Q4pgyeGqD",
                     "name": "Madrid Museo Lazaro Galdiano",
                     "type": "venue",
-                    "formatted_address": "Calle Serrano 12#\n28001 Madrid\nSpain"
+                    "formatted_address": "Calle Serrano 12# 28001 Madrid Spain"
                 }
             ],
             "duration": 86399,
@@ -29963,7 +29561,7 @@ const festsFromAPI = {
                     "entity_id": "ak2ehP8icNWGMAnFQzFJ2D",
                     "name": "Recinto Ferial Villarrobledo",
                     "type": "venue",
-                    "formatted_address": "Plaza Pintor García Calero, s/n. Villarrobledo. Albacete\n02600 Villarrobledo\nSpain"
+                    "formatted_address": "Plaza Pintor García Calero, s/n. Villarrobledo. Albacete 02600 Villarrobledo Spain"
                 }
             ],
             "duration": 259199,
@@ -30022,7 +29620,7 @@ const festsFromAPI = {
                     "entity_id": "Azf9xjfhPaLwLF2Q5Ywg4x",
                     "name": "Club Chinois",
                     "type": "venue",
-                    "formatted_address": "Passeig Joan Carles I, 17\nIbiza\nSpain"
+                    "formatted_address": "Passeig Joan Carles I, 17 Ibiza Spain"
                 }
             ],
             "duration": 21660,
@@ -30080,7 +29678,7 @@ const festsFromAPI = {
                     "entity_id": "rRcxrmLhqeZbKUad8TPGzM",
                     "name": "EMAV",
                     "type": "venue",
-                    "formatted_address": "Gran via de les Corts Catalanes, 173-175\n08014 Barcelona\nSpain"
+                    "formatted_address": "Gran via de les Corts Catalanes, 173-175 08014 Barcelona Spain"
                 }
             ],
             "duration": 86399,
@@ -30199,7 +29797,7 @@ const festsFromAPI = {
                     "entity_id": "4m3nHLtARqM7RL3YA7mYyM",
                     "name": "Destino Pacha Ibiza Resort",
                     "type": "venue",
-                    "formatted_address": "Carretera a Cap Martinent S-18\nIbiza\nSpain"
+                    "formatted_address": "Carretera a Cap Martinent S-18 Ibiza Spain"
                 }
             ],
             "duration": 259199,
@@ -30257,7 +29855,7 @@ const festsFromAPI = {
                     "entity_id": "xhhn3qW48ytKEEDY9F4769",
                     "name": "Shôko Barcelona",
                     "type": "venue",
-                    "formatted_address": "Passeig Maritim, 36\n08005 Barcelona\nSpain"
+                    "formatted_address": "Passeig Maritim, 36 08005 Barcelona Spain"
                 }
             ],
             "duration": 86399,
@@ -30315,7 +29913,7 @@ const festsFromAPI = {
                     "entity_id": "KZv4Fxc7bRFPAMY4AeVBSi",
                     "name": "spazio culturale Serrería Belga",
                     "type": "venue",
-                    "formatted_address": "Calle Alameda número 15\n28014 Madrid\nSpain"
+                    "formatted_address": "Calle Alameda número 15 28014 Madrid Spain"
                 }
             ],
             "duration": 86399,
@@ -30375,7 +29973,7 @@ const festsFromAPI = {
                     "entity_id": "aSj3iwpNGzSDNjfkPNvAed",
                     "name": "Feria Abril Sevilla",
                     "type": "event-group",
-                    "formatted_address": "41003 Sevilla\nSpain",
+                    "formatted_address": "41003 Sevilla Spain",
                     "category": "festivals",
                     "labels": [
                         "event-group",
@@ -30383,7 +29981,7 @@ const festsFromAPI = {
                         "recurring"
                     ],
                     "recurring": {
-                        "ical": "DTSTART;VALUE=DATE-TIME:20210418T000000\nRRULE:FREQ=YEARLY;INTERVAL=1"
+                        "ical": "DTSTART;VALUE=DATE-TIME:20210418T000000 RRULE:FREQ=YEARLY;INTERVAL=1"
                     }
                 }
             ],
@@ -30522,7 +30120,7 @@ const festsFromAPI = {
                     "entity_id": "UJQvLwBHUmBDthyvYrANGH",
                     "name": "Atlantic Barcelona",
                     "type": "venue",
-                    "formatted_address": "Aveninguda Tibidabo, 56\nSarrià - Sant Gervasi\n08035 Barcelona\nSpain"
+                    "formatted_address": "Aveninguda Tibidabo, 56 Sarrià - Sant Gervasi 08035 Barcelona Spain"
                 }
             ],
             "duration": 46800,
@@ -30580,7 +30178,7 @@ const festsFromAPI = {
                     "entity_id": "4BHUs3Gk4C3SfPKu8XgthT",
                     "name": "Complejo Embrujo",
                     "type": "venue",
-                    "formatted_address": "Granada\nSpain"
+                    "formatted_address": "Granada Spain"
                 }
             ],
             "duration": 0,
@@ -30647,7 +30245,7 @@ const festsFromAPI = {
                     "entity_id": "u8FBXj2Rus9LtdXrgtGjHM",
                     "name": "Cem La Mar Bella",
                     "type": "venue",
-                    "formatted_address": "Avinguda Del Litoral\n08005 Barcelona\nSpain"
+                    "formatted_address": "Avinguda Del Litoral 08005 Barcelona Spain"
                 }
             ],
             "duration": 0,
@@ -31004,7 +30602,7 @@ const festsFromAPI = {
                     "entity_id": "y7yiFAitdy6LAMT9zDjhmA",
                     "name": "The Garage",
                     "type": "venue",
-                    "formatted_address": "Passatge Can Politic 13\n08907 L'Hospitalet de Llobregat\nSpain"
+                    "formatted_address": "Passatge Can Politic 13 08907 L'Hospitalet de Llobregat Spain"
                 }
             ],
             "duration": 0,
@@ -31122,7 +30720,7 @@ const festsFromAPI = {
                     "entity_id": "ThMWj92Zp3EiLrCzq5QjUY",
                     "name": "Camp de Futbol de Batea",
                     "type": "venue",
-                    "formatted_address": "Tarragona\nSpain"
+                    "formatted_address": "Tarragona Spain"
                 }
             ],
             "duration": 172799,
@@ -31180,7 +30778,7 @@ const festsFromAPI = {
                     "entity_id": "teY8J9m8XayXSa2unyD2Jy",
                     "name": "Plaça de Bous",
                     "type": "venue",
-                    "formatted_address": "Valencia\nSpain"
+                    "formatted_address": "Valencia Spain"
                 }
             ],
             "duration": 86399,
@@ -31238,7 +30836,7 @@ const festsFromAPI = {
                     "entity_id": "3AV2HTdGYTe5HMZiT8rumMZ",
                     "name": "Escola Angel Guimerà",
                     "type": "venue",
-                    "formatted_address": "Carrer de l'Arquitecte Florensa, 24, 25300 Tàrrega, Lleida\n25300 Tàrrega\nSpain"
+                    "formatted_address": "Carrer de l'Arquitecte Florensa, 24, 25300 Tàrrega, Lleida 25300 Tàrrega Spain"
                 }
             ],
             "duration": 86399,
@@ -31305,7 +30903,7 @@ const festsFromAPI = {
                     "entity_id": "3BtFtbEmKkXL9xBB9JQUwP5",
                     "name": "Parque de Santa Margarida",
                     "type": "venue",
-                    "formatted_address": "Parque de Santa Margarita, S/N\nLa Coruna\nSpain"
+                    "formatted_address": "Parque de Santa Margarita, S/N La Coruna Spain"
                 }
             ],
             "duration": 86399,
@@ -31363,7 +30961,7 @@ const festsFromAPI = {
                     "entity_id": "9jhje4UfAZy3iYrRUVZZrP",
                     "name": "Cafe del Teatre",
                     "type": "venue",
-                    "formatted_address": "Carrer de Roca Labrador, 4 bis\n25003 Lleida\nSpain"
+                    "formatted_address": "Carrer de Roca Labrador, 4 bis 25003 Lleida Spain"
                 }
             ],
             "duration": 86399,
@@ -31472,7 +31070,7 @@ const festsFromAPI = {
                     "entity_id": "38aqR7Mf2Lw5KrMedViCdxi",
                     "name": "Gran Teatre de Xàtiva",
                     "type": "venue",
-                    "formatted_address": "C/ Acadèmic Maravall, 8\nValencia\nSpain"
+                    "formatted_address": "C/ Acadèmic Maravall, 8 Valencia Spain"
                 }
             ],
             "duration": 4492799,
@@ -31530,7 +31128,7 @@ const festsFromAPI = {
                     "entity_id": "LHMdkqV9qSuRjS8RPRDkba",
                     "name": "Auditorio Manuel De Falla",
                     "type": "venue",
-                    "formatted_address": "Paseo De Los Mártires, S/n\n18009 Granada\nSpain"
+                    "formatted_address": "Paseo De Los Mártires, S/n 18009 Granada Spain"
                 }
             ],
             "duration": 86399,
@@ -31588,7 +31186,7 @@ const festsFromAPI = {
                     "entity_id": "n95MifJ6MKvBCB4wXgVR7n",
                     "name": "Festival Gijón Sound",
                     "type": "venue",
-                    "formatted_address": "Jovellanos, 21\n33201 Gijón\nSpain"
+                    "formatted_address": "Jovellanos, 21 33201 Gijón Spain"
                 }
             ],
             "duration": 259199,
@@ -31655,7 +31253,7 @@ const festsFromAPI = {
                     "entity_id": "UKC8XNGEQkabXzKe8jrjET",
                     "name": "Pabellon Deportivo de El Ejido",
                     "type": "venue",
-                    "formatted_address": "Calle Toledo, 160\n04700 El Ejido\nSpain"
+                    "formatted_address": "Calle Toledo, 160 04700 El Ejido Spain"
                 }
             ],
             "duration": 172799,
@@ -31722,7 +31320,7 @@ const festsFromAPI = {
                     "entity_id": "mWWaAbQ4Lu7zxFdDU4ukjH",
                     "name": "Plaza de toros de Alicante",
                     "type": "venue",
-                    "formatted_address": "7 Plaça d'Espanya\n03010 Alacant\nSpain"
+                    "formatted_address": "7 Plaça d'Espanya 03010 Alacant Spain"
                 }
             ],
             "duration": 86399,
@@ -31780,7 +31378,7 @@ const festsFromAPI = {
                     "entity_id": "6nLedRCk5wPVUpstjb7i6V",
                     "name": "Sala La Mirona",
                     "type": "venue",
-                    "formatted_address": "Carrer d'Amnistia Internacional\n17190 Salt\nSpain"
+                    "formatted_address": "Carrer d'Amnistia Internacional 17190 Salt Spain"
                 }
             ],
             "duration": 86399,
@@ -31847,7 +31445,7 @@ const festsFromAPI = {
                     "entity_id": "3BNy535DQmeSMCDwPAuYMaS",
                     "name": "Recinto Ferial de Albacete ITAP",
                     "type": "venue",
-                    "formatted_address": "Albacete\nSpain"
+                    "formatted_address": "Albacete Spain"
                 }
             ],
             "duration": 259199,
@@ -31905,7 +31503,7 @@ const festsFromAPI = {
                     "entity_id": "PwA6T6uta3cJm2C8mZEyyD",
                     "name": "Trebufestival",
                     "type": "venue",
-                    "formatted_address": "Trebujena\nCadiz\nSpain"
+                    "formatted_address": "Trebujena Cadiz Spain"
                 }
             ],
             "duration": 259199,
@@ -31972,7 +31570,7 @@ const festsFromAPI = {
                     "entity_id": "3BfiNXfRJWrziQhhxq2mKLU",
                     "name": "Teatro Marín",
                     "type": "venue",
-                    "formatted_address": "Plaza de San Juan, 2\n44001 Teruel\nSpain"
+                    "formatted_address": "Plaza de San Juan, 2 44001 Teruel Spain"
                 }
             ],
             "duration": 86399,
@@ -32030,7 +31628,7 @@ const festsFromAPI = {
                     "entity_id": "qEMtuCU6JuTSq8X63aLk2u",
                     "name": "El Sol",
                     "type": "venue",
-                    "formatted_address": "3 Calle Jardines\n28013 Madrid\nSpain"
+                    "formatted_address": "3 Calle Jardines 28013 Madrid Spain"
                 }
             ],
             "duration": 86399,
@@ -32076,6 +31674,7 @@ const festsFromAPI = {
 const mappedFests = festsFromAPI.results.map((eachFest) => {
 
     const { geometry } = eachFest.geo
+    const { formatted_address } = eachFest.entities[0] || {}
     const { title, category, start, end } = eachFest
 
     const obj = {
@@ -32083,6 +31682,7 @@ const mappedFests = festsFromAPI.results.map((eachFest) => {
         category: category,
         start: start,
         end: end,
+        venue: formatted_address,
         location: geometry
     }
     return obj
@@ -32106,4 +31706,4 @@ mongoose
     })
 
 
-module.exports = festivalsData
+// module.exports = festivalsData
