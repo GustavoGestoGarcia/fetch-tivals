@@ -5,12 +5,9 @@ const uploaderMiddleware = require('../middlewares/uploader.middleware')
 
 const User = require('../models/User.model')
 
-router.get("/", (req, res, next) => {
-    res.render("index")
-})
 
 // READ USERS
-router.get('/users/list', isLoggedIn, (req, res, next) => {
+router.get('/list', isLoggedIn, (req, res, next) => {
 
     User
         .find({ role: 'USER' })
@@ -21,7 +18,7 @@ router.get('/users/list', isLoggedIn, (req, res, next) => {
 });
 
 // USER DETAILS
-router.get('/users/:id', isLoggedIn, (req, res, next) => {
+router.get('/:id', isLoggedIn, (req, res, next) => {
 
     const { id } = req.params
     const userRole = {
@@ -35,8 +32,21 @@ router.get('/users/:id', isLoggedIn, (req, res, next) => {
         .catch(err => next(err))
 })
 
+// LIKE USER
+router.post('/:id/like', isLoggedIn, (req, res, next) => {
+
+    const { id } = req.params
+    const { _id } = req.session.currentUser
+    // const { assistants } = req.body
+
+    User
+        .findByIdAndUpdate(_id, { $addToSet: { following: id } })
+        .then(() => res.redirect(`/users/${id}`))
+        .catch(err => next(err))
+})
+
 // USER EDIT FORM (render) - PROTECTED
-router.get("/users/:id/edit", isLoggedIn, isOwnerOrAdmin, (req, res, next) => {
+router.get("/:id/edit", isLoggedIn, isOwnerOrAdmin, (req, res, next) => {
 
     const { id } = req.params
 
@@ -47,7 +57,7 @@ router.get("/users/:id/edit", isLoggedIn, isOwnerOrAdmin, (req, res, next) => {
 })
 
 // USER EDIT FORM (handler) - PROTECTED
-router.post("/users/:id/edit", isLoggedIn, isOwnerOrAdmin, uploaderMiddleware.single('avatar'), (req, res, next) => {
+router.post("/:id/edit", isLoggedIn, isOwnerOrAdmin, uploaderMiddleware.single('avatar'), (req, res, next) => {
 
     const { username, email, description } = req.body
     const { id } = req.params
@@ -68,7 +78,7 @@ router.post("/users/:id/edit", isLoggedIn, isOwnerOrAdmin, uploaderMiddleware.si
 })
 
 // USER DELETE - PROTECTED
-router.post('/users/:id/delete', isLoggedIn, isOwnerOrAdmin, (req, res, next) => {
+router.post('/:id/delete', isLoggedIn, isOwnerOrAdmin, (req, res, next) => {
 
     const { id } = req.params
 

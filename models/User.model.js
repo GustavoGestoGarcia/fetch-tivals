@@ -38,6 +38,12 @@ const userSchema = new Schema(
         ref: 'Festival'
       }
     ],
+    following: [
+      {
+        type: Schema.Types.ObjectId,
+        ref: 'User'
+      }
+    ]
   },
   {
     timestamps: true

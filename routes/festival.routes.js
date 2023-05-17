@@ -5,8 +5,10 @@ const router = express.Router()
 const uploaderMiddleware = require('../middlewares/uploader.middleware')
 
 const Festival = require('../models/Festival.model')
+const User = require('../models/User.model')
 
 router.get("/festivals/create", isLoggedIn, checkRoles('ADMIN'), (req, res, next) => {
+
     res.render("festivals/festivals-create")
 })
 
@@ -48,6 +50,7 @@ router.get('/festivals/list', (req, res, next) => {
 router.get("/festiSearch/:nameFestival", (req, res, next) => {
 
     const { nameFestival } = req.params
+
     Festival
         .find({ "title": { $eq: nameFestival } })
         .then(festival => {
@@ -63,11 +66,41 @@ router.get('/festivals/:id', isLoggedIn, (req, res, next) => {
     const userRole = {
         isAdmin: req.session.currentUser?.role === 'ADMIN',
     }
+
     const { id } = req.params
 
     Festival
         .findById(id)
         .then(festival => res.render('festivals/festivals-details', { festival, userRole }))
+        .catch(err => next(err))
+})
+
+// ASSIST FESTIVAL
+router.post('/festivals/:id/assistance', isLoggedIn, (req, res, next) => {
+
+    const { id } = req.params
+    const { _id } = req.session.currentUser
+    // const { assistants } = req.body
+
+    Festival
+        .findByIdAndUpdate(id, { $addToSet: { assistants: _id } })
+        .then(() => {
+            return User.findByIdAndUpdate(_id, { $addToSet: { festivals: id } })
+        })
+        .then(() => res.redirect(`/festivals/${id}`))
+        .catch(err => next(err))
+})
+
+// LIKE FESTIVAL
+router.post('/festivals/:id/like', isLoggedIn, (req, res, next) => {
+
+    const { id } = req.params
+    const { _id } = req.session.currentUser
+    // const { assistants } = req.body
+
+    Festival
+        .findByIdAndUpdate(id, { $addToSet: { followers: _id } })
+        .then(() => res.redirect(`/festivals/${id}`))
         .catch(err => next(err))
 })
 
