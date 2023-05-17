@@ -12,4 +12,12 @@ module.exports = app => {
     const festivalsRoutes = require("./festival.routes");
     app.use("/", festivalsRoutes);
 
+    const mapsRoutes = require("./maps.routes");
+    app.use("/", mapsRoutes);
+
+    const apiRoutes = require("./api.routes");
+    app.use("/", apiRoutes);
+
+
+
 }

@@ -14,11 +14,10 @@
     <hr>
 
     <div class="row">
-        <div class="col-4" id="festival-img">
+        <div class="col-md-6" id="festival-img">
             <img src={{festival.imagFest}} alt="">
-
         </div>
-        <div class="col-8">
+        <div class="col-md-6">
 
             <h5 class="card-title">Category: {{festival.category}}</h5>
             <p><strong>Start Date: </strong>{{festival.start }}</p>
@@ -28,20 +27,25 @@
             <p><strong>Latitude </strong>{{festival.location.coordinates.[1]}}</p>
             <p><strong>Longitude </strong>{{festival.location.coordinates.[0]}}</p>
 
-
-
         </div>
-
         {{#if userRole.isAdmin}}
         <p class="text-center">
-            <a href="/festivals/{{festival.id}}/edit" class="btn btn-info">Edit Festival</a>
+            <a href="/festivals/{{festival.id}}/edit" class="btn btn-sm btn-info">Edit Festival</a>
         </p>
         <form action="/festivals/{{festival.id}}/delete" method="POST" style="display: inline">
             <input type="submit" value="Delete Festival" class="btn btn-sm btn-danger">
         </form>
         {{/if}}
-        <p class="text-center"><a href="/festivals/list" class="btn btn-dark">Go back</a></p>
+        <p class="text-center"><a href="/festivals/list" class="btn btn-sm  btn-dark">Go back</a></p>
 
+        <hr>
+        <div id="map"></div>
+        <hr>
+
+        <script src="/js/festivalsMap.js"></script>
+        <script
+            src="https://maps.googleapis.com/maps/api/js?callback=initViewMarkers&key=AIzaSyBKibGFKW0vYTtfC84pjfHrr5wTD-U-Ye8">
+            </script>
     </div>
 
     <hr>

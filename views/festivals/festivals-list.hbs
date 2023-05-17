@@ -1,36 +1,46 @@
 <div class="container">
 
-    <h2>FESTIVALS LIST</h2>
-
-    <hr>
-
     <div class="row">
 
-        <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search" id="festival">
-        <button onclick="miFunc()">Buscar</button>
-
-        <hr>
-        {{#each allFestivals}}
-        <div class="col-4">
-            <div class="card" style="width: 25rem;">
-                <div class="card-body">
-                    <h5 class="card-title"><strong>NAME: </strong> {{title}}</h5>
-                    <a href="/festivals/{{_id}}" class="btn btn-sm btn-info">Details</a>
-                </div>
-            </div>
+        <div class="col-md-4">
+            <h2>FESTIVALS LIST</h2>
+        </div>
+        <div class="col-md-4">
+            {{#if userRole.isAdmin}}
+            <a href="/festivals/create" class="btn btn-info mt-3 mb-5">CREATE FESTIVAL</a>
+            {{/if}}
         </div>
 
-        {{/each}}
+        <div class="col-md-4">
+            <div class="input-group mb-3">
+                <input type="search" class="form-control" placeholder="Enter the Festival"
+                    aria-label="Enter the Festival" aria-describedby="button-addon2" id="festival">
+                <button onclick="miFunc()" class="btn btn-secondary" type="button" id="button-addon2">Search</button>
+            </div>
+
+        </div>
+        {{!-- <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search" id="festival">
+        <button onclick="miFunc()">Buscar</button> --}}
+
+        <div class="row">
+            <hr>
+            {{#each allFestivals}}
+            <div class="col-4">
+                <div class="card" style="width: 25rem;">
+                    <div class="card-body">
+                        <h5 class="card-title"><strong>NAME: </strong> {{title}}</h5>
+                        <a href="/festivals/{{_id}}" class="btn btn-sm btn-info">Details</a>
+                    </div>
+                </div>
+            </div>
+
+            {{/each}}
+
+        </div>
+
+        <hr>
 
     </div>
 
-    <hr>
-
-    <a href="/" class="btn btn-dark mt-3 mb-5">Home</a>
-    {{#if userRole.isAdmin}}
-    <a href="/festivals/create" class="btn btn-info mt-3 mb-5">CREATE FESTIVAL</a>
-    {{/if}}
-
+    <script src="../../js/festivalFilter.js"></script>
 </div>
-
-<script src="../../js/festivalFilter.js"></script>

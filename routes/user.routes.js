@@ -5,7 +5,6 @@ const uploaderMiddleware = require('../middlewares/uploader.middleware')
 
 const User = require('../models/User.model')
 
-
 // READ USERS
 router.get('/list', isLoggedIn, (req, res, next) => {
 
