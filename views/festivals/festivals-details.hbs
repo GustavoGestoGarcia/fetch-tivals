@@ -37,16 +37,24 @@
                 <input type="submit" value="Delete Festival" class="btn btn-danger">
             </form>
             {{/if}}
-            <p class="text-center mb-0"><a href="/festivals/list" class="btn btn-dark">Go back</a></p>
+
         </div>
+
+        <input type="hidden" id="festivalID" value="{{festival.id}}">
+        <input type="hidden" id="festivalTitle" value="{{festival.title}}">
+        <input type="hidden" id="festivalLat" value="{{festival.location.coordinates.[1]}}">
+        <input type="hidden" id="festivalLon" value="{{festival.location.coordinates.[0]}}">
 
         <div class="container">
             <div id="map"></div>
-
+            <script src="/js/mapStyles.js"></script>
             <script src="/js/festivalsMap.js"></script>
             <script
                 src="https://maps.googleapis.com/maps/api/js?callback=initViewMarkers&key=AIzaSyBKibGFKW0vYTtfC84pjfHrr5wTD-U-Ye8">
                 </script>
+        </div>
+        <div class="go-back">
+            <p class="text-center mb-0"><a href="/festivals/list" class="btn btn-dark">Go back</a></p>
         </div>
     </div>
 

@@ -11,4 +11,14 @@ router.get('/api/festivals', (req, res, next) => {
         .catch(err => next(err))
 })
 
+router.get('/api/festivals/:id', (req, res, next) => {
+
+    const { id } = req.params
+
+    Festival
+        .findById(id)
+        .then(festival => res.json(festival))
+        .catch(err => next(err))
+})
+
 module.exports = router
