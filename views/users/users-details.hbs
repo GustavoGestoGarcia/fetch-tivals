@@ -22,27 +22,28 @@
             <p><strong>Desc: </strong>{{user.description}}</p>
 
         </div>
-        {{#if userRole.isOwner}}
-        <p class="text-center">
-            <a href="/users/{{user.id}}/edit" class="btn btn-info">Edit Profile</a>
-        </p>
-        {{/if}}
+        <div class="group d-flex flex-row align-items-center my-3 gap-2 justify-content-end">
+            {{#if userRole.isOwner}}
+            <p class="text-center mb-0">
+                <a href="/users/{{user.id}}/edit" class="btn btn-info">Edit Profile</a>
+            </p>
+            {{/if}}
 
-        {{#if userRole.isAdmin}}
-        <p class="text-center">
-            <a href="/users/{{user.id}}/edit" class="btn btn-info">Edit Profile</a>
-        </p>
-        <form action="/users/{{user.id}}/delete" method="POST" style="display: inline">
-            <input type="submit" value="Delete User" class="btn btn-sm btn-danger">
-        </form>
-        {{/if}}
-        {{#if userRole.isOwner}}
-        <form action="/users/{{user.id}}/delete" method="POST" style="display: inline">
-            <input type="submit" value="Delete User" class="btn btn-sm btn-danger">
-        </form>
-        {{/if}}
-
-        <p class="text-center"><a href="/users/list" class="btn btn-dark">Go back</a></p>
+            {{#if userRole.isAdmin}}
+            <p class="text-center mb-0">
+                <a href="/users/{{user.id}}/edit" class="btn btn-info">Edit Profile</a>
+            </p>
+            <form action="/users/{{user.id}}/delete" method="POST" style="display: inline">
+                <input type="submit" value="Delete User" class="btn btn-sm btn-danger">
+            </form>
+            {{/if}}
+            {{#if userRole.isOwner}}
+            <form action="/users/{{user.id}}/delete" method="POST" style="display: inline">
+                <input type="submit" value="Delete User" class="btn btn-sm btn-danger">
+            </form>
+            {{/if}}
+            <p class="text-center mb-0"><a href="/users/list" class="btn btn-dark">Go back</a></p>
+        </div>
 
     </div>
 

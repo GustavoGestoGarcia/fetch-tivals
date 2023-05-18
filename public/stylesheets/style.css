@@ -99,6 +99,10 @@ h2 {
   background-color: black
 }
 
+.carousel-inner {
+  width: 100%;
+}
+
 
 footer {
   background-color: #6c757d;
