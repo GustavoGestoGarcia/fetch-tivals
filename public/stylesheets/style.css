@@ -95,8 +95,10 @@ h2 {
 }
 
 #map {
+
   height: 300px;
-  background-color: black
+  /* border-radius: 20px solid black; */
+  border: 5px solid white;
 }
 
 .carousel-inner {
