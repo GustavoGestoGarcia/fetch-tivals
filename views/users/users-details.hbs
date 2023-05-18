@@ -18,12 +18,29 @@
         </div>
         <div class="col-8">
 
-            <h5 class="card-title">Email: {{user.email}}</h5>
-            <p><strong>Desc: </strong>{{user.description}}</p>
+            <h5 class="card-title"><strong>Email:</strong> </h5>
+            <p>{{user.email}}</p>
+            <h5><strong>Desc: </strong></h5>
+            <p>{{user.description}}</p>
+            <h5><strong>Following: </strong></h5>
+            <p>
+                {{#each user.following}}
+                <a href="/users/{{id}}"><img src=" {{avatar}}" class="following-avatars" alt=""></a>
+
+
+                {{/each}}
+            </p>
+
 
         </div>
 
         <div class="group d-flex flex-row align-items-center my-3 gap-2 justify-content-end">
+            {{#if loggedUser}}
+            <p class="text-center mb-0">
+                <a href="/users/{{user.id}}/myfestivals" class="btn btn-success">Festivals</a>
+            </p>
+            {{/if}}
+
             {{#if userRole.isOwner}}
             <p class="text-center mb-0">
                 <a href="/users/{{user.id}}/edit" class="btn btn-info">Edit Profile</a>
@@ -43,7 +60,7 @@
                 <input type="submit" value="Delete User" class="btn btn-danger">
             </form>
             {{/if}}
-            <p class="text-center mb-0"><a href="/users/list" class="btn btn-dark">Go back</a></p>
+            <p class="text-center mb-0"><a href="/users/list" class="btn btn-custom">Go back</a></p>
         </div>
 
     </div>

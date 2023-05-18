@@ -27,6 +27,7 @@ router.get('/:id', isLoggedIn, (req, res, next) => {
 
     User
         .findById(id)
+        .populate('following')
         .then(user => res.render('users/users-details', { user, userRole }))
         .catch(err => next(err))
 })

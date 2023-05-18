@@ -4,7 +4,6 @@
 }
 
 body {
-  height: 100vh;
   background-color: #c6d3f2;
   background-image:
     radial-gradient(at 93% 54%, hsla(235, 92%, 76%, 1) 0px, transparent 50%),
@@ -51,10 +50,20 @@ h2 {
 
 #user-avatar img {
   width: 80%;
+  border-radius: 30%;
 }
 
 #festival-img img {
   width: 80%;
+}
+
+.festival-img {
+  height: 150px;
+}
+
+.festival-img img {
+  height: inherit;
+  object-fit: cover;
 }
 
 #user-dropdown {
@@ -86,6 +95,11 @@ h2 {
 
 .enplanImaJ {
   width: 30%;
+}
+
+.following-avatars {
+  border-radius: 50%;
+  width: 5%;
 }
 
 #errorMessage {
@@ -121,6 +135,7 @@ footer {
   bottom: 0;
   left: 0;
   width: 100%;
+
 }
 
 .card-img-top {
