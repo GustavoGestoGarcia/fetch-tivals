@@ -92,8 +92,8 @@ h2 {
   background-color: rgb(255, 202, 202);
   width: 400px;
   position: fixed;
-  right: 39%;
-  bottom: 16%;
+  right: 1%;
+  bottom: 8%;
   padding: 5px;
   text-align: center;
   animation: showFromBottom 6s forwards;

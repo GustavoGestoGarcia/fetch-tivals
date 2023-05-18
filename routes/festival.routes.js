@@ -15,21 +15,26 @@ router.get("/festivals/create", isLoggedIn, checkRoles('ADMIN'), (req, res, next
 // NEW FESTIVAL form (handler) - PROTECTED
 router.post("/festivals/create", isLoggedIn, checkRoles('ADMIN'), uploaderMiddleware.single('imagFest'), (req, res, next) => {
 
-    const { title, category, start, end, latitude, longitude } = req.body
-    const { path: imagFest } = req.file
+    const { title, category, venue, start, end, latitude, longitude } = req.body
+    if (title, category, start, end, latitude, longitude, req.file) {
 
-    const location = {
-        type: 'Point',
-        coordinates: [longitude, latitude]
+        const { path: imagFest } = req.file
+
+        const location = {
+            type: 'Point',
+            coordinates: [longitude, latitude]
+        }
+        const newStart = formatDate(start)
+        const newEnd = formatDate(end)
+
+        Festival
+            .create({ title, category, venue, start: newStart, end: newEnd, imagFest, location })
+            .then(() => res.redirect(`/festivals/list`))
+            .catch(err => next(err))
+    } else {
+        res.render('festivals/festivals-create', { errorMessage: 'All fields must be filled!!' })
     }
 
-    const newStart = formatDate(start)
-    const newEnd = formatDate(end)
-
-    Festival
-        .create({ title, category, newStart, newEnd, imagFest, location })
-        .then(() => res.redirect(`/festivals/list`))
-        .catch(err => next(err))
 })
 
 // READ FESTIVALS
@@ -118,7 +123,7 @@ router.get('/festivals/:id/edit', isLoggedIn, checkRoles('ADMIN'), (req, res, ne
 
 router.post('/festivals/:id/edit', isLoggedIn, checkRoles('ADMIN'), uploaderMiddleware.single('imagFest'), (req, res, next) => {
 
-    const { title, category, start, end, latitude, longitude } = req.body
+    const { title, category, venue, start, end, latitude, longitude } = req.body
     const { id } = req.params
     const location = {
         type: 'Point',
@@ -132,7 +137,7 @@ router.post('/festivals/:id/edit', isLoggedIn, checkRoles('ADMIN'), uploaderMidd
         const { path: imagFest } = req.file
 
         Festival
-            .findByIdAndUpdate(id, { title, category, newStart, newEnd, imagFest, location })
+            .findByIdAndUpdate(id, { title, category, venue, newStart, newEnd, imagFest, location })
             .then(() => res.redirect(`/festivals/${id}`))
             .catch(err => next(err))
     } else {
