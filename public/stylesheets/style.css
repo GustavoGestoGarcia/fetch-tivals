@@ -16,6 +16,7 @@ body {
     radial-gradient(at 16% 25%, rgb(72, 85, 114) 0px, transparent 50%);
   font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
   background-size: cover;
+  background-attachment: fixed;
 }
 
 h1,
@@ -95,9 +96,7 @@ h2 {
 }
 
 #map {
-
   height: 300px;
-  /* border-radius: 20px solid black; */
   border: 5px solid white;
 }
 
@@ -105,6 +104,10 @@ h2 {
   width: 100%;
 }
 
+.go-back {
+  margin-top: 2%;
+  margin-bottom: 2%;
+}
 
 footer {
   background-color: #6c757d;
