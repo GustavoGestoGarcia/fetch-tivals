@@ -34,12 +34,12 @@
                 <a href="/users/{{user.id}}/edit" class="btn btn-info">Edit Profile</a>
             </p>
             <form action="/users/{{user.id}}/delete" method="POST" style="display: inline">
-                <input type="submit" value="Delete User" class="btn btn-sm btn-danger">
+                <input type="submit" value="Delete User" class="btn btn-danger">
             </form>
             {{/if}}
             {{#if userRole.isOwner}}
             <form action="/users/{{user.id}}/delete" method="POST" style="display: inline">
-                <input type="submit" value="Delete User" class="btn btn-sm btn-danger">
+                <input type="submit" value="Delete User" class="btn btn-danger">
             </form>
             {{/if}}
             <p class="text-center mb-0"><a href="/users/list" class="btn btn-dark">Go back</a></p>

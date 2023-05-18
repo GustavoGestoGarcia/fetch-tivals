@@ -56,14 +56,12 @@
                   <li>
                      <button class="nav-link" id="hola"><a href="/users/{{loggedUser._id}}" class="hola">My
                            profile</a></button>
-                     {{!--
-                     </form> --}}
                   </li>
                   <li>
-                     <form action="/festivals/list" method="POST">
-                        <button class="nav-link" id="hola"><a href="#" class="hola">My
-                              festivals</a></button>
-                     </form>
+
+                     <button class="nav-link" id="hola"><a href="/users/{{loggedUser._id}}/myfestivals" class="hola">My
+                           festivals</a></button>
+
                   </li>
                   <li>
                      <form action="/logout" method="POST">

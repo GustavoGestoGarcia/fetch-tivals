@@ -84,6 +84,10 @@ h2 {
   color: white;
 }
 
+.enplanImaJ {
+  width: 30%;
+}
+
 #errorMessage {
   background-color: rgb(255, 202, 202);
   width: 400px;
@@ -116,6 +120,10 @@ footer {
   position: fixed;
   bottom: 0;
   left: 0;
+  width: 100%;
+}
+
+.card-img-top {
   width: 100%;
 }
 

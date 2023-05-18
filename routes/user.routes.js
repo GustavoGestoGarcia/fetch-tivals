@@ -31,6 +31,19 @@ router.get('/:id', isLoggedIn, (req, res, next) => {
         .catch(err => next(err))
 })
 
+// USER MY FESTIVALS
+router.get('/:id/myfestivals', isLoggedIn, (req, res, next) => {
+
+    const { id } = req.params
+
+    User
+        .findById(id)
+        .populate('festivals')
+        .then(user => res.render('users/users-myfestivals', { user }))
+        .catch(err => next(err))
+})
+
+
 // LIKE USER
 router.post('/:id/like', isLoggedIn, (req, res, next) => {
 

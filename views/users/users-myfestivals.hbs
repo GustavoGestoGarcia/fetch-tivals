@@ -1,0 +1,61 @@
+<div class="container">
+
+    <h1>
+        {{user.username}}
+    </h1>
+
+    <hr>
+
+    <div class="row">
+        <div class="col-4" id="user-avatar">
+            <img src={{user.avatar}} alt="">
+        </div>
+        {{#each user.festivals}}
+        {{!-- <div class="col-4 col-md-2 ">
+
+            <div class="card h-100">
+                <div class="card-body d-flex flex-column justify-content-between">
+                    <div class="body-text">
+                        <img src="{{imagFest}}" class="enplanImaJ" alt="">
+                        <p>{{title}}</p>
+                    </div>
+                </div>
+            </div>
+
+        </div> --}}
+
+        {{!-- <div class="row row-cols-1 row-cols-md-3 g-4"> --}}
+            <div class="col">
+                <div class="card h-100">
+                    <img src="{{imagFest}}" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">{{title}}</h5>
+
+                    </div>
+                </div>
+            </div>
+
+            {{!--
+        </div> --}}
+        {{/each}}
+
+        {{!-- <div class="col-8">
+
+            {{#each user.festivals}}
+            <img src="{{imagFest}}" class="enplanImaJ" alt="">
+
+            <p>{{title}}</p>
+
+            {{/each}} --}}
+
+        </div>
+        <div class="group d-flex flex-row align-items-center my-3 gap-2 justify-content-end">
+
+            <p class="text-center mb-0"><a href="/users/list" class="btn btn-dark">Go back</a></p>
+        </div>
+
+    </div>
+
+
+
+</div>
