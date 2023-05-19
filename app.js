@@ -9,7 +9,7 @@ const app = express();
 require("./config")(app)
 require("./config/session.config")(app)
 
-app.locals.appTitle = `Fetchtivals`;
+app.locals.appTitle = `FETCH_TIVALS`;
 app.use(loggedOrAdmin)
 
 require("./routes")(app)

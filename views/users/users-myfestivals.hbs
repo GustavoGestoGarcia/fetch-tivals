@@ -1,12 +1,12 @@
 <div class="container">
 
     <h1 class="text-white">
-        {{user.username}}
+        {{user.username}} Festivals
     </h1>
 
     <hr>
     <div class="row">
-        <div class="col-12 col-md-3">
+        <div class="col-12 col-md-3" id="user-avatar">
             <img src={{user.avatar}} class="my-festivals-avatar" alt="">
             <div class="group d-flex flex-row align-items-center my-3">
                 <p class="text-center mb-0"><a href="/users/list" class="btn btn-custom">Go back</a></p>
@@ -15,9 +15,9 @@
         <div class="col-12 col-md-9">
 
             <div class="row">
+
                 {{#each user.festivals}}
                 <div class="col-12 col-md-3 mb-3">
-
                     <div class="card h-100 ">
                         <div class="festival-img">
 

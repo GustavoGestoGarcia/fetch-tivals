@@ -27,7 +27,6 @@ router.post('/register', uploaderMiddleware.single('avatar'), (req, res, next) =
                 res.render('auth/signup', { errorMessage: 'You need to add a portrait!!' })
             }
         })
-
 })
 
 // LOGIN/SIGN IN
